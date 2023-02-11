@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sbuttonup",
-    "path": "sprites/sbuttonup/sbuttonup.yy",
+    "name": "sbuttondown",
+    "path": "sprites/sbuttondown/sbuttondown.yy",
   },
   "spriteMaskId": null,
   "visible": true,
