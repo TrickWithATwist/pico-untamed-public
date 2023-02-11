@@ -1,0 +1,16 @@
+//establishing y position for pico
+y = 704;
+
+
+//establishing image scale for pico
+image_xscale = .55;
+image_yscale = .55;
+
+//counter for step event
+counter = 0
+
+//pico moving? 0 for no, 1 for yes
+picomove = 0;
+
+//x when pico moves (temp value)
+finalx = 0;

@@ -56,8 +56,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"f1r2","path":"rooms/f1r2/f1r2.yy",},},
     {"roomId":{"name":"f1r1","path":"rooms/f1r1/f1r1.yy",},},
+    {"roomId":{"name":"f1r2","path":"rooms/f1r2/f1r2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "TextureGroups": [

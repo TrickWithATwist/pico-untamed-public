@@ -7,3 +7,6 @@ stretch_speed = .2;
 
 //set initial color blend for button 
 image_blend = c_gray;
+
+//determined if clicked
+clicked = 0; 
