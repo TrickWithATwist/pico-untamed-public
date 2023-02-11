@@ -32,4 +32,9 @@ if picomove > 0
 	{
 		x += 14;
 	}
+	//change room when pico is at finalx
+	if (x = (finalx +20)) or (x = (finalx - 20))
+	{
+		//check buttons if they are clicked or not
+	}
 }
