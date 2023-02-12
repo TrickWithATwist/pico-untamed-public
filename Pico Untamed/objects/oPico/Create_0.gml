@@ -14,3 +14,6 @@ picomove = 0;
 
 //x when pico moves (temp value)
 finalx = 0;
+
+//transition variable, gets button to go to next room idk
+transition = 0;

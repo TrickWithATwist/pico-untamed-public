@@ -14,15 +14,5 @@ if clicked = 0
 }
 
 
-//if and switch statements for determining next room depending on floor and then room
-//if ORoomManager.myfloor == 1
-//{
-//	switch (ORoomManager.myroom)
-//	{
-//		case 1:
-//			room_goto(f1r2);
-//			ORoomManager.mydirection = 1;
-//		break;
-//	}
-//}
+
 
