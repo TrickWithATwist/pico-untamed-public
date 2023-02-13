@@ -22,13 +22,30 @@ if counter = 0
 if picomove = 0
 {
 	sprite_index = picoidle;
+	image_speed = 1;
 }
 
 //pico behavior for moving
 if picomove > 0
 {
 	sprite_index = picorun;
-	x += 15;
+	x += hsp * sign(image_xscale);
+	//makes horizontal speed faster until max is reached
+	if hsp < maxhsp
+	{
+		hsp += 1/2;
+	}
+	
+	//running speed changes based on hsp value
+	if hsp < 10
+	{
+		image_speed = .5;
+	}
+	else
+	{
+		image_speed = 1.7;
+	}
+	
 	//change room when pico is at finalx
 	if (x <= -1) or (x >= room_width + 1)
 	{

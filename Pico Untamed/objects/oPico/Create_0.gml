@@ -19,5 +19,5 @@ finalx = 0;
 transition = 0;
 
 //initial/max speed and acceleration for pico
-hsp = 15;
+hsp = 1;
 maxhsp = 25;
