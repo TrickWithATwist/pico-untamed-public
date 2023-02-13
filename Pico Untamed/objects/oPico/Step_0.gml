@@ -28,12 +28,9 @@ if picomove = 0
 if picomove > 0
 {
 	sprite_index = picorun;
-	if x < (finalx)
-	{
-		x += 15;
-	}
+	x += 15;
 	//change room when pico is at finalx
-	if (x = room_width - 1) or (x = room_width + 1)
+	if (x <= -1) or (x >= room_width + 1)
 	{
 		//check buttons if they are clicked or not
 		if obuttonright.clicked = 1

@@ -17,3 +17,7 @@ finalx = 0;
 
 //transition variable, gets button to go to next room idk
 transition = 0;
+
+//initial/max speed and acceleration for pico
+hsp = 15;
+maxhsp = 25;
