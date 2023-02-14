@@ -33,7 +33,7 @@ if picomove > 0
 	//makes horizontal speed faster until max is reached
 	if hsp < maxhsp
 	{
-		hsp += 1/2;
+		hsp += 1;
 	}
 	
 	//running speed changes based on hsp value
