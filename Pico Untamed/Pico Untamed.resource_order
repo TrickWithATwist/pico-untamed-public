@@ -19,6 +19,7 @@
     {"name":"f1","order":5,"path":"folders/Sprites/f1.yy",},
     {"name":"buttons","order":6,"path":"folders/Sprites/buttons.yy",},
     {"name":"obuttons","order":2,"path":"folders/Objects/obuttons.yy",},
+    {"name":"screen stuff","order":7,"path":"folders/Sprites/screen stuff.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"obuttondown","order":3,"path":"objects/obuttondown/obuttondown.yy",},
