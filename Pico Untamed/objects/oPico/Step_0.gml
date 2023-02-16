@@ -52,7 +52,7 @@ if picomove > 0
 		//check buttons if they are clicked or not
 		if obuttonright.clicked = 1
 		{
-			transition = 1;
+			Ofadeout.roomfade = 1;
 		}
 		
 	}
