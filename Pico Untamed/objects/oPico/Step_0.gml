@@ -50,7 +50,7 @@ if picomove > 0
 	if (x <= -1) or (x >= room_width + 1)
 	{
 		//check buttons if they are clicked or not
-		if obuttonright.clicked = 1
+		if (obuttonright.clicked = 1) or (obuttonleft.clicked = 1)
 		{
 			Ofadeout.roomfade = 1;
 		}

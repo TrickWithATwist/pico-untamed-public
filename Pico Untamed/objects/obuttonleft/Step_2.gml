@@ -6,10 +6,10 @@ if (clicked = 1) and (oPico.transition = 1)
 	{
 		switch (ORoomManager.myroom)
 		{
-			case 1:
-				room_goto(f1r2);
-				ORoomManager.mydirection = 1;
-				ORoomManager.myroom = 2;
+			case 2:
+				room_goto(f1r1);
+				ORoomManager.mydirection = 0;
+				ORoomManager.myroom = 1;
 			break;
 		}
 	}

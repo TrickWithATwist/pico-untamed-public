@@ -14,6 +14,6 @@ if clicked = 0
 }
 
 
-//make pico turn right
-oPico.image_xscale = .6;
+//make pico turn left
+oPico.image_xscale = -.6;
 
