@@ -9,3 +9,6 @@ myroom = 1;
 //my direction determines direction pico is facing when he enters a room
 // 1 is right, 0 is left
 mydirection = 1;
+
+//variables specific to floor 1 when player starts game
+armoryunlock = 0;

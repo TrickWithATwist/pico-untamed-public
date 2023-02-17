@@ -11,6 +11,11 @@ if (clicked = 1) and (oPico.transition = 1)
 				ORoomManager.mydirection = 0;
 				ORoomManager.myroom = 1;
 			break;
+			case 3:
+				room_goto(f1r2);
+				ORoomManager.mydirection = 0;
+				ORoomManager.myroom = 2;
+			break;
 		}
 	}
 }

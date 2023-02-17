@@ -16,3 +16,9 @@ else
 	image_yscale = lerp(image_yscale, start_scale, stretch_speed);
 	
 }
+
+//destory instance in room 3 if armory is not unlocked
+if (room = f1r3) and (ORoomManager.armoryunlock = 0)
+{
+	instance_destroy();
+}
