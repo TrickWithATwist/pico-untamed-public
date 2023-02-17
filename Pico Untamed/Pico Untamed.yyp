@@ -40,11 +40,13 @@
   },
   "resources": [
     {"id":{"name":"obuttondown","path":"objects/obuttondown/obuttondown.yy",},"order":0,},
+    {"id":{"name":"sHP","path":"sprites/sHP/sHP.yy",},"order":0,},
     {"id":{"name":"sf1r2","path":"sprites/sf1r2/sf1r2.yy",},"order":0,},
     {"id":{"name":"obuttonup","path":"objects/obuttonup/obuttonup.yy",},"order":0,},
     {"id":{"name":"picorun","path":"sprites/picorun/picorun.yy",},"order":0,},
     {"id":{"name":"ORoomManager","path":"objects/ORoomManager/ORoomManager.yy",},"order":0,},
     {"id":{"name":"Ofadeout","path":"objects/Ofadeout/Ofadeout.yy",},"order":0,},
+    {"id":{"name":"oHPbar","path":"objects/oHPbar/oHPbar.yy",},"order":0,},
     {"id":{"name":"picoshadow","path":"sprites/picoshadow/picoshadow.yy",},"order":0,},
     {"id":{"name":"f1r2","path":"rooms/f1r2/f1r2.yy",},"order":0,},
     {"id":{"name":"sf1r1","path":"sprites/sf1r1/sf1r1.yy",},"order":0,},
