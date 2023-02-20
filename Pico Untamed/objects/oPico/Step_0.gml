@@ -26,7 +26,8 @@ if picomove = 0
 }
 
 //pico behavior for moving
-if picomove > 0
+//only if pico move is 1
+if picomove = 1
 {
 	sprite_index = picorun;
 	x += hsp * sign(image_xscale);
@@ -47,13 +48,55 @@ if picomove > 0
 	}
 	
 	//change room when pico is at finalx
-	if (x <= -1) or (x >= room_width + 1)
+	//only if picomove = 1 ( if left or right direction buttons were selected)
+	if picomove = 1
 	{
-		//check buttons if they are clicked or not
-		if (obuttonright.clicked = 1) or (obuttonleft.clicked = 1)
+		if (x <= -1) or (x >= room_width + 1)
 		{
-			Ofadeout.roomfade = 1;
-		}
+			//check buttons if they are clicked or not
+			if (obuttonright.clicked = 1) or (obuttonleft.clicked = 1)
+			{
+				Ofadeout.roomfade = 1;
+			}
 		
+		}
+	}
+}
+if picomove = 2
+{
+	if ((obuttonup.x - 5) > x < (obuttonup.x + 5)) = false
+	{
+		sprite_index = picorun;
+		x += hsp * sign(image_xscale);
+		//makes horizontal speed faster until max is reached
+		if hsp < maxhsp
+		{
+			hsp += 5/6;
+		}
+	
+		//running speed changes based on hsp value
+		if hsp < 10
+		{
+			image_speed = .5;
+		}
+		else
+		{
+			image_speed = 1.7;
+		}
+	}
+	else
+	{
+		sprite_index = picoback;
+		image_speed = 1;
+		
+		//when one second passed (it takes one second for the next frame to come)
+		if image_index = 2
+		{
+			//check if upbutton clicked
+			if obuttonup.clicked = 1
+			{
+				Ofadeout.roomfade = 1;
+			}
+		}
 	}
 }
