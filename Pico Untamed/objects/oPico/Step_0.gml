@@ -19,10 +19,16 @@ if counter = 0
 }
 
 //pico behavior for not moving
-if picomove = 0
+if (picomove = 0) and (shooting = 0)
 {
 	sprite_index = picoidle;
 	image_speed = 1;
+}
+
+//pico behavior if shooting
+if (picomove = 0) and (shooting = 1)
+{
+	sprite_index = picoshoot;
 }
 
 //pico behavior for moving

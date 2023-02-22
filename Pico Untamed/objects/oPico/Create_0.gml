@@ -21,3 +21,7 @@ transition = 0;
 //initial/max speed and acceleration for pico
 hsp = 1;
 maxhsp = 25;
+
+//varible for if pico is shooting or not
+shooting = 0;
+alreadyshot = 0;

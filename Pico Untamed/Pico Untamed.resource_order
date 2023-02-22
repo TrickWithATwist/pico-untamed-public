@@ -36,6 +36,7 @@
     {"name":"Ofadeout","order":1,"path":"objects/Ofadeout/Ofadeout.yy",},
     {"name":"oHPbar","order":2,"path":"objects/oHPbar/oHPbar.yy",},
     {"name":"picoshadow","order":2,"path":"sprites/picoshadow/picoshadow.yy",},
+    {"name":"ouziicon","order":4,"path":"objects/ouziicon/ouziicon.yy",},
     {"name":"sf1r3","order":3,"path":"sprites/sf1r3/sf1r3.yy",},
     {"name":"f1r2","order":1,"path":"rooms/f1r2/f1r2.yy",},
     {"name":"sf1r1","order":1,"path":"sprites/sf1r1/sf1r1.yy",},

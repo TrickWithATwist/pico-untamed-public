@@ -53,6 +53,7 @@
     {"id":{"name":"Ofadeout","path":"objects/Ofadeout/Ofadeout.yy",},"order":1,},
     {"id":{"name":"oHPbar","path":"objects/oHPbar/oHPbar.yy",},"order":2,},
     {"id":{"name":"picoshadow","path":"sprites/picoshadow/picoshadow.yy",},"order":2,},
+    {"id":{"name":"ouziicon","path":"objects/ouziicon/ouziicon.yy",},"order":4,},
     {"id":{"name":"sf1r3","path":"sprites/sf1r3/sf1r3.yy",},"order":3,},
     {"id":{"name":"f1r2","path":"rooms/f1r2/f1r2.yy",},"order":1,},
     {"id":{"name":"sf1r1","path":"sprites/sf1r1/sf1r1.yy",},"order":1,},
