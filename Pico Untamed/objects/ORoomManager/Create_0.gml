@@ -12,3 +12,10 @@ mydirection = 1;
 
 //variables specific to floor 1 when player starts game
 armoryunlock = 0;
+
+
+
+
+//PICO INVENTORY VARIABLES
+uziunlock = 1;
+//TEMP FOR DEV

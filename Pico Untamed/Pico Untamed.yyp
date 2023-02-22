@@ -40,6 +40,7 @@
     "IDEVersion": "2023.1.1.62",
   },
   "resources": [
+    {"id":{"name":"suziicon","path":"sprites/suziicon/suziicon.yy",},"order":3,},
     {"id":{"name":"obuttondown","path":"objects/obuttondown/obuttondown.yy",},"order":3,},
     {"id":{"name":"picoback","path":"sprites/picoback/picoback.yy",},"order":3,},
     {"id":{"name":"sHP","path":"sprites/sHP/sHP.yy",},"order":2,},
@@ -65,6 +66,7 @@
     {"id":{"name":"obuttonright","path":"objects/obuttonright/obuttonright.yy",},"order":1,},
     {"id":{"name":"of1r3bg","path":"objects/of1r3bg/of1r3bg.yy",},"order":0,},
     {"id":{"name":"inventory","path":"sprites/inventory/inventory.yy",},"order":1,},
+    {"id":{"name":"picoshoot","path":"sprites/picoshoot/picoshoot.yy",},"order":4,},
     {"id":{"name":"sbuttondown","path":"sprites/sbuttondown/sbuttondown.yy",},"order":1,},
     {"id":{"name":"sbuttonup","path":"sprites/sbuttonup/sbuttonup.yy",},"order":0,},
     {"id":{"name":"f1r1","path":"rooms/f1r1/f1r1.yy",},"order":0,},
