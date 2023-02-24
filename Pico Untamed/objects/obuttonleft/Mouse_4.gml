@@ -1,4 +1,12 @@
 
+
+//event is only functional if object is visible in the room
+
+
+if visible = true
+{
+	
+	
 if clicked = 0
 {
 
@@ -16,4 +24,23 @@ if clicked = 0
 
 //make pico turn left
 oPico.image_xscale = -.6;
+
+//destroys other buttons if they are in the room
+if instance_exists(obuttonright)
+{
+	obuttonright.visible = false;
+}
+if instance_exists(obuttonup)
+{
+	obuttonup.visible = false;
+}
+if instance_exists(obuttondown)
+{
+	obuttondown.visible = false;
+}
+
+
+
+}
+
 
