@@ -15,6 +15,7 @@
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},
+    {"name":"pico","order":1,"path":"folders/Sounds/pico.yy",},
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"buttons","order":6,"path":"folders/Sprites/buttons.yy",},
     {"name":"f1","order":5,"path":"folders/Sprites/f1.yy",},
@@ -22,7 +23,6 @@
     {"name":"screen stuff","order":7,"path":"folders/Sprites/screen stuff.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"pico","order":1,"path":"folders/Sounds/pico.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"suziicon","order":3,"path":"sprites/suziicon/suziicon.yy",},

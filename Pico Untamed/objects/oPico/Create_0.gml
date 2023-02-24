@@ -25,3 +25,4 @@ maxhsp = 25;
 //varible for if pico is shooting or not
 shooting = 0;
 alreadyshot = 0;
+

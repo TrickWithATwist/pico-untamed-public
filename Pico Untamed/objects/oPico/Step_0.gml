@@ -70,7 +70,7 @@ if picomove = 1
 }
 if picomove = 2
 {
-	if ((obuttonup.x - 5) > x < (obuttonup.x + 5)) = false
+	if ((obuttonup.x - 50) > x  = false) and ((obuttonup.x + 50) < x = true)
 	{
 		sprite_index = picorun;
 		x += hsp * sign(image_xscale);
@@ -93,10 +93,10 @@ if picomove = 2
 	else
 	{
 		sprite_index = picoback;
-		image_speed = 1;
+		image_speed = 6;
 		
 		//when one second passed (it takes one second for the next frame to come)
-		if image_index = 2
+		if image_index = 1
 		{
 			//check if upbutton clicked
 			if obuttonup.clicked = 1
