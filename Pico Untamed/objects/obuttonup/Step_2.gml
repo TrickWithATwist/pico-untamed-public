@@ -1,6 +1,9 @@
  //transition if button has been clicked
 if (clicked = 1) and (oPico.transition = 1)
 {
+	//disappear
+	visible = false;
+	
 	//if and switch statements for determining next room depending on floor and then room
 	if ORoomManager.myfloor == 1
 	{
