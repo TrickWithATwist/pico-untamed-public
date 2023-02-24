@@ -24,9 +24,9 @@ if instance_exists(obuttonright)
 {
 	obuttonright.visible = false;
 }
-if instance_exists(obuttonup)
+if instance_exists(obuttonleft)
 {
-	obuttonup.visible = false;
+	obuttonleft.visible = false;
 }
 if instance_exists(obuttondown)
 {
