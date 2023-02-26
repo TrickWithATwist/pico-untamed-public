@@ -2,7 +2,7 @@
 
 //only works if visible
 
-if visible = true
+if visible = true 
 {
 
 //when mouse clickes the up arrow button pico runs to its direction
@@ -33,5 +33,6 @@ if instance_exists(obuttondown)
 	obuttondown.visible = false;
 }
  
-
+//makes sprite not visible when done
+donewithstuff = 1;
 }

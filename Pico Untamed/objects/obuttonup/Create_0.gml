@@ -10,3 +10,6 @@ image_blend = c_gray;
 
 //determined if clicked
 clicked = 0; 
+
+//dumb variable to make button go away 
+donewithstuff = 0; 
