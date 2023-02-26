@@ -48,6 +48,7 @@
     {"id":{"name":"sf1r2","path":"sprites/sf1r2/sf1r2.yy",},"order":0,},
     {"id":{"name":"oShadow","path":"objects/oShadow/oShadow.yy",},"order":3,},
     {"id":{"name":"f1r3","path":"rooms/f1r3/f1r3.yy",},"order":2,},
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":5,},
     {"id":{"name":"obuttonup","path":"objects/obuttonup/obuttonup.yy",},"order":2,},
     {"id":{"name":"picorun","path":"sprites/picorun/picorun.yy",},"order":1,},
     {"id":{"name":"ORoomManager","path":"objects/ORoomManager/ORoomManager.yy",},"order":1,},

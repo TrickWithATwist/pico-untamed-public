@@ -19,3 +19,5 @@ armoryunlock = 0;
 //PICO INVENTORY VARIABLES
 uziunlock = 1;
 //TEMP FOR DEV
+
+instance_create_layer(0, 0, layer, oCamera );
