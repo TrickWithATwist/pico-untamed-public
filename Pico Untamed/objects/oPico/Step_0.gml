@@ -96,7 +96,7 @@ if picomove = 2
 		image_speed = 0;
 		cooldowncurrent += 2/60;
 		
-		//when one second passed (it takes one second for the next frame to come)
+		//when one second passed 
 		if (cooldowncurrent = cooldown)
 		{
 			//check if upbutton clicked
