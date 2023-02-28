@@ -26,3 +26,7 @@ maxhsp = 25;
 shooting = 0;
 alreadyshot = 0;
 
+//cooldown for up transition
+cooldown = 1;
+cooldowncurrent = 0;
+

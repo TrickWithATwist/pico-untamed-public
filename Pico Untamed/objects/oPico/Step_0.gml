@@ -93,10 +93,11 @@ if picomove = 2
 	else
 	{
 		sprite_index = picoback;
-		image_speed = 6;
+		image_speed = 0;
+		cooldowncurrent += 2/60;
 		
 		//when one second passed (it takes one second for the next frame to come)
-		if image_index = 1
+		if (cooldowncurrent = cooldown)
 		{
 			//check if upbutton clicked
 			if obuttonup.clicked = 1
