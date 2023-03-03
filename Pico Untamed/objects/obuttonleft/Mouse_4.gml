@@ -1,4 +1,4 @@
-
+ 
 
 //event is only functional if object is visible in the room
 
