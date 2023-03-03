@@ -1,5 +1,5 @@
 //poster gets clicked and has textbox go up if not clicked yet
-if posterclick = 0
+if (posterclick = 0) and (oPico.picomove = 0)
 {
 	posterclick = 1;
 	//creates textbox and makes buttons/ other gui disappear

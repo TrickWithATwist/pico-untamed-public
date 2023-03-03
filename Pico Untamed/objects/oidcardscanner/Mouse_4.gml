@@ -1,5 +1,5 @@
 //object gets clicked and has textbox go up if not clicked yet
-if objectclick = 0
+if (objectclick = 0) and (oPico.picomove = 0)
 {
 	objectclick = 1;
 	//creates textbox and makes buttons/ other gui disappear
