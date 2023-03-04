@@ -14,6 +14,8 @@ mydirection = 1;
 armoryunlock = 0;
 
 
+//variables that determine whether people are saved or not
+BFsaved = 0;
 
 
 //PICO INVENTORY VARIABLES
