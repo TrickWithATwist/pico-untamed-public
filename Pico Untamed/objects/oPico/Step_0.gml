@@ -50,6 +50,7 @@ if (picomove = 0) and (shooting = 1)
 				oguard.image_xscale = -1 * oguard.image_xscale;
 			}
 			oguard.guardalive = 0;
+			oguard.deadstart = true;
 			hsp = 1;
 			ORoomManager.guardtutorial = 1;
 			if room = f1r11

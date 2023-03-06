@@ -57,15 +57,14 @@ if (ORoomManager.guardtutorial = 0) and (oPico.picomove = 0) and (guardalive = 1
 		
 	}
 }
-if guardalive = 0
+
+if (deadstart == true)
 {
 	showup = 1;
 	sprite_index = guarddie;
-	if deathcount = 0
-	{
-		image_index = 0;
-		deathcount = 1;
-	}
-	if (!laying) image_speed = 1;
+	image_index = 0;
+	image_speed = 1;
+	
 	oPico.picohiding = 0; 
+	deadstart = false;
 }

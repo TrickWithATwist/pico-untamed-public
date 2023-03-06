@@ -1,6 +1,8 @@
 //determines if guard is alive
 guardalive = 1;
 
+deadstart = false;
+
 //sets sprite index 
 sprite_index = guardwalk;
 
@@ -17,9 +19,3 @@ guardcounter = 0;
 //initial/max speed and acceleration for guard
 hsp = 1;
 maxhsp = 10;
-
-//determines if the guard has completed its death anim
-laying = false;
-
-//guard index counter to reset animation for death animation to work properly
-deathcount = 0;
