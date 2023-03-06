@@ -28,7 +28,19 @@ if (picomove = 0) and (shooting = 0)
 //pico behavior if shooting
 if (picomove = 0) and (shooting = 1)
 {
-	sprite_index = picoshoot;
+	if picohiding = 0
+	{
+		sprite_index = picoshoot;
+	}
+	if picohiding = 1
+	{
+		if (sign(image_xscale)) = (sign(oguard.image_xscale))
+		{
+			visible = true;
+			oShadow.visible = true;
+			oguard.guardalive = 0;
+		}
+	}
 }
 
 //pico behavior for moving
@@ -106,4 +118,50 @@ if picomove = 2
 			}
 		}
 	}
+}
+//movement behavior for hiding
+if picomove = 3
+{
+		orock.playerchoose = 0;
+		if ((rockdestination - 50) > x  = false) and ((rockdestination + 50) < x = true)
+	{
+		sprite_index = picorun;
+		x += hsp * sign(image_xscale);
+		//makes horizontal speed faster until max is reached
+		if hsp < maxhsp
+		{
+			hsp += 5/6;
+		}
+	
+		//running speed changes based on hsp value
+		if hsp < 10
+		{
+			image_speed = .5;
+		}
+		else
+		{
+			image_speed = 1.7;
+		}
+	}
+	else
+	{
+		sprite_index = picoback;
+		image_speed = 0;
+		cooldowncurrent += 4/60;
+		
+		//when one second passed 
+		if (cooldowncurrent = cooldown)
+		{
+			//hide
+			//temp there will be animation
+			visible = false;
+			oShadow.visible = false;
+			oHidebutton.visible = false;
+			picohiding = 1;
+			guardcounter = 4;
+			picomove = 0;
+			
+		}
+	}
+	
 }

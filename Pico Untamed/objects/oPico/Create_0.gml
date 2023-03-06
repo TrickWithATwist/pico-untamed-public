@@ -30,3 +30,9 @@ alreadyshot = 0;
 cooldown = 1;
 cooldowncurrent = 0;
 
+//variable for rock destination
+rockdestination = 0;
+
+//variable for pico hiding
+picohiding = 0;
+

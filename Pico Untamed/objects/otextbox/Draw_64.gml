@@ -19,7 +19,10 @@ else
 		break;
 		case 0:
 			draw_text(100,800, "Pico: It seems to be a card scanner. Maybe it can free Boyfriend.");
-		break;  
+		break;
+		case 4:
+			draw_text(100,800, "Pico: I hear footsteps! I need to hide right now!\n         Those rocks look safe.");
+		break; 
 			
 	}
 

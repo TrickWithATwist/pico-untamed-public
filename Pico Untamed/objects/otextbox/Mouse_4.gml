@@ -20,7 +20,16 @@ if (room = f1r2) and (dialogue = 0)
 	obuttonup.visible = true;
 	oidcardscanner.objectclick = 0
 }
-
+if (room = f1r11) and (dialogue = 4)
+{
+	text_showing = 0;
+	instance_destroy();
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi" , true);
+	//obuttonright.visible = true;
+	//obuttonup.visible = true;
+	oguard.guardcounter = 2;
+}
 
 
 
