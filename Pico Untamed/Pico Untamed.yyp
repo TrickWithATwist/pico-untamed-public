@@ -80,6 +80,7 @@
     {"id":{"name":"f1r2","path":"rooms/f1r2/f1r2.yy",},},
     {"id":{"name":"sf1r1","path":"sprites/sf1r1/sf1r1.yy",},},
     {"id":{"name":"textfont","path":"fonts/textfont/textfont.yy",},},
+    {"id":{"name":"oguardshadow","path":"objects/oguardshadow/oguardshadow.yy",},},
     {"id":{"name":"picoidle","path":"sprites/picoidle/picoidle.yy",},},
     {"id":{"name":"oguardturnaround","path":"objects/oguardturnaround/oguardturnaround.yy",},},
     {"id":{"name":"oguard","path":"objects/oguard/oguard.yy",},},

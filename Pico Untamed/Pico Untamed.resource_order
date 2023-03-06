@@ -58,6 +58,7 @@
     {"name":"sf1r3","order":3,"path":"sprites/sf1r3/sf1r3.yy",},
     {"name":"f1r2","order":1,"path":"rooms/f1r2/f1r2.yy",},
     {"name":"sf1r1","order":1,"path":"sprites/sf1r1/sf1r1.yy",},
+    {"name":"oguardshadow","order":6,"path":"objects/oguardshadow/oguardshadow.yy",},
     {"name":"oguardturnaround","order":5,"path":"objects/oguardturnaround/oguardturnaround.yy",},
     {"name":"oguard","order":7,"path":"objects/oguard/oguard.yy",},
     {"name":"bfscared","order":1,"path":"sprites/bfscared/bfscared.yy",},
