@@ -37,8 +37,11 @@ if (picomove = 0) and (shooting = 1)
 		if (sign(image_xscale)) = (sign(oguard.image_xscale))
 		{
 			visible = true;
+			sprite_index = picoshoot;
 			oShadow.visible = true;
 			oguard.guardalive = 0;
+			hsp = 1;
+			ORoomManager.guardtutorial = 1;
 		}
 	}
 }

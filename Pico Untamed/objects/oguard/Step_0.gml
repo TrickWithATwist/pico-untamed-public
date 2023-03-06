@@ -59,7 +59,13 @@ if (ORoomManager.guardtutorial = 0) and (oPico.picomove = 0) and (guardalive = 1
 }
 if guardalive = 0
 {
+	showup = 1;
 	sprite_index = guarddie;
 	image_speed = 1;
 	oPico.picohiding = 0; 
+	if room = f1r11
+	{
+		obuttonright.visible = true;
+		obuttonup.visible = true;
+	}
 }
