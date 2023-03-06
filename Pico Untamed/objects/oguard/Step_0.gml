@@ -61,6 +61,6 @@ if guardalive = 0
 {
 	showup = 1;
 	sprite_index = guarddie;
-	//image_speed = 1;
+	if (!laying) image_speed = 1;
 	oPico.picohiding = 0; 
 }
