@@ -34,12 +34,21 @@ if (picomove = 0) and (shooting = 1)
 	}
 	if picohiding = 1
 	{
-		if (sign(image_xscale)) = (sign(oguard.image_xscale))
+		if (oguard.x > x) or (oguard.x < x)
 		{
 			visible = true;
 			sprite_index = picoshoot;
 			oShadow.visible = true;
-			image_xscale = -1 * image_xscale;
+			if oguard.x > x
+			{
+				image_xscale = -1 * image_xscale;
+				oguard.image_xscale = -1 * oguard.image_xscale;
+			}
+			else
+			{
+				image_xscale = image_xscale;
+				oguard.image_xscale = oguard.image_xscale;
+			}
 			oguard.guardalive = 0;
 			hsp = 1;
 			ORoomManager.guardtutorial = 1;
@@ -47,15 +56,10 @@ if (picomove = 0) and (shooting = 1)
 			{
 				obuttonright.visible = true;
 				obuttonup.visible = true;
-				shooting = 0;
+				//shooting = 0;
 			}
 		}
-		else
-		{
-			visible = true;
-			sprite_index = picoshoot;
-			oShadow.visible = true;
-		}
+		
 	}
 }
 
