@@ -47,7 +47,7 @@ if (picomove = 0) and (shooting = 1)
 			else
 			{
 				image_xscale = image_xscale;
-				oguard.image_xscale = oguard.image_xscale;
+				oguard.image_xscale = -1 * oguard.image_xscale;
 			}
 			oguard.guardalive = 0;
 			hsp = 1;

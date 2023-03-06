@@ -20,3 +20,6 @@ maxhsp = 10;
 
 //determines if the guard has completed its death anim
 laying = false;
+
+//guard index counter to reset animation for death animation to work properly
+deathcount = 0;
