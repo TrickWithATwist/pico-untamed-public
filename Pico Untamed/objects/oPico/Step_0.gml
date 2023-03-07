@@ -52,6 +52,7 @@ if (picomove = 0) and (shooting = 1)
 			oguard.guardalive = 0;
 			oguard.deadstart = true;
 			hsp = 1;
+			cooldowncurrent = 0;
 			ORoomManager.guardtutorial = 1;
 			if room = f1r11
 			{
