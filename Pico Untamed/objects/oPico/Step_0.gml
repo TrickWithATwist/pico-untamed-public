@@ -144,6 +144,10 @@ if picomove = 2
 //movement behavior for hiding
 if picomove = 3
 {
+		//if pico shot a gun he goes back to normal
+		alreadyshot = 0;
+		shooting = 0;
+		
 		orock.playerchoose = 0;
 		if ((rockdestination - 50) > x  = false) and ((rockdestination + 50) < x = true)
 	{
