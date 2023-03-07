@@ -1,4 +1,4 @@
-if visible = true
+ if visible = true
 {
 	
 }
