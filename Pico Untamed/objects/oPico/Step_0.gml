@@ -149,6 +149,9 @@ if picomove = 3
 		shooting = 0;
 		
 		orock.playerchoose = 0;
+		orock2.playerchoose = 0;
+		if (room = f1r11) oHidebutton2.visible = false;
+		if (room = f1r11) oHidebutton.visible = false;
 		if ((rockdestination - 50) > x  = false) and ((rockdestination + 50) < x = true)
 	{
 		sprite_index = picorun;

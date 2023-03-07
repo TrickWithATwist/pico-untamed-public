@@ -25,7 +25,9 @@ if (ORoomManager.guardtutorial = 0) and (oPico.picomove = 0) and (guardalive = 1
 	if guardcounter = 2
 	{
 		oHidebutton.visible = true;
+		oHidebutton2.visible = true;
 		orock.playerchoose = 1;
+		orock2.playerchoose = 1;
 		guardcounter = 3;
 	}
 	if (guardcounter = 4) or (oPico.picohiding = 1)
