@@ -21,8 +21,17 @@ if counter = 0
 //pico behavior for not moving
 if (picomove = 0) and (shooting = 0)
 {
-	sprite_index = picoidle;
-	image_speed = 1;
+	if room != (f1r12)
+	{
+		sprite_index = picoidle;
+		image_speed = 1;
+	}
+	else
+	{
+		sprite_index = picoback;
+		image_speed = 1;
+		x = 948.8047;
+	}
 }
 
 //pico behavior if shooting
@@ -192,5 +201,22 @@ if picomove = 3
 			
 		}
 	}
+	
+}
+if picomove = 4
+{
+	
+	cooldowncurrent += 2/60;
+		
+	//when one second passed 
+	if (cooldowncurrent = cooldown)
+	{
+		//check if upbutton clicked
+		if obuttondown.clicked = 1
+		{
+			Ofadeout.roomfade = 1;
+		}
+	}
+	
 	
 }

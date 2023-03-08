@@ -30,7 +30,14 @@ if (room = f1r11) and (dialogue = 4)
 	//obuttonup.visible = true;
 	oguard.guardcounter = 2;
 }
-
+if (room = f1r12) and (dialogue = 9)
+{
+	text_showing = 0;
+	instance_destroy();
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi" , true);
+	obuttondown.visible = true;
+}
 
 
 

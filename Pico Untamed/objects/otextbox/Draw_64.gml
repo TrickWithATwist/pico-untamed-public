@@ -22,8 +22,13 @@ else
 		break;
 		case 4:
 			draw_text(100,800, "Pico: I hear footsteps! I need to hide right now!\n         Those rocks look safe.");
-		break; 
-			
+		break;
+		case 8:
+			draw_text(100,800, "Pico: Ugh, this room is giving me bad memories...");
+		break;
+		case 9:
+			draw_text(100,800, "Pico: Hmm, what's with that card on the table?");
+		break;
 	}
 
 
