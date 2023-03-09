@@ -21,6 +21,7 @@ transition = 0;
 //initial/max speed and acceleration for pico
 hsp = 1;
 maxhsp = 25;
+deathhsp = 10;
 
 //varible for if pico is shooting or not
 shooting = 0;
@@ -36,3 +37,8 @@ rockdestination = 0;
 //variable for pico hiding
 picohiding = 0;
 
+//variable for pico hiding in room f1r11
+room11rock = 0;
+
+//did pico get shot
+picohurt = 0;

@@ -51,12 +51,18 @@ if (picomove = 0) and (shooting = 1)
 			if oguard.x > x
 			{
 				image_xscale = -1 * image_xscale;
-				oguard.image_xscale = -1 * oguard.image_xscale;
+				if (oguard.x > rockdestination)
+				{
+					oguard.image_xscale = -1 * oguard.image_xscale;
+				}
 			}
 			else
 			{
 				image_xscale = image_xscale;
-				oguard.image_xscale = -1 * oguard.image_xscale;
+				if (oguard.x > rockdestination)
+				{
+					oguard.image_xscale = -1 * oguard.image_xscale;
+				}
 			}
 			oguard.guardalive = 0;
 			oguard.deadstart = true;
