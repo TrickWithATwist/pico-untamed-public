@@ -27,6 +27,7 @@
     {"name":"screen stuff","order":7,"path":"folders/Sprites/screen stuff.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Tankman","order":10,"path":"folders/Sprites/Tankman.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},
@@ -47,6 +48,7 @@
     {"name":"obuttonup","order":2,"path":"objects/obuttonup/obuttonup.yy",},
     {"name":"oHidebutton2","order":7,"path":"objects/oHidebutton2/oHidebutton2.yy",},
     {"name":"orock","order":4,"path":"objects/orock/orock.yy",},
+    {"name":"scell2","order":4,"path":"sprites/scell2/scell2.yy",},
     {"name":"picorun","order":1,"path":"sprites/picorun/picorun.yy",},
     {"name":"ORoomManager","order":1,"path":"objects/ORoomManager/ORoomManager.yy",},
     {"name":"Ofadeout","order":1,"path":"objects/Ofadeout/Ofadeout.yy",},
@@ -54,6 +56,7 @@
     {"name":"ocell","order":3,"path":"objects/ocell/ocell.yy",},
     {"name":"f1r11","order":3,"path":"rooms/f1r11/f1r11.yy",},
     {"name":"srock","order":3,"path":"sprites/srock/srock.yy",},
+    {"name":"ocell2","order":8,"path":"objects/ocell2/ocell2.yy",},
     {"name":"oHPbar","order":2,"path":"objects/oHPbar/oHPbar.yy",},
     {"name":"oposter1","order":1,"path":"objects/oposter1/oposter1.yy",},
     {"name":"picoshadow","order":2,"path":"sprites/picoshadow/picoshadow.yy",},
@@ -76,7 +79,9 @@
     {"name":"inventory","order":1,"path":"sprites/inventory/inventory.yy",},
     {"name":"picoshoot","order":4,"path":"sprites/picoshoot/picoshoot.yy",},
     {"name":"sbuttondown","order":1,"path":"sprites/sbuttondown/sbuttondown.yy",},
+    {"name":"Tankmansidle","order":1,"path":"sprites/Tankmansidle/Tankmansidle.yy",},
     {"name":"picoshot","order":5,"path":"sprites/picoshot/picoshot.yy",},
+    {"name":"oTankman","order":1,"path":"objects/oTankman/oTankman.yy",},
     {"name":"sbuttonright","order":2,"path":"sprites/sbuttonright/sbuttonright.yy",},
   ],
 }
