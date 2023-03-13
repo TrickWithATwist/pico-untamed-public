@@ -29,6 +29,9 @@ else
 		case 9:
 			draw_text(100,800, "Pico: Hmm, what's with that card on the table?");
 		break;
+		case 10:
+			draw_text(100,800, "Pico: I wonder what's behind that window.");
+		break;
 	}
 
 

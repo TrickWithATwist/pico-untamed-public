@@ -40,9 +40,19 @@ if (room = f1r12) and (dialogue = 9)
 	obuttondown.visible = true;
 }
 
-
-
-
+if (room = f1r4) and (dialogue = 10)
+{
+	text_showing = 0;
+	instance_destroy();
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi" , true);
+	obuttonleft.visible = true;
+	if instance_exists(obuttonup)
+	{
+		obuttonup.visible = true;
+	}
+	owindow.posterclick = 0
+}
 
 //go to neext dialogue when mouse clicked
 dialogue += 1

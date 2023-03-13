@@ -12,6 +12,10 @@ mydirection = 1;
 
 //variables specific to floor 1 when player starts game
 armoryunlock = 0;
+room4unlock = 0;
+
+
+
 
 //variable to determine if gaurd tutorial has been done or not
 guardtutorial = 0;

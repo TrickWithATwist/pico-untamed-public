@@ -22,6 +22,13 @@ if (room = f1r3) and (ORoomManager.armoryunlock = 0)
 {
 	instance_destroy();
 }
+if (room = f1r4) and (ORoomManager.room4unlock = 0)
+{
+	instance_destroy();
+}
+
+
+
 
 if donewithstuff = 1
 {
