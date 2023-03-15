@@ -36,23 +36,32 @@ if (digitcount = 5)
 	if (lestring != "43078") 
 	{
 		lestring = "Invalid";
-		cooldowncurrent1 += 2/60;
+		//cooldowncurrent1 += 2/60;\
+		dumbdumb = 1;
 		digitcount = 0;
 	}
 	else
 	{
 		stupidstupid = 1;
 		lestring = "Valid";
-		cooldowncurrent1 += 2/60;
+		//cooldowncurrent1 += 2/60;
+		dumbdumb = 1;
 		ORoomManager.room4unlock = 1;
 		digitcount = 0;
 	}
 }
+if dumbdumb = 1
+{
+	cooldowncurrent1 += 2/60;
+}
+
+
 
 if cooldowncurrent1 = cooldown1
 {
 	opasswrdfade.image_alpha = 0;
 	lockpresent = 0;
+	dumbdumb = 0;
 	cooldowncurrent1 = 0;
 	digitcount = 0;
 	lestring = "";

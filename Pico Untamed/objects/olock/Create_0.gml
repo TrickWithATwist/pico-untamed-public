@@ -27,3 +27,6 @@ cooldowncurrent1 = 0;
 
 //stupid message variable
 stupidstupid = 0;
+
+//the dumb bool variable
+dumbdumb = 0;
