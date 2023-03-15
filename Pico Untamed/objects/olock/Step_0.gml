@@ -76,6 +76,9 @@ if cooldowncurrent1 = cooldown1
 	onum8.image_alpha = 0;
 	onum9.image_alpha = 0;
 	obuttonleft.visible = true;
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi", true);
+	owindow.schewpid = 1;
 	if stupidstupid = 1
 	{
 		obuttonup.visible = true;
