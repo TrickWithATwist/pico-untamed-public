@@ -31,21 +31,26 @@ if y <= 0
 	buttonshow = 1;	
 }
 
-if (digitcount = 5) and (lestring != "43078") 
+if (digitcount = 5)
 {
-	lestring = "Invalid";
-	cooldowncurrent1 += 2/60;
-}
-else
-{
-	if (digitcount = 5) and (lestring = "43078")
+	if (lestring != "43078") 
+	{
+		lestring = "Invalid";
+		cooldowncurrent1 += 2/60;
+		show_debug_message("aa")
+		digitcount = 0;
+	}
+	else
 	{
 		stupidstupid = 1;
 		lestring = "Valid";
 		cooldowncurrent1 += 2/60;
 		ORoomManager.room4unlock = 1;
+		show_debug_message("bb");
+		digitcount = 0;
 	}
 }
+
 if cooldowncurrent1 = cooldown1
 {
 	opasswrdfade.image_alpha = 0;
