@@ -37,7 +37,6 @@ if (digitcount = 5)
 	{
 		lestring = "Invalid";
 		cooldowncurrent1 += 2/60;
-		show_debug_message("aa")
 		digitcount = 0;
 	}
 	else
@@ -46,7 +45,6 @@ if (digitcount = 5)
 		lestring = "Valid";
 		cooldowncurrent1 += 2/60;
 		ORoomManager.room4unlock = 1;
-		show_debug_message("bb");
 		digitcount = 0;
 	}
 }
