@@ -226,3 +226,45 @@ if picomove = 4
 	
 	
 }
+
+//stupid behavior for up arrow in room 4 because of dumb bugs :(
+if picomove = 5
+{
+		//rockdesitination is just the x value of the up button in this case
+		if (x < rockdestination)
+	{
+		sprite_index = picorun;
+		x += hsp * sign(image_xscale);
+		//makes horizontal speed faster until max is reached
+		if hsp < maxhsp
+		{
+			hsp += 5/6;
+		}
+	
+		//running speed changes based on hsp value
+		if hsp < 10
+		{
+			image_speed = .5;
+		}
+		else
+		{
+			image_speed = 1.7;
+		}
+	}
+	else
+	{
+		sprite_index = picoback;
+		image_speed = 0;
+		cooldowncurrent += 4/60;
+		
+		//when one second passed 
+		if (cooldowncurrent = cooldown)
+		{
+			if obuttonup.clicked = 1
+			{
+				Ofadeout.roomfade = 1;
+			}	
+		}
+	}
+	
+}

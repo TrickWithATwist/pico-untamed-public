@@ -16,8 +16,17 @@ else
 }
 
 //pico behavior when up arrow clicked
-oPico.picomove = 2;
-clicked = 1;
+if room != f1r4
+{
+	oPico.picomove = 2;
+	clicked = 1;
+}
+if room = f1r4
+{
+	oPico.picomove = 5;
+	clicked = 1;
+	oPico.rockdestination = x;
+}
 
 //destroys other buttons if they are in the room
 if instance_exists(obuttonright)
