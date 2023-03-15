@@ -20,3 +20,10 @@ lestring = "";
 
 //counting how many digits put into thing
 digitcount = 0;
+
+//cooldown variables
+cooldown1 = 1;
+cooldowncurrent1 = 0;
+
+//stupid message variable
+stupidstupid = 0;

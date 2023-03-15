@@ -24,7 +24,7 @@ if (room = f1r3) and (ORoomManager.armoryunlock = 0)
 }
 if (room = f1r4) and (ORoomManager.room4unlock = 0)
 {
-	instance_destroy();
+	visible = false;
 }
 
 
