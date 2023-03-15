@@ -26,3 +26,7 @@ if lockpresent = 1
 		}
 	}
 }
+if y <= 0
+{
+	buttonshow = 1;	
+}

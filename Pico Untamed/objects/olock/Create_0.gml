@@ -14,3 +14,9 @@ vsp = 2;
 
 //buttons showing up
 buttonshow = 0;
+
+//initial string value
+lestring = "";
+
+//counting how many digits put into thing
+digitcount = 0;
