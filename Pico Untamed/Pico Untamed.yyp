@@ -58,6 +58,7 @@
     {"id":{"name":"oidcardscanner","path":"objects/oidcardscanner/oidcardscanner.yy",},},
     {"id":{"name":"picoback","path":"sprites/picoback/picoback.yy",},},
     {"id":{"name":"snum18","path":"sprites/snum18/snum18.yy",},},
+    {"id":{"name":"locksoundvalid","path":"sounds/locksoundvalid/locksoundvalid.yy",},},
     {"id":{"name":"guardshoot","path":"sprites/guardshoot/guardshoot.yy",},},
     {"id":{"name":"sHP","path":"sprites/sHP/sHP.yy",},},
     {"id":{"name":"sf1r2","path":"sprites/sf1r2/sf1r2.yy",},},

@@ -41,6 +41,7 @@
     {"name":"oidcardscanner","order":2,"path":"objects/oidcardscanner/oidcardscanner.yy",},
     {"name":"picoback","order":3,"path":"sprites/picoback/picoback.yy",},
     {"name":"snum18","order":8,"path":"sprites/snum18/snum18.yy",},
+    {"name":"locksoundvalid","order":2,"path":"sounds/locksoundvalid/locksoundvalid.yy",},
     {"name":"guardshoot","order":2,"path":"sprites/guardshoot/guardshoot.yy",},
     {"name":"sHP","order":2,"path":"sprites/sHP/sHP.yy",},
     {"name":"otextbox","order":5,"path":"objects/otextbox/otextbox.yy",},

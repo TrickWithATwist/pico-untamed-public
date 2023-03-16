@@ -42,6 +42,11 @@ if (digitcount = 5)
 	}
 	else
 	{
+		if soundplayed = 0
+		{
+			audio_play_sound(locksoundvalid, 1, 0);
+			soundplayed = 1;
+		}
 		stupidstupid = 1;
 		lestring = "Valid";
 		//cooldowncurrent1 += 2/60;
@@ -78,6 +83,7 @@ if cooldowncurrent1 = cooldown1
 	obuttonleft.visible = true;
 	layer_set_visible("inventory", true);
 	layer_set_visible("uzi", true);
+	soundplayed = 0;
 	owindow.schewpid = 1;
 	if stupidstupid = 1
 	{
