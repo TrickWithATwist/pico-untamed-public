@@ -10,3 +10,6 @@ image_blend = c_gray;
 
 //variable that keeps track of button pressed
 buttonpress = 0;
+
+//variable that allows player to interact with object
+buttonallow = 1;

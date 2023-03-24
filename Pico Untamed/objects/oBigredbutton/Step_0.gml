@@ -1,4 +1,8 @@
 
+
+//the following can be done if player is allowed to interact with object
+if buttonallow = 1
+{
 // hover is a boolean variable checking if mouse is touching hitbox
 var hover = point_in_rectangle(mouse_x, mouse_y, bbox_left, bbox_top, bbox_right, bbox_bottom);
 
@@ -18,4 +22,5 @@ else
 	image_yscale = lerp(image_yscale, start_scale, stretch_speed);
 	image_blend = c_ltgray;
 	
+}
 }
