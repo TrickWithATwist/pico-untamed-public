@@ -13,7 +13,7 @@ mydirection = 1;
 //variables specific to floor 1 when player starts game
 armoryunlock = 0;
 room4unlock = 0;
-
+room5buttonpress = 0;
 
 
 

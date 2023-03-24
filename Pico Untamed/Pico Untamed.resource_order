@@ -35,6 +35,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},
+    {"name":"oBigredbutton","order":15,"path":"objects/oBigredbutton/oBigredbutton.yy",},
     {"name":"suziicon","order":3,"path":"sprites/suziicon/suziicon.yy",},
     {"name":"sf1r5","order":9,"path":"sprites/sf1r5/sf1r5.yy",},
     {"name":"obuttondown","order":3,"path":"objects/obuttondown/obuttondown.yy",},
@@ -50,6 +51,7 @@
     {"name":"otextbox","order":5,"path":"objects/otextbox/otextbox.yy",},
     {"name":"oShadow","order":3,"path":"objects/oShadow/oShadow.yy",},
     {"name":"guarddie","order":1,"path":"sprites/guarddie/guarddie.yy",},
+    {"name":"room5thig","order":10,"path":"sprites/room5thig/room5thig.yy",},
     {"name":"oHidebutton","order":6,"path":"objects/oHidebutton/oHidebutton.yy",},
     {"name":"sidcardslot","order":1,"path":"sprites/sidcardslot/sidcardslot.yy",},
     {"name":"f1r3","order":2,"path":"rooms/f1r3/f1r3.yy",},
@@ -57,6 +59,7 @@
     {"name":"scell","order":2,"path":"sprites/scell/scell.yy",},
     {"name":"obuttonup","order":2,"path":"objects/obuttonup/obuttonup.yy",},
     {"name":"oHidebutton2","order":7,"path":"objects/oHidebutton2/oHidebutton2.yy",},
+    {"name":"sbigredbutton","order":11,"path":"sprites/sbigredbutton/sbigredbutton.yy",},
     {"name":"onum9","order":8,"path":"objects/onum9/onum9.yy",},
     {"name":"orock","order":4,"path":"objects/orock/orock.yy",},
     {"name":"snum4","order":4,"path":"sprites/snum4/snum4.yy",},
