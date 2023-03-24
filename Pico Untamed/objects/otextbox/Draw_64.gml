@@ -35,6 +35,9 @@ else
 		case 10:
 			draw_text(100,800, "Pico: I wonder what's behind that window.");
 		break;
+		case 11:
+			draw_text(100,800, "Pico: These seem to be blueprints. What for?");
+		break;
 	}
 
 
