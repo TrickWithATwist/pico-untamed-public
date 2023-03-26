@@ -60,7 +60,8 @@ if (room = f1r5) and (dialogue = 11)
 	layer_set_visible("inventory", true);
 	layer_set_visible("uzi" , true);
 	obuttonleft.visible = true;
-	oBlueprints.posterclick = 0
+	oBlueprints.objectclick = 0
+	oBigredbutton.buttonallow = 1;
 }
 
 //go to neext dialogue when mouse clicked

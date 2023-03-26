@@ -1,5 +1,5 @@
 //object gets clicked and has textbox go up if not clicked yet
-if (objectclick = 0) and (oPico.picomove = 0) and (clickable = 1)
+if (objectclick = 0) and (oPico.picomove = 0) and (able = 1)
 {
 	objectclick = 1;
 	oBigredbutton.buttonallow = 0;
