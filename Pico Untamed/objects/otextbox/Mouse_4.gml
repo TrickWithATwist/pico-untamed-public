@@ -43,7 +43,9 @@ if (room = f1r12) and (dialogue = 9)
 if (room = f1r4) and (dialogue = 10)
 {
 	text_showing = 0;
-	instance_destroy();
+	stupidvar = 1;
+	//instance_destroy();
+	visible = false;
 	layer_set_visible("inventory", true);
 	layer_set_visible("uzi" , true);
 	obuttonleft.visible = true;
@@ -56,13 +58,31 @@ if (room = f1r4) and (dialogue = 10)
 if (room = f1r5) and (dialogue = 11)
 {
 	text_showing = 0;
-	instance_destroy();
+	stupidvar = 1;
+	//instance_destroy();
+	visible = false;
 	layer_set_visible("inventory", true);
 	layer_set_visible("uzi" , true);
 	obuttonleft.visible = true;
 	oBlueprints.objectclick = 0
 	oBigredbutton.buttonallow = 1;
 }
+if (room = f1r5) and (dialogue = 12)
+{
+	text_showing = 0;
+	//instance_destroy();
+	visible = false;
+	stupidvar = 1;
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi" , true);
+	obuttonleft.visible = true;
+	oBlueprints.objectclick = 0;
+	oBlueprints.able = 1;
+	oBigredbutton.buttonallow = 1;
+}
 
 //go to neext dialogue when mouse clicked
-dialogue += 1
+if stupidvar = 0
+{
+	dialogue += 1
+}

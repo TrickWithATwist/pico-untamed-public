@@ -5,6 +5,9 @@ text_showing = 0;
 //dialogue
 dialogue = 0;
 
+//stupid thing for room 4 and 5
+stupidvar = 0;
+
 //control dialogue
 switch (room)
 {
