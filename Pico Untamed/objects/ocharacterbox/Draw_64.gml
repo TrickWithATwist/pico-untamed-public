@@ -18,7 +18,10 @@ else
 			draw_text(145,725,"Beep bop bpeepbop!");
 			draw_text(145,900,"Who put you in here?");
 		break;
-		
+		case 2:
+			draw_text(145,725,"Why don't I give you my damn gun so you can shoot yourself?");
+			draw_text(145,900,"There's no scanner next to your cell.");
+		break;
 		
 		
 		

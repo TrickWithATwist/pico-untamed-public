@@ -87,7 +87,7 @@ if (room = f1r2) and (dialogue = 13)
 	//visible = false;
 	//set up the choice
 	instance_create_layer(0,0,"fadein",ocharacterbox);
-	ocharacterbox.text = 1
+	ocharacterbox.ctext = 1
 	
 }
 if (room = f1r2) and (dialogue = 15)
@@ -101,6 +101,16 @@ if (room = f1r2) and (dialogue = 15)
 	obuttonup.visible = true;
 	oidcardscanner.objectclick = 0;
 	oidcardscanner.scannerable = 1;
+}
+if (room = f1r3) and (dialogue = 16)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	instance_create_layer(0,0,"fadein",ocharacterbox);
+	ocharacterbox.ctext = 2
+	
 }
 //go to neext dialogue when mouse clicked
 if stupidvar = 0

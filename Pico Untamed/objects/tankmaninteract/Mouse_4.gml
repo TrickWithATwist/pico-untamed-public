@@ -4,7 +4,7 @@
 if (ORoomManager.Tankmansaved = 0) and (canclick = 1)
 {
 	canclick = 0;
-	oidcardscanner.scannerable = 0;
+	//oidcardscanner.scannerable = 0;
 	//creates textbox and makes buttons/ other gui disappear
 	obuttonright.visible = false;
 	if instance_exists(obuttonup)
