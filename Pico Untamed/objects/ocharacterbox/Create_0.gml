@@ -6,7 +6,7 @@ choiceshow = 1;
 switch(room)
 {
 	case f1r2:
-		text = 1;
+		ctext = 1;
 	break;
 	
 }

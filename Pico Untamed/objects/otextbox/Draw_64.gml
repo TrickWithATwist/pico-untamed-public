@@ -44,6 +44,12 @@ else
 		case 13:
 			draw_text(100,800, "Boyfriend: Beep beep bo bop beep.")
 		break;
+		case 14:
+			draw_text(100,800, "Boyfriend: Skrrrp boop beep bop.")
+		break;
+		case 15:
+			draw_text(100,800, "Pico: I see. I'll get you out of here, I promise...")
+		break;
 	}
 
 

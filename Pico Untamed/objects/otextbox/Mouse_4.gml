@@ -90,6 +90,18 @@ if (room = f1r2) and (dialogue = 13)
 	ocharacterbox.text = 1
 	
 }
+if (room = f1r2) and (dialogue = 15)
+{
+	text_showing = 0;
+	instance_destroy();
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi" , true);
+	obuttonright.visible = true;
+	obuttonleft.visible = true;
+	obuttonup.visible = true;
+	oidcardscanner.objectclick = 0;
+	oidcardscanner.scannerable = 1;
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {

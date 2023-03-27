@@ -12,7 +12,7 @@ if choiceshow = 0
 else
 {
 	//draws text on screen
-	switch(text)
+	switch(ctext)
 	{
 		case 1:
 			draw_text(145,725,"Beep bop bpeepbop!");
