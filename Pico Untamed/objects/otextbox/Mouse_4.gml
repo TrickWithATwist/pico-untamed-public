@@ -87,6 +87,7 @@ if (room = f1r2) and (dialogue = 13)
 	//visible = false;
 	//set up the choice
 	instance_create_layer(0,0,"fadein",ocharacterbox);
+	ocharacterbox.text = 1
 	
 }
 //go to neext dialogue when mouse clicked
