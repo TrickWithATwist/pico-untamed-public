@@ -80,7 +80,15 @@ if (room = f1r5) and (dialogue = 12)
 	oBlueprints.able = 1;
 	oBigredbutton.buttonallow = 1;
 }
-
+if (room = f1r2) and (dialogue = 13)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	instance_create_layer(0,0,"fadein",ocharacterbox);
+	
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {
