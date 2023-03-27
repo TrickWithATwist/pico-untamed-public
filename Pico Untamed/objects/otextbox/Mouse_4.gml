@@ -43,9 +43,9 @@ if (room = f1r12) and (dialogue = 9)
 if (room = f1r4) and (dialogue = 10)
 {
 	text_showing = 0;
-	stupidvar = 1;
-	//instance_destroy();
-	visible = false;
+	//stupidvar = 1;
+	instance_destroy();
+	//visible = false;
 	layer_set_visible("inventory", true);
 	layer_set_visible("uzi" , true);
 	obuttonleft.visible = true;

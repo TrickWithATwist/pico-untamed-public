@@ -57,6 +57,7 @@
     {"name":"f1r3","order":2,"path":"rooms/f1r3/f1r3.yy",},
     {"name":"oCamera","order":5,"path":"objects/oCamera/oCamera.yy",},
     {"name":"scell","order":2,"path":"sprites/scell/scell.yy",},
+    {"name":"tankmaninteract","order":17,"path":"objects/tankmaninteract/tankmaninteract.yy",},
     {"name":"obuttonup","order":2,"path":"objects/obuttonup/obuttonup.yy",},
     {"name":"oHidebutton2","order":7,"path":"objects/oHidebutton2/oHidebutton2.yy",},
     {"name":"sbigredbutton","order":11,"path":"sprites/sbigredbutton/sbigredbutton.yy",},

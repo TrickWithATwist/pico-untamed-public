@@ -77,6 +77,7 @@
     {"id":{"name":"sposter","path":"sprites/sposter/sposter.yy",},},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
     {"id":{"name":"scell","path":"sprites/scell/scell.yy",},},
+    {"id":{"name":"tankmaninteract","path":"objects/tankmaninteract/tankmaninteract.yy",},},
     {"id":{"name":"obuttonup","path":"objects/obuttonup/obuttonup.yy",},},
     {"id":{"name":"oHidebutton2","path":"objects/oHidebutton2/oHidebutton2.yy",},},
     {"id":{"name":"sbigredbutton","path":"sprites/sbigredbutton/sbigredbutton.yy",},},

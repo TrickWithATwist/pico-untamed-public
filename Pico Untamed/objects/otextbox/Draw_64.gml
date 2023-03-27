@@ -50,6 +50,9 @@ else
 		case 15:
 			draw_text(100,800, "Pico: I see. I'll get you out of here, I promise...")
 		break;
+		case 16:
+			draw_text(100,800, "Captain: Well well, if it isn't the school shooter. Get me out of here will ya?");
+		break;
 	}
 
 
