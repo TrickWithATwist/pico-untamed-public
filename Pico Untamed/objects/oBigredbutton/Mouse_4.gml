@@ -3,6 +3,7 @@ if (buttonallow = 1) and (ORoomManager.armoryunlock = 0)
 	//when the mouse is pressed then the room stuff gets unlocked
 	ORoomManager.room5buttonpress = 1;
 	ORoomManager.armoryunlock = 1;
+	ORoomManager.Tankmansaved = 1;
 	objectclick = 1;
 	oBlueprints.able = 0;
 	//creates textbox and makes buttons/ other gui disappear

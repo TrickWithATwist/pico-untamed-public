@@ -53,6 +53,12 @@ else
 		case 16:
 			draw_text(100,800, "Captain: Well well, if it isn't the school shooter. Get me out of\n                 here will ya?");
 		break;
+		case 17:
+			draw_text(100,800, "Captain: Heh heh I like you kid. Try going to the room down the \n                  hall. You might find something there.")
+		break;
+		case 18:
+			draw_text(100,800, "Captain: Well what are you waiting for?! Find another way to get \n                 me out!");
+		break;
 	}
 
 

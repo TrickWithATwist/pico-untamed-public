@@ -58,9 +58,9 @@ if (room = f1r4) and (dialogue = 10)
 if (room = f1r5) and (dialogue = 11)
 {
 	text_showing = 0;
-	stupidvar = 1;
-	//instance_destroy();
-	visible = false;
+	//stupidvar = 1;
+	instance_destroy();
+	//visible = false;
 	layer_set_visible("inventory", true);
 	layer_set_visible("uzi" , true);
 	obuttonleft.visible = true;
@@ -70,8 +70,8 @@ if (room = f1r5) and (dialogue = 11)
 if (room = f1r5) and (dialogue = 12)
 {
 	text_showing = 0;
-	//instance_destroy();
-	visible = false;
+	instance_destroy();
+	//visible = false;
 	stupidvar = 1;
 	layer_set_visible("inventory", true);
 	layer_set_visible("uzi" , true);
@@ -111,6 +111,36 @@ if (room = f1r3) and (dialogue = 16)
 	instance_create_layer(0,0,"fadein",ocharacterbox);
 	ocharacterbox.ctext = 2
 	
+}
+if (room = f1r3) and (dialogue = 17)
+{
+	text_showing = 0;
+	instance_destroy();
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi" , true);
+	obuttonright.visible = true;
+	obuttonleft.visible = true;
+	if instance_exists(obuttonup)
+	{
+		obuttonup.visible = true;
+	}
+	//oidcardscanner.objectclick = 0;
+	//oidcardscanner.scannerable = 1;
+}
+if (room = f1r3) and (dialogue = 18)
+{
+	text_showing = 0;
+	instance_destroy();
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi" , true);
+	obuttonright.visible = true;
+	obuttonleft.visible = true;
+	if instance_exists(obuttonup)
+	{
+		obuttonup.visible = true;
+	}
+	//oidcardscanner.objectclick = 0;
+	//oidcardscanner.scannerable = 1;
 }
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
