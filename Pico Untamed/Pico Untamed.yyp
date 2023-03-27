@@ -133,6 +133,7 @@
     {"id":{"name":"woof","path":"sounds/woof/woof.yy",},},
     {"id":{"name":"onum6","path":"objects/onum6/onum6.yy",},},
     {"id":{"name":"sinvisiblebox","path":"sprites/sinvisiblebox/sinvisiblebox.yy",},},
+    {"id":{"name":"ocharacterbox","path":"objects/ocharacterbox/ocharacterbox.yy",},},
     {"id":{"name":"stextbox","path":"sprites/stextbox/stextbox.yy",},},
     {"id":{"name":"sbuttonleft","path":"sprites/sbuttonleft/sbuttonleft.yy",},},
     {"id":{"name":"fade","path":"sprites/fade/fade.yy",},},

@@ -105,6 +105,7 @@
     {"name":"sf1r11","order":5,"path":"sprites/sf1r11/sf1r11.yy",},
     {"name":"onum6","order":5,"path":"objects/onum6/onum6.yy",},
     {"name":"sinvisiblebox","order":6,"path":"sprites/sinvisiblebox/sinvisiblebox.yy",},
+    {"name":"ocharacterbox","order":10,"path":"objects/ocharacterbox/ocharacterbox.yy",},
     {"name":"stextbox","order":4,"path":"sprites/stextbox/stextbox.yy",},
     {"name":"sbuttonleft","order":3,"path":"sprites/sbuttonleft/sbuttonleft.yy",},
     {"name":"snum9","order":9,"path":"sprites/snum9/snum9.yy",},
