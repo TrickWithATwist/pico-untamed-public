@@ -6,5 +6,5 @@ if (room = f1r3) and (ORoomManager.Tankmansaved = 0)
 }
 else
 {
-	//placeholder for later
+	visible = false;
 }
