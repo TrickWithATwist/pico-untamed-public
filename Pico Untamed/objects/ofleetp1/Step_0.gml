@@ -11,3 +11,12 @@ if oneframe = 0
 	otextbox.dialogue = 19;
 	oneframe = 1;
 }
+if cutscenept = 1
+{
+	sprite_index = sfleetjump;
+}
+if gohigh = 1
+{
+	y -= vsp;
+	vsp += 20/60;
+}

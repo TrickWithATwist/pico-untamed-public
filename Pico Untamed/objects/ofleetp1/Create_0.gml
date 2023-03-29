@@ -3,3 +3,9 @@ cutscenept = 0;
 
 //makes the textbox pop up for one frame
 oneframe = 0;
+
+//varaible that makes fleet go up
+gohigh = 0;
+
+//vsp
+vsp = 50;
