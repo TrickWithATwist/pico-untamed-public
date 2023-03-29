@@ -9,3 +9,6 @@ cooldown = 1
 cooldowncurrent = 0;
 
 alreadyshot = 0;
+
+hsp = 10;
+maxhsp = 25;
