@@ -21,7 +21,13 @@ if (clicked = 1) and (oPico.transition = 1)
 				ORoomManager.myroom = 5;
 				ORoomManager.mydirection = 1;
 			break;
-			
+			case 3:
+				if ORoomManager.fleetdefeated = 0
+				{
+					room_goto(f1r6p1);
+					ORoomManager.myroom = 6;
+				}
+			break;
 		}
 	}
 }

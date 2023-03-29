@@ -14,7 +14,7 @@ mydirection = 1;
 armoryunlock = 0;
 room4unlock = 0;
 room5buttonpress = 0;
-
+fleetdefeated = 0;
 
 
 //variable to determine if gaurd tutorial has been done or not
