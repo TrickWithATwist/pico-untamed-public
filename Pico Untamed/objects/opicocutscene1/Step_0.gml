@@ -18,3 +18,7 @@ if picocutscenept = 1
 		}
 	}
 }
+if alreadyshot = 1
+{
+	image_speed = 0;
+}

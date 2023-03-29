@@ -7,3 +7,5 @@ oneframe = 0;
 //cooldown
 cooldown = 1
 cooldowncurrent = 0;
+
+alreadyshot = 0;

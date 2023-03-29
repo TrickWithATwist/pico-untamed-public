@@ -1,4 +1,4 @@
-//establishing inital room position
+ //establishing inital room position
 //switch statement determines if pico facing left or right
 if counter = 0
 {
