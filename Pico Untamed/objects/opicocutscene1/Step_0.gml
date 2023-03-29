@@ -7,6 +7,11 @@ if picocutscenept = 1
 	if (sprite_index != picogunout)
 	{
 		sprite_index = picogunout;
+		if dumb = 0
+		{
+			image_index = 0;
+			dumb = 1;
+		}
 	}
 	cooldowncurrent += 1/60
 	if cooldowncurrent = cooldown

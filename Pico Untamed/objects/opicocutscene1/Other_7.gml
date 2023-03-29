@@ -1,5 +1,5 @@
 
-if (sprite_index = picogunout) and (alreadyshot = 0)
+if (sprite_index = picogunout) and (alreadyshot = 0) and (dumb = 1)
 {
 	//image_speed = 0;
 	//image_index = 6;

@@ -12,3 +12,6 @@ alreadyshot = 0;
 
 hsp = 10;
 maxhsp = 25;
+
+
+dumb = 0;
