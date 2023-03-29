@@ -66,7 +66,7 @@ else
 			draw_text(100,800, "Fleet: I'd be more worried about me blowing out your brains than that.")
 		break;
 		case 21:
-			draw_text(100,800, "Fleet: Kids like you shouldn't run around so carelessly with guns.\n             Maybe it's time an adult gives you some discipline." )
+			draw_text(100,800, "Fleet: Kids like you shouldn't run around so carelessly with guns.\n             Maybe it's time for an adult to give you some discipline." )
 		break;
 	}
 

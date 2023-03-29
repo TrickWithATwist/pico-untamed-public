@@ -14,9 +14,13 @@ if oneframe = 0
 if cutscenept = 1
 {
 	sprite_index = sfleetjump;
+	if image_index = 4
+	{
+		gohigh = 1;
+	}
 }
 if gohigh = 1
 {
 	y -= vsp;
-	vsp += 20/60;
+	vsp += 5/60;
 }

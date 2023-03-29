@@ -2,6 +2,6 @@
 if sprite_index = sfleetjump
 {
 	image_speed = 0;
-	image_index = 6;
-	gohigh = 1;
+	image_index = 5;
+	//gohigh = 1;
 }

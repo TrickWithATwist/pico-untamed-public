@@ -8,4 +8,13 @@ if picocutscenept = 1
 	{
 		sprite_index = picogunout;
 	}
+	cooldowncurrent += 1/60
+	if cooldowncurrent = cooldown
+	{	
+		if oneframe = 0
+		{
+			ofleetp1.cutscenept = 1;
+			oneframe = 1;
+		}
+	}
 }
