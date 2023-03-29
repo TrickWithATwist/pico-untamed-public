@@ -27,3 +27,11 @@ if gohigh = 1
 	y -= vsp;
 	vsp += 5/60;
 }
+if y < 0
+{
+	if raaah != 1
+	{
+		opicocutscene1.picocutscenept = 2;
+		raaah = 1;
+	}
+}

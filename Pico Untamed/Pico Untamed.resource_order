@@ -140,6 +140,7 @@
     {"name":"snum5","order":5,"path":"sprites/snum5/snum5.yy",},
     {"name":"picogunout","order":6,"path":"sprites/picogunout/picogunout.yy",},
     {"name":"sfleetjumpbase","order":2,"path":"sprites/sfleetjumpbase/sfleetjumpbase.yy",},
+    {"name":"othespot","order":2,"path":"objects/othespot/othespot.yy",},
     {"name":"oShadowcutscene","order":13,"path":"objects/oShadowcutscene/oShadowcutscene.yy",},
     {"name":"picoshot","order":5,"path":"sprites/picoshot/picoshot.yy",},
     {"name":"opasslocksmall","order":12,"path":"objects/opasslocksmall/opasslocksmall.yy",},
