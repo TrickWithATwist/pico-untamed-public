@@ -14,9 +14,12 @@ if oneframe = 0
 if cutscenept = 1
 {
 	sprite_index = sfleetjump;
-	if image_index = 4
+	if blargh = 1
 	{
 		gohigh = 1;
+		//image_speed = 0;
+		//image_index = 5;
+		sprite_index = sfleetjumpbase
 	}
 }
 if gohigh = 1

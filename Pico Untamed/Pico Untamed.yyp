@@ -178,6 +178,8 @@
     {"id":{"name":"ochoice1","path":"objects/ochoice1/ochoice1.yy",},},
     {"id":{"name":"snum5","path":"sprites/snum5/snum5.yy",},},
     {"id":{"name":"picogunout","path":"sprites/picogunout/picogunout.yy",},},
+    {"id":{"name":"sfleetjumpbase","path":"sprites/sfleetjumpbase/sfleetjumpbase.yy",},},
+    {"id":{"name":"oShadowcutscene","path":"objects/oShadowcutscene/oShadowcutscene.yy",},},
     {"id":{"name":"picoshot","path":"sprites/picoshot/picoshot.yy",},},
     {"id":{"name":"opasslocksmall","path":"objects/opasslocksmall/opasslocksmall.yy",},},
     {"id":{"name":"oTankman","path":"objects/oTankman/oTankman.yy",},},

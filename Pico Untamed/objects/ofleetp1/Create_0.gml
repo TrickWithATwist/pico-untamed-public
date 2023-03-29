@@ -9,3 +9,6 @@ gohigh = 0;
 
 //vsp
 vsp = 50;
+
+//blarg
+blargh = 0;

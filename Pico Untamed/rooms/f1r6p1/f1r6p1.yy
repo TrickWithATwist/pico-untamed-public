@@ -11,6 +11,7 @@
     {"name":"inst_23D601B8","path":"rooms/f1r6p1/f1r6p1.yy",},
     {"name":"inst_6C00C512","path":"rooms/f1r6p1/f1r6p1.yy",},
     {"name":"inst_433133","path":"rooms/f1r6p1/f1r6p1.yy",},
+    {"name":"inst_57E38F19","path":"rooms/f1r6p1/f1r6p1.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -24,9 +25,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6C00C512","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ofleetp1","path":"objects/ofleetp1/ofleetp1.yy",},"properties":[],"rotation":0.0,"scaleX":0.6,"scaleY":0.6,"x":-192.0,"y":372.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_433133","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"opicocutscene1","path":"objects/opicocutscene1/opicocutscene1.yy",},"properties":[],"rotation":0.0,"scaleX":-0.55,"scaleY":0.55,"x":1450.0,"y":723.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"picoshadow","assets":[
-        {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_37C075C9","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":0.6,"scaleY":0.6,"spriteId":{"name":"picoshadow","path":"sprites/picoshadow/picoshadow.yy",},"x":903.0,"y":385.0,},
-      ],"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_57E38F19","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oShadowcutscene","path":"objects/oShadowcutscene/oShadowcutscene.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":-128.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"sf1r6","path":"sprites/sf1r6/sf1r6.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
