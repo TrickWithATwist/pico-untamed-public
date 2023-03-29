@@ -8,4 +8,4 @@ oneframe = 0;
 gohigh = 0;
 
 //vsp
-vsp = 10;
+vsp = 50;
