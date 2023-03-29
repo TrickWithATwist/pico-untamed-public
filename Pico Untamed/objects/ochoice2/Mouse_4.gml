@@ -13,6 +13,9 @@ switch (ocharacterbox.ctext)
 	case 2:
 		otextbox.dialogue = 18;
 	break;
+	case 3:
+		otextbox.dialogue = 21;
+	break;
 }
 instance_destroy(ocharacterbox);
 instance_destroy();

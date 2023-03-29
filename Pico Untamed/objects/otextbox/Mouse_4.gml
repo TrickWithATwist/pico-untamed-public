@@ -142,6 +142,50 @@ if (room = f1r3) and (dialogue = 18)
 	//oidcardscanner.objectclick = 0;
 	//oidcardscanner.scannerable = 1;
 }
+if (room = f1r6p1) and (dialogue = 19)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	instance_create_layer(0,0,"fadein",ocharacterbox);
+	ocharacterbox.ctext = 3;
+	
+}
+if (room = f1r6p1) and (dialogue = 20)
+{
+	text_showing = 0;
+	instance_destroy();
+	//layer_set_visible("inventory", true);
+	//layer_set_visible("uzi" , true);
+	//obuttonright.visible = true;
+	//obuttonleft.visible = true;
+	//if instance_exists(obuttonup)
+	//{
+	//	obuttonup.visible = true;
+	//}
+	//oidcardscanner.objectclick = 0;
+	//oidcardscanner.scannerable = 1;
+	//ofleetp1.cutscenept = 1;
+	opicocutscene1.picocutscenept = 1;
+}
+if (room = f1r6p1) and (dialogue = 21)
+{
+	text_showing = 0;
+	instance_destroy();
+	//layer_set_visible("inventory", true);
+	//layer_set_visible("uzi" , true);
+	//obuttonright.visible = true;
+	//obuttonleft.visible = true;
+	//if instance_exists(obuttonup)
+	//{
+	//	obuttonup.visible = true;
+	//}
+	//oidcardscanner.objectclick = 0;
+	//oidcardscanner.scannerable = 1;
+	//ofleetp1.cutscenept = 1;
+	opicocutscene1.picocutscenept = 1;
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {

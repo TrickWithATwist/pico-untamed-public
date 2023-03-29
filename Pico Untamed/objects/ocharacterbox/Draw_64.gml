@@ -22,7 +22,10 @@ else
 			draw_text(145,725,"Why don't I give you my damn gun so you can shoot yourself?");
 			draw_text(145,900,"There's no scanner next to your cell.");
 		break;
-		
+		case 3:
+			draw_text(145,725,"Yeah, and why don't you tell me who you're working for?");
+			draw_text(145,900,"And why don't you suck my nuts?");
+		break;
 		
 		
 		

@@ -59,6 +59,15 @@ else
 		case 18:
 			draw_text(100,800, "Captain: Well what are you waiting for?! Find another way to get \n                 me out!");
 		break;
+		case 19:
+			draw_text(100,800, "Fleet: So you're that ginger freak I've heard so much about...")
+		break;
+		case 20:
+			draw_text(100,800, "Fleet: I'd be more worried about me blowing out your brains than that.")
+		break;
+		case 21:
+			draw_text(100,800, "Fleet: Kids like you shouldn't run around so carelessly with guns.\n             Maybe it's time an adult gives you some discipline." )
+		break;
 	}
 
 
