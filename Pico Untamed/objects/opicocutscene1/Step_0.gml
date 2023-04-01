@@ -53,4 +53,5 @@ if picocutscenept = 2
 if picocutscenept = 3
 {
 	sprite_index = picoback;
+	ofleetp2.showup = 1;
 }
