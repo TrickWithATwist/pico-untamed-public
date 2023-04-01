@@ -1,7 +1,7 @@
 if gotime = 1
 {
 	visible = true;
-	if (sprite_index = sflashcircle) and (image_xscale < 1000)  and (image_yscale < 1000) 
+	if (sprite_index = sflashcircle) and (image_xscale < 100)  and (image_yscale < 100) 
 	{
 		image_xscale += 50/30;
 		image_yscale += 50/30;
@@ -18,5 +18,6 @@ if gotime = 1
 		y = 0;
 		image_xscale = 1;
 		image_yscale = 1;
+		room_goto(f1r6p2);
 	}
 }
