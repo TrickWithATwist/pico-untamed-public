@@ -17,3 +17,5 @@ currentrandy = randy;
 
 //moves 6 times and then shoots
 movementcounter = 0;
+
+layer_set_visible("uzi", false);

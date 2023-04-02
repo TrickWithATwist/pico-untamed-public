@@ -3,7 +3,7 @@ if cooldowncurrent <= 0
 {
 	cooldowncurrent = cooldown;
 	randx = irandom_range(100, 1820);
-	randy = irandom_range(100,384);
+	randy = irandom_range(150,384);
 }
 
 cooldowncurrent = max(0, cooldowncurrent - 1);
