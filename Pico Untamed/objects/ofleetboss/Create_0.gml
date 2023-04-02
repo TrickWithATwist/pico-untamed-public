@@ -3,7 +3,7 @@ x = 992;
 y = 384;
 
 //cooldown for movement, moves every two seconds
-cooldown = 2;
+cooldown = 120;
 cooldowncurrent = 0;
 
 //varaible for random x position
