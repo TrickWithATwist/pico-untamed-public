@@ -15,7 +15,15 @@ randy = irandom_range(100,384);
 currentrandx = randx;
 currentrandy = randy;
 
-//moves 6 times and then shoots
+//moves 2 times and then shoots
 movementcounter = 0;
 
 layer_set_visible("uzi", false);
+
+
+//animation for one frame
+unoframe = 0;
+
+//costume cooldown
+costumecooldown = 0.5;
+costumecurrent = 0;

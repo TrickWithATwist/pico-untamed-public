@@ -100,6 +100,7 @@
     {"name":"oHPbar","order":2,"path":"objects/oHPbar/oHPbar.yy",},
     {"name":"oidcardicon","order":8,"path":"objects/oidcardicon/oidcardicon.yy",},
     {"name":"oposter1","order":1,"path":"objects/oposter1/oposter1.yy",},
+    {"name":"sfleetshoot","order":5,"path":"sprites/sfleetshoot/sfleetshoot.yy",},
     {"name":"onum2","order":1,"path":"objects/onum2/onum2.yy",},
     {"name":"picoshadow","order":2,"path":"sprites/picoshadow/picoshadow.yy",},
     {"name":"ofleetp2","order":3,"path":"objects/ofleetp2/ofleetp2.yy",},
