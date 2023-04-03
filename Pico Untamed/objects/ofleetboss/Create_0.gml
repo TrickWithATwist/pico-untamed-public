@@ -27,3 +27,6 @@ unoframe = 0;
 //costume cooldown
 costumecooldown = 0.5;
 costumecurrent = 0;
+
+//oneframe to destory the stupid boxes
+oneframe = 0;

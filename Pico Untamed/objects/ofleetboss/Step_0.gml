@@ -15,6 +15,20 @@ y += ((randy - y) * .2) + sin_oscillate(-5,5,5);
 
 if movementcounter = 3
 {
+	//destroys box if protecting pico
+	if oneframe = 0
+	{
+		//checks if pico is protected
+		if oPicoboss.protected = 1
+		{
+			obossbox1.boxhp += -1;
+			oneframe = 1;
+		}
+	}
+	
+	
+	
+	
 	if unoframe = 0
 	{
 		//sprite_index = sfleetshoot;
@@ -39,5 +53,6 @@ if movementcounter = 3
 if movementcounter < 3
 {
 	unoframe = 0;
+	oneframe = 0;
 	costumecurrent = 0;
 }
