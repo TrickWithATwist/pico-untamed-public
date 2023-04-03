@@ -9,7 +9,7 @@ cooldowncurrent = 0;
 //varaible for random x position
 randx = irandom_range(100, 1820);
 //varaible for random y position
-randy = irandom_range(100,384);
+randy = irandom_range(100, 384);
 
 //current randx and y 
 currentrandx = randx;
