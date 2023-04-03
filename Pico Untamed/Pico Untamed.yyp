@@ -188,6 +188,8 @@
     {"id":{"name":"sflashcircle","path":"sprites/sflashcircle/sflashcircle.yy",},},
     {"id":{"name":"textfont2","path":"fonts/textfont2/textfont2.yy",},},
     {"id":{"name":"picoshoot","path":"sprites/picoshoot/picoshoot.yy",},},
+    {"id":{"name":"osafespot1","path":"objects/osafespot1/osafespot1.yy",},},
+    {"id":{"name":"oShadowpicoboss","path":"objects/oShadowpicoboss/oShadowpicoboss.yy",},},
     {"id":{"name":"owindow","path":"objects/owindow/owindow.yy",},},
     {"id":{"name":"schoice2","path":"sprites/schoice2/schoice2.yy",},},
     {"id":{"name":"sbuttondown","path":"sprites/sbuttondown/sbuttondown.yy",},},

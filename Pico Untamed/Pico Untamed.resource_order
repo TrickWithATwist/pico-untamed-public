@@ -149,6 +149,8 @@
     {"name":"sflashcircle","order":12,"path":"sprites/sflashcircle/sflashcircle.yy",},
     {"name":"textfont2","order":1,"path":"fonts/textfont2/textfont2.yy",},
     {"name":"picoshoot","order":4,"path":"sprites/picoshoot/picoshoot.yy",},
+    {"name":"osafespot1","order":7,"path":"objects/osafespot1/osafespot1.yy",},
+    {"name":"oShadowpicoboss","order":15,"path":"objects/oShadowpicoboss/oShadowpicoboss.yy",},
     {"name":"owindow","order":11,"path":"objects/owindow/owindow.yy",},
     {"name":"schoice2","order":11,"path":"sprites/schoice2/schoice2.yy",},
     {"name":"sbuttondown","order":1,"path":"sprites/sbuttondown/sbuttondown.yy",},
