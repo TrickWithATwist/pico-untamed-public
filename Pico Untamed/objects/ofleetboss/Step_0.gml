@@ -24,6 +24,12 @@ if movementcounter = 3
 			obossbox1.boxhp += -1;
 			oneframe = 1;
 		}
+		if oPicoboss.protected = 2
+		{
+			obossbox2.boxhp += -1;
+			oneframe = 1;
+			
+		}
 	}
 	
 	
