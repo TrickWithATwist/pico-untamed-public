@@ -85,6 +85,7 @@
     {"name":"ORoomManager","order":1,"path":"objects/ORoomManager/ORoomManager.yy",},
     {"name":"swindow","order":6,"path":"sprites/swindow/swindow.yy",},
     {"name":"opasswrdfade","order":2,"path":"objects/opasswrdfade/opasswrdfade.yy",},
+    {"name":"oPicoboss","order":6,"path":"objects/oPicoboss/oPicoboss.yy",},
     {"name":"Ofadeout","order":1,"path":"objects/Ofadeout/Ofadeout.yy",},
     {"name":"sidcardicon","order":7,"path":"sprites/sidcardicon/sidcardicon.yy",},
     {"name":"orock2","order":7,"path":"objects/orock2/orock2.yy",},

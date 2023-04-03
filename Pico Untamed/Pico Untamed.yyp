@@ -108,6 +108,7 @@
     {"id":{"name":"ORoomManager","path":"objects/ORoomManager/ORoomManager.yy",},},
     {"id":{"name":"swindow","path":"sprites/swindow/swindow.yy",},},
     {"id":{"name":"opasswrdfade","path":"objects/opasswrdfade/opasswrdfade.yy",},},
+    {"id":{"name":"oPicoboss","path":"objects/oPicoboss/oPicoboss.yy",},},
     {"id":{"name":"Ofadeout","path":"objects/Ofadeout/Ofadeout.yy",},},
     {"id":{"name":"sidcardicon","path":"sprites/sidcardicon/sidcardicon.yy",},},
     {"id":{"name":"orock2","path":"objects/orock2/orock2.yy",},},
