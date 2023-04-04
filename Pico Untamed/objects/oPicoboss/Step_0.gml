@@ -40,3 +40,22 @@ else
 		sprite_index = picobossidle;
 	}
 }
+
+
+oPicoboss.protected = 0;
+
+if (place_meeting(x,y,osafespot1))
+{
+	if obossbox1.boxhp > 1
+	{
+		oPicoboss.protected = 1;
+	}
+}
+
+if (place_meeting(x,y,osafespot2))
+{
+	if obossbox2.boxhp > 1
+	{
+		oPicoboss.protected = 2;
+	}
+}

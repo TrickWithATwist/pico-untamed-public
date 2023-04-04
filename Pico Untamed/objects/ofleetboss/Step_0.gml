@@ -21,12 +21,12 @@ if movementcounter = 3
 		//checks if pico is protected
 		if oPicoboss.protected = 1
 		{
-			obossbox1.boxhp += -1;
+			obossbox1.boxhp -= 1;
 			oneframe = 1;
 		}
 		if oPicoboss.protected = 2
 		{
-			obossbox2.boxhp += -1;
+			obossbox2.boxhp -= 1;
 			oneframe = 1;
 			
 		}
