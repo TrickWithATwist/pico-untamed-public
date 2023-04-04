@@ -30,3 +30,6 @@ costumecurrent = 0;
 
 //oneframe to destory the stupid boxes
 oneframe = 0;
+
+//boss hp
+fleethp = 100;

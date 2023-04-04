@@ -6,7 +6,10 @@ y = mouse_y;
 
 if place_meeting(x,y,ofleetboss)
 {
-	sprite_index = stargetlockon;
+	if oPicoboss.protected = 0
+	{
+		sprite_index = stargetlockon;
+	}
 }
 else
 {
