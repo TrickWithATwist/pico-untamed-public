@@ -8,6 +8,11 @@ if hide = 0
 else
 {
 	image_alpha -= (1/120);
+	if image_alpha < 0
+	{
+		ofleetboss.displayon = 1;
+		instance_destroy();
+	}
 }
 if cooldowncurrent < cooldown
 {

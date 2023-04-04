@@ -69,3 +69,7 @@ if movementcounter < 3
 	costumecurrent = 0;
 }
 }
+else
+{
+	oflashp2.gotime = 1;
+}

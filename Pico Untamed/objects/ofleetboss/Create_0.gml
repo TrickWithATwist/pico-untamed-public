@@ -33,3 +33,6 @@ oneframe = 0;
 
 //boss hp
 fleethp = 100;
+
+//variables for hp display
+displayon = 0;
