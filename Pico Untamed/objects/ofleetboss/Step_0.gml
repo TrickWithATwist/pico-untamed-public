@@ -1,3 +1,9 @@
+
+//fleet does this below if his hp is not 0
+
+
+if (fleethp != 0) or (fleethp > 0)
+{
 //everytime the fleet cool down gets to two he moves to a random location on screen
 if cooldowncurrent == 0
 {
@@ -44,7 +50,7 @@ if movementcounter = 3
 	{
 		sprite_index = sfleetbossbase;
 		movementcounter = 0;
-		audio_play_sound(gunshot, 1, 0);
+		audio_play_sound(fleetshotgun, 1, 0);
 	}
 	if costumecurrent < costumecooldown
 	{
@@ -61,4 +67,5 @@ if movementcounter < 3
 	unoframe = 0;
 	oneframe = 0;
 	costumecurrent = 0;
+}
 }

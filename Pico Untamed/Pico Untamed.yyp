@@ -160,6 +160,7 @@
     {"id":{"name":"onum7","path":"objects/onum7/onum7.yy",},},
     {"id":{"name":"sfleetjump","path":"sprites/sfleetjump/sfleetjump.yy",},},
     {"id":{"name":"onum1","path":"objects/onum1/onum1.yy",},},
+    {"id":{"name":"fleetshotgun","path":"sounds/fleetshotgun/fleetshotgun.yy",},},
     {"id":{"name":"Tankmanscared","path":"sprites/Tankmanscared/Tankmanscared.yy",},},
     {"id":{"name":"f1r6p1","path":"rooms/f1r6p1/f1r6p1.yy",},},
     {"id":{"name":"sf1r11","path":"sprites/sf1r11/sf1r11.yy",},},
