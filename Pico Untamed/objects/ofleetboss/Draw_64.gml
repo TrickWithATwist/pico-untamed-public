@@ -8,7 +8,7 @@ if displayon = 1
 	draw_set_color(c_white);
 
 	//drawtext
-	draw_text(910,80, "Fleet\n" + string(fleethp));
+	draw_text(910,80, "Fleet\n   " + string(fleethp));
 	
 	
 	
