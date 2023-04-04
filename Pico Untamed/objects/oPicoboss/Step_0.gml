@@ -19,9 +19,24 @@ else
 if left = 1
 {
 	x -= 10;
+	sprite_index = picobossmove;
+}
+else
+{
+	if right != 1
+	{
+		sprite_index = picobossidle;
+	}
 }
 if right = 1
 {
-	x += 10 ; 
+	x += 10;
+	sprite_index = picobossmove;
 }
-//will add sprite index changes and such soon
+else
+{
+	if left != 1
+	{
+		sprite_index = picobossidle;
+	}
+}

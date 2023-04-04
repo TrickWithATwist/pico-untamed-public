@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPicoboss",
+  "name": "otargetcursor",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "picobossidle",
-    "path": "sprites/picobossidle/picobossidle.yy",
+    "name": "starget",
+    "path": "sprites/starget/starget.yy",
   },
   "spriteMaskId": null,
   "visible": true,
