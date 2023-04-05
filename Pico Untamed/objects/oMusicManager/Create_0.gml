@@ -11,3 +11,6 @@ audio_group_load(audiogroup_music);
 
 musState = music.none;
 lastMusState = -1;
+
+introCooldown = 60*5;
+introCooldownCurrent = 0;
