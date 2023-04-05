@@ -36,6 +36,11 @@ if movementcounter = 3
 			oneframe = 1;
 			
 		}
+		if oPicoboss.protected = 0
+		{
+			oHPbar.HP -= 1;
+			oneframe = 1;
+		}
 	}
 	
 	

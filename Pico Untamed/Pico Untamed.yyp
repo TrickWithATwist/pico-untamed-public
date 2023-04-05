@@ -121,6 +121,7 @@
     {"id":{"name":"ofleetboss","path":"objects/ofleetboss/ofleetboss.yy",},},
     {"id":{"name":"f1r4","path":"rooms/f1r4/f1r4.yy",},},
     {"id":{"name":"ocell","path":"objects/ocell/ocell.yy",},},
+    {"id":{"name":"gameover","path":"rooms/gameover/gameover.yy",},},
     {"id":{"name":"f1r11","path":"rooms/f1r11/f1r11.yy",},},
     {"id":{"name":"onum8","path":"objects/onum8/onum8.yy",},},
     {"id":{"name":"sf1r6","path":"sprites/sf1r6/sf1r6.yy",},},
@@ -242,6 +243,7 @@
     {"roomId":{"name":"f1r6p1","path":"rooms/f1r6p1/f1r6p1.yy",},},
     {"roomId":{"name":"f1r6p2","path":"rooms/f1r6p2/f1r6p2.yy",},},
     {"roomId":{"name":"f1r6p3","path":"rooms/f1r6p3/f1r6p3.yy",},},
+    {"roomId":{"name":"gameover","path":"rooms/gameover/gameover.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
