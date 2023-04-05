@@ -1,9 +1,6 @@
 {
   "resourceType": "GMExtensionConfigSet",
   "configurables": null,
-  "extensionId": {
-    "name": "NG_studio2_API",
-    "path": "extensions/NG_studio2_API/NG_studio2_API.yy"
-  },
+  "extensionId": null,
   "resourceVersion": "1.0"
 }
