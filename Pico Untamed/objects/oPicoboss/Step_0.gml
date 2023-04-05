@@ -3,7 +3,7 @@
 var move = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * 10;
 
 //makes sure x is not out of the room
-x = clamp(x, 0, room_width);
+x = clamp(x, 100, room_width - 100);
 
 //player movement
 if (move != 0)
