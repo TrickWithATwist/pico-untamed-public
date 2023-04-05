@@ -1,5 +1,5 @@
-curr_width = browser_width;
-curr_height = browser_height;
+curr_width = 0;
+curr_height = 0;
 
 ng_connect("putnewgroundsappidhere","putnewgroundsencryptionkeyhere");
 
