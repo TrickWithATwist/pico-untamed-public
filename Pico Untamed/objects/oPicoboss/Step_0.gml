@@ -1,44 +1,19 @@
 //some stuff is temp and will be changed l8er
 //keyboard check to go right and left
-left = keyboard_check(ord("A"));
-right = keyboard_check(ord("D"));
+var move = (keyboard_check(ord("D")) - keyboard_check(ord("A"))) * 10;
 
 //makes sure x is not out of the room
-if x < -1
-{
-	x += 10;
-}
-else
-{
-	if x > 1820
-	{
-		x -= 10;
-	}
-}
+x = clamp(x, 0, room_width);
 
-if left = 1
+//player movement
+if (move != 0)
 {
-	x -= 10;
+	x += move;
 	sprite_index = picobossmove;
 }
 else
 {
-	if right != 1
-	{
-		sprite_index = picobossidle;
-	}
-}
-if right = 1
-{
-	x += 10;
-	sprite_index = picobossmove;
-}
-else
-{
-	if left != 1
-	{
-		sprite_index = picobossidle;
-	}
+	sprite_index = picobossidle;
 }
 
 

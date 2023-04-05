@@ -138,7 +138,7 @@
     {"name":"onum7","order":6,"path":"objects/onum7/onum7.yy",},
     {"name":"sfleetjump","order":1,"path":"sprites/sfleetjump/sfleetjump.yy",},
     {"name":"fleetshotgun","order":4,"path":"sounds/fleetshotgun/fleetshotgun.yy",},
-    {"name":"oinitClick","order":9,"path":"objects/oinitClick/oinitClick.yy",},
+    {"name":"oInit","order":9,"path":"objects/oInit/oInit.yy",},
     {"name":"sf1r11","order":5,"path":"sprites/sf1r11/sf1r11.yy",},
     {"name":"onum6","order":5,"path":"objects/onum6/onum6.yy",},
     {"name":"sinvisiblebox","order":6,"path":"sprites/sinvisiblebox/sinvisiblebox.yy",},

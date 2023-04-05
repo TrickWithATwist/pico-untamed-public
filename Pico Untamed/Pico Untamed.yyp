@@ -168,7 +168,7 @@
     {"id":{"name":"onum1","path":"objects/onum1/onum1.yy",},},
     {"id":{"name":"fleetshotgun","path":"sounds/fleetshotgun/fleetshotgun.yy",},},
     {"id":{"name":"Tankmanscared","path":"sprites/Tankmanscared/Tankmanscared.yy",},},
-    {"id":{"name":"oinitClick","path":"objects/oinitClick/oinitClick.yy",},},
+    {"id":{"name":"oInit","path":"objects/oInit/oInit.yy",},},
     {"id":{"name":"f1r6p1","path":"rooms/f1r6p1/f1r6p1.yy",},},
     {"id":{"name":"sf1r11","path":"sprites/sf1r11/sf1r11.yy",},},
     {"id":{"name":"sfleetbase","path":"sprites/sfleetbase/sfleetbase.yy",},},
