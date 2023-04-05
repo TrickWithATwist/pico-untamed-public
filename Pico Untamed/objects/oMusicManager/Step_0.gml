@@ -18,7 +18,7 @@ if (audio_group_is_loaded(audiogroup_music))
 			break;
 			
 			case music.room6:
-				audio_play_sound(musRoom6, 0, false);
+				audio_play_sound(musRoom6, 0, true);
 			break;
 			
 			//default:

@@ -33,6 +33,3 @@ uziunlock = 1;
 //TEMP FOR DEV
 
 idcardunlock = 0;
-
-
-instance_create_layer(0, 0, layer, oCamera );
