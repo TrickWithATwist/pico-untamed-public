@@ -1,4 +1,6 @@
 
+layer_set_visible("uzi", false);
+
 //fleet does this below if his hp is not 0
 
 

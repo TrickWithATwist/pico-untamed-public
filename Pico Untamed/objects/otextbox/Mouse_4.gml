@@ -186,6 +186,16 @@ if (room = f1r6p1) and (dialogue = 21)
 	//ofleetp1.cutscenept = 1;
 	opicocutscene1.picocutscenept = 1;
 }
+if (room = f1r6p2) and (dialogue = 22)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	instance_create_layer(0,0,"fadein",ocharacterbox);
+	ocharacterbox.ctext = 4;
+	
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {

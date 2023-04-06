@@ -26,6 +26,10 @@ else
 			draw_text(145,725,"Yeah, and why don't you tell me who you're working for?");
 			draw_text(145,900,"And why don't you suck my nuts?");
 		break;
+		case 4:
+			draw_text(145,725,"I have other plans for you.");
+			draw_text(145,900,"(Kill)");
+		break;
 		
 		
 		
