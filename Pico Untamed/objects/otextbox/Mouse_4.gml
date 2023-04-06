@@ -196,6 +196,36 @@ if (room = f1r6p3) and (dialogue = 22)
 	ocharacterbox.ctext = 4;
 	
 }
+if (room = f1r6p3) and (dialogue = 24)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	instance_create_layer(0,0,"fadein",ocharacterbox);
+	ocharacterbox.ctext = 5;
+	
+}
+if (room = f1r6p3) and (dialogue = 26)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	instance_create_layer(0,0,"fadein",ocharacterbox);
+	ocharacterbox.ctext = 6;
+	
+}
+if (room = f1r6p3) and (dialogue = 29)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	instance_create_layer(0,0,"fadein",ocharacterbox);
+	ocharacterbox.ctext = 7;
+	
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {

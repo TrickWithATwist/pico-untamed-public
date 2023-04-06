@@ -71,6 +71,31 @@ else
 		case 22:
 			draw_text(100,800, "Fleet: What are you waiting for? Pull the trigger.");
 		break;
+		case 23:
+			draw_text(100,800, "Fleet: So you're gonna get answers from me, huh?");
+		break;
+		case 24:
+			draw_text(100,800, "Fleet: Or are you just too soft and scared to handle killing somone?");
+		break;
+		case 25:
+			draw_text(100,800, "Fleet: I know you don't really care for these people...\n          You just want some excitement in your boring little life.");
+		break;
+		case 26:
+			draw_text(100,800, "Fleet: Hard to be the popular kid when everyone you knew is dead ha ha...");
+		break;
+		case 27:
+			draw_text(100,800, "Fleet: You think you're better than me?..");
+		break;
+		case 28:
+			draw_text(100,800, "Fleet: Your life is just as WORTHLESS as the victims you FAILED to save...");
+		break;
+		case 29:
+			draw_text(100,800, "Pico: I ASKED YOU TO SHUT UP.");
+		break;
+		case 30:
+			draw_text(100,800, "Fleet: Too late.");
+		break;
+		
 	}
 
 

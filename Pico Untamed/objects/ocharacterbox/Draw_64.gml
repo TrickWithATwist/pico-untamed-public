@@ -30,8 +30,18 @@ else
 			draw_text(145,725,"I have other plans for you.");
 			draw_text(145,900,"(Kill)");
 		break;
-		
-		
+		case 5:
+			draw_text(145,725,"Who are you working for?!");
+			draw_text(145,900,"(Kill)");
+		break;
+		case 6:
+			draw_text(145,725,"Shut up...");
+			draw_text(145,900,"(Kill)");
+		break;
+		case 7:
+			draw_text(145,725,"You have one more chance to tell me what I need to know.");
+			draw_text(145,900,"(Kill)");
+		break;
 		
 		
 		
