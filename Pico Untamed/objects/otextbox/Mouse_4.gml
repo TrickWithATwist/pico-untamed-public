@@ -186,7 +186,7 @@ if (room = f1r6p1) and (dialogue = 21)
 	//ofleetp1.cutscenept = 1;
 	opicocutscene1.picocutscenept = 1;
 }
-if (room = f1r6p2) and (dialogue = 22)
+if (room = f1r6p3) and (dialogue = 22)
 {
 	text_showing = 0;
 	instance_destroy();
