@@ -2,6 +2,6 @@
 if visible = true
 {
 	instance_destroy(odont);
-	lightshow = 1;
+	olight.lightshow = 1;
 	instance_destroy();
 }
