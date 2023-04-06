@@ -78,7 +78,7 @@ else
 			draw_text(100,800, "Fleet: Or are you just too soft and scared to handle killing somone?");
 		break;
 		case 25:
-			draw_text(100,800, "Fleet: I know you don't really care for these people...\n          You just want some excitement in your boring little life.");
+			draw_text(100,800, "Fleet: I know you don't really care for these people...\n            You just want some excitement in your boring little life.");
 		break;
 		case 26:
 			draw_text(100,800, "Fleet: Hard to be the popular kid when everyone you knew is dead ha ha...");
