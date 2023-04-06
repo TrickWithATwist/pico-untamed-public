@@ -12,6 +12,7 @@
     {"name":"allofthosebuttonsbruh","order":1,"path":"folders/Objects/floor1objects/room4/allofthosebuttonsbruh.yy",},
     {"name":"room6boss","order":19,"path":"folders/Objects/floor1objects/room6boss.yy",},
     {"name":"room6pt1","order":18,"path":"folders/Objects/floor1objects/room6pt1.yy",},
+    {"name":"room6pt2","order":20,"path":"folders/Objects/floor1objects/room6pt2.yy",},
     {"name":"gameoverscreen","order":11,"path":"folders/Objects/gameoverscreen.yy",},
     {"name":"obuttons","order":2,"path":"folders/Objects/obuttons.yy",},
     {"name":"ographics","order":3,"path":"folders/Objects/ographics.yy",},
@@ -41,7 +42,6 @@
     {"name":"Tankman","order":10,"path":"folders/Sprites/Tankman.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"room6pt2","order":20,"path":"folders/Objects/floor1objects/room6pt2.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},

@@ -8,10 +8,10 @@ if fadeshow = 1
 	{
 		if ORoomManager.fleetdefeated = 0
 		{
-			instance_create_layer(0,0, layer ,oHPbar);
-			ORoomManager.myroom = 2;
+			//instance_create_layer(0,0, layer ,oHPbar);
+			ORoomManager.myroom = 1;
 			ORoomManager.mydirection = 1;
-			room_goto(f1r2);
+			room_goto(f1r1);
 		}
 	}
 }
