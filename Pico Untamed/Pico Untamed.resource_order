@@ -173,6 +173,7 @@
     {"name":"obox1","order":5,"path":"objects/obox1/obox1.yy",},
     {"name":"olight","order":3,"path":"objects/olight/olight.yy",},
     {"name":"sbox2","order":1,"path":"sprites/sbox2/sbox2.yy",},
+    {"name":"picofloat","order":10,"path":"sprites/picofloat/picofloat.yy",},
     {"name":"obuttonright","order":1,"path":"objects/obuttonright/obuttonright.yy",},
     {"name":"oidcard","order":9,"path":"objects/oidcard/oidcard.yy",},
     {"name":"opicocutscene1","order":1,"path":"objects/opicocutscene1/opicocutscene1.yy",},

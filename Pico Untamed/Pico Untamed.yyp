@@ -213,6 +213,7 @@
     {"id":{"name":"obox1","path":"objects/obox1/obox1.yy",},},
     {"id":{"name":"olight","path":"objects/olight/olight.yy",},},
     {"id":{"name":"sbox2","path":"sprites/sbox2/sbox2.yy",},},
+    {"id":{"name":"picofloat","path":"sprites/picofloat/picofloat.yy",},},
     {"id":{"name":"obuttonright","path":"objects/obuttonright/obuttonright.yy",},},
     {"id":{"name":"of1r3bg","path":"objects/of1r3bg/of1r3bg.yy",},},
     {"id":{"name":"guardwalk","path":"sprites/guardwalk/guardwalk.yy",},},

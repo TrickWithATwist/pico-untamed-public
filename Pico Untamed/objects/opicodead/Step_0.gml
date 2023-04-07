@@ -9,3 +9,10 @@ if animationdone = 1
 		oneframe = 1;
 	}
 }
+if olight.lightshow = 1
+{
+	animationdone = 2;
+	sprite_index = picofloat;
+	y -= 25/60;
+	
+}
