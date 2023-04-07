@@ -79,4 +79,5 @@ if movementcounter < 3
 else
 {
 	oflashp2.gotime = 1;
+	ORoomManager.fleetdefeated = 1;
 }
