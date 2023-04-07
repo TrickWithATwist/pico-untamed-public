@@ -13,3 +13,6 @@ clicked = 0;
 
 //dumb variable to make button go away 
 donewithstuff = 0; 
+
+//variable for transitioning
+transitiondone = 0;

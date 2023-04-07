@@ -3,7 +3,7 @@ if (clicked = 1) and (oPico.transition = 1)
 {
 	
 	//if and switch statements for determining next room depending on floor and then room
-	if ORoomManager.myfloor == 1
+	if (ORoomManager.myfloor == 1) and (transitiondone = 0)
 	{
 		switch (ORoomManager.myroom)
 		{
@@ -37,13 +37,14 @@ if (clicked = 1) and (oPico.transition = 1)
 			case 6:
 				room_goto(f2r1);
 				ORoomManager.myroom = 1;
-				ORoomManager.mydirection = 0;
-				ORoomManager.myfloor = 2;
+				ORoomManager.mydirection = 1;
+				//ORoomManager.myfloor = 2;
 			break;
 			
 		}
+		transitiondone = 1;
 	}
-	if ORoomManager.myfloor == 2
+	if (ORoomManager.myfloor == 2) and (transitiondone = 0)
 	{
 		switch (ORoomManager.myroom)
 		{
@@ -54,5 +55,6 @@ if (clicked = 1) and (oPico.transition = 1)
 				ORoomManager.myfloor = 1;
 			break;
 		}
+		transitiondone = 1;
 	}
 }
