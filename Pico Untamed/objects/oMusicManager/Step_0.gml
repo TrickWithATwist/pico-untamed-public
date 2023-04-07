@@ -2,7 +2,13 @@ if (audio_group_is_loaded(audiogroup_music))
 {
 	stopCooldown = max(-1, stopCooldown - 1);
 	
-	if (stopCooldown == 0) musState = music.none;
+	if (stopCooldown == 0)
+	{
+		audio_sound_gain(musIntro, 1, 0);
+		audio_sound_gain(musLoop, 1, 0);
+		audio_sound_gain(musRoom6, 1, 0);
+		musState = music.none;
+	}
 	
 	if (lastMusState != musState)
 	{
@@ -14,15 +20,15 @@ if (audio_group_is_loaded(audiogroup_music))
 		switch (musState)
 		{
 			case music.floor1intro:
-				audio_play_sound(musIntro, 0, false);
+				audio_play_sound(musIntro, 0, false, 1);
 			break;
 			
 			case music.floor1loop:
-				audio_play_sound(musLoop, 0, true);
+				audio_play_sound(musLoop, 0, true, 1);
 			break;
 			
 			case music.room6:
-				audio_play_sound(musRoom6, 0, true);
+				audio_play_sound(musRoom6, 0, true, 1);
 			break;
 			
 			//default:
