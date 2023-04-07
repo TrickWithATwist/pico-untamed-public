@@ -42,6 +42,8 @@
     {"name":"Tankman","order":10,"path":"folders/Sprites/Tankman.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"floor2","order":5,"path":"folders/Rooms/floor2.yy",},
+    {"name":"f2","order":13,"path":"folders/Sprites/f2.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},

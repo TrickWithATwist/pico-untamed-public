@@ -34,6 +34,25 @@ if (clicked = 1) and (oPico.transition = 1)
 					ORoomManager.mydirection = 0;
 				}
 			break;
+			case 6:
+				room_goto(f2r1);
+				ORoomManager.myroom = 1;
+				ORoomManager.mydirection = 0;
+				ORoomManager.myfloor = 2;
+			break;
+			
+		}
+	}
+	if ORoomManager.myfloor == 2
+	{
+		switch (ORoomManager.myroom)
+		{
+			case 1:
+				room_goto(f1r6real);
+				ORoomManager.mydirection = 0;
+				ORoomManager.myroom = 6;
+				ORoomManager.myfloor = 1;
+			break;
 		}
 	}
 }

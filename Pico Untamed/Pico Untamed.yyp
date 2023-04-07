@@ -54,6 +54,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tankman","folderPath":"folders/Sprites/Tankman.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"floor2","folderPath":"folders/Rooms/floor2.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"f2","folderPath":"folders/Sprites/f2.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"index.html","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -106,6 +108,7 @@
     {"id":{"name":"ofleetfake3","path":"objects/ofleetfake3/ofleetfake3.yy",},},
     {"id":{"name":"tankmaninteract","path":"objects/tankmaninteract/tankmaninteract.yy",},},
     {"id":{"name":"obuttonup","path":"objects/obuttonup/obuttonup.yy",},},
+    {"id":{"name":"f2r1","path":"rooms/f2r1/f2r1.yy",},},
     {"id":{"name":"musRoom6","path":"sounds/musRoom6/musRoom6.yy",},},
     {"id":{"name":"oManager","path":"objects/oManager/oManager.yy",},},
     {"id":{"name":"oHidebutton2","path":"objects/oHidebutton2/oHidebutton2.yy",},},
@@ -120,6 +123,7 @@
     {"id":{"name":"bfidle","path":"sprites/bfidle/bfidle.yy",},},
     {"id":{"name":"onum4","path":"objects/onum4/onum4.yy",},},
     {"id":{"name":"picobossmove","path":"sprites/picobossmove/picobossmove.yy",},},
+    {"id":{"name":"sf2r1","path":"sprites/sf2r1/sf2r1.yy",},},
     {"id":{"name":"ORoomManager","path":"objects/ORoomManager/ORoomManager.yy",},},
     {"id":{"name":"swindow","path":"sprites/swindow/swindow.yy",},},
     {"id":{"name":"opasswrdfade","path":"objects/opasswrdfade/opasswrdfade.yy",},},
@@ -279,6 +283,7 @@
     {"roomId":{"name":"f1r6p3","path":"rooms/f1r6p3/f1r6p3.yy",},},
     {"roomId":{"name":"gameover","path":"rooms/gameover/gameover.yy",},},
     {"roomId":{"name":"f1r6real","path":"rooms/f1r6real/f1r6real.yy",},},
+    {"roomId":{"name":"f2r1","path":"rooms/f2r1/f2r1.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
