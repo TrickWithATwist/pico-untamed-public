@@ -14,17 +14,14 @@ if (audio_group_is_loaded(audiogroup_music))
 		switch (musState)
 		{
 			case music.floor1intro:
-				audio_sound_gain(musIntro, 1, 0);
 				audio_play_sound(musIntro, 0, false);
 			break;
 			
 			case music.floor1loop:
-				audio_sound_gain(musLoop, 1, 0);
 				audio_play_sound(musLoop, 0, true);
 			break;
 			
 			case music.room6:
-				audio_sound_gain(musRoom6, 1, 0);
 				audio_play_sound(musRoom6, 0, true);
 			break;
 			
