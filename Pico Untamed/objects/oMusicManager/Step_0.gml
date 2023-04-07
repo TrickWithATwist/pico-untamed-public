@@ -14,7 +14,6 @@ if (audio_group_is_loaded(audiogroup_music))
 		switch (musState)
 		{
 			case music.floor1intro:
-				introCooldownCurrent = introCooldown;
 				audio_play_sound(musIntro, 0, false);
 			break;
 			
@@ -33,10 +32,8 @@ if (audio_group_is_loaded(audiogroup_music))
 		lastMusState = musState;
 	}
 	
-	introCooldownCurrent = max(0, introCooldownCurrent - 1);
-	
 	//handle floor1 intro to loop switch
-	if (musState == music.floor1intro && introCooldownCurrent == 0)
+	if (musState == music.floor1intro)
 	{
 		if (!audio_is_playing(musIntro)) musState = music.floor1loop;
 	}
