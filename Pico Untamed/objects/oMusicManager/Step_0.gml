@@ -1,5 +1,9 @@
 if (audio_group_is_loaded(audiogroup_music))
 {
+	stopCooldown = max(0, stopCooldown - 1);
+	
+	if (stopCooldown == 0) musState = music.none;
+	
 	if (lastMusState != musState)
 	{
 		//i have to stop sounds like this because the gamemaker html export sucks so i cant use audio_group_stop_all - rahim
