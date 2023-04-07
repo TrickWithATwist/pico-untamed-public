@@ -68,7 +68,11 @@ dialogueArray =
 	
 	"Pico: I ASKED YOU TO SHUT UP.", //29
 	
-	"Fleet: Too late." //30
+	"Fleet: Too late.", //30
+	
+	"Pico: ...", //31
+	
+	"Pico: Another scum removed from this planet." //32
 ];
 
 //stupid thing for room 4 and 5

@@ -226,6 +226,30 @@ if (room = f1r6p3) and (dialogue = 29)
 	ocharacterbox.ctext = 7;
 	
 }
+if (room = f1r6p3) and (dialogue = 30)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	//instance_create_layer(0,0,"fadein",ocharacterbox);
+	//ocharacterbox.ctext = 7;
+	//kill fleet
+	ofleetend.fleetded = 1;
+	
+}
+if (room = f1r6p3) and (dialogue = 32)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	//instance_create_layer(0,0,"fadein",ocharacterbox);
+	//ocharacterbox.ctext = 7;
+	//kill fleet
+	ofleetend.fleetded = 2;
+	
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {
