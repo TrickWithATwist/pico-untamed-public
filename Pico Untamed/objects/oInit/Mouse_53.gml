@@ -1,1 +1,1 @@
-room_goto_next();
+clicked = true;
