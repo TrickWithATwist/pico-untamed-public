@@ -15,4 +15,4 @@ lastMusState = -1;
 introCooldown = 60*30;
 introCooldownCurrent = 0;
 
-stopCooldown = 0;
+stopCooldown = -1;

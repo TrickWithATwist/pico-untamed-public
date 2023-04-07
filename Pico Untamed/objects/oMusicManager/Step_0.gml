@@ -1,6 +1,6 @@
 if (audio_group_is_loaded(audiogroup_music))
 {
-	stopCooldown = max(0, stopCooldown - 1);
+	stopCooldown = max(-1, stopCooldown - 1);
 	
 	if (stopCooldown == 0) musState = music.none;
 	
