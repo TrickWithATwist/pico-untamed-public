@@ -7,8 +7,6 @@ enum music
 	size
 }
 
-audio_group_load(audiogroup_music);
-
 musState = music.none;
 lastMusState = -1;
 

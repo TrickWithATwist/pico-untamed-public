@@ -1,5 +1,1 @@
-if (clicked)
-{
-	cooldown = max(0, cooldown - 1);
-	if (cooldown == 0) room_goto_next();
-}
+if (clicked && audio_group_is_loaded(audiogroup_music)) room_goto_next();
