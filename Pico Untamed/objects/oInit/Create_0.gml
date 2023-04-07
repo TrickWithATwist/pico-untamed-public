@@ -1,2 +1,2 @@
 clicked = false;
-cooldown = 60*10;
+cooldown = 60*5;
