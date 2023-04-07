@@ -250,6 +250,13 @@ if (room = f1r6p3) and (dialogue = 32)
 	ofleetend.fleetded = 2;
 	
 }
+if (room = f1r6p3) and (dialogue = 31)
+{
+	text_showing = 0;
+	instance_destroy();
+	Ofadeoutspecial.roomfade = 1;
+	
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {
