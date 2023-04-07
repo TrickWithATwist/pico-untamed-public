@@ -1,3 +1,2 @@
-audio_group_load(audiogroup_music);
-
 clicked = false;
+cooldown = 60*5;
