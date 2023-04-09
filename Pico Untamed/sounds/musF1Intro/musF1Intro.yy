@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "musIntro",
+  "name": "musF1Intro",
   "audioGroupId": {
     "name": "audiogroup_music",
     "path": "audiogroups/audiogroup_music",
@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "musIntro.mp3",
+  "soundFile": "musF1Intro.mp3",
   "type": 1,
   "volume": 1.0,
 }

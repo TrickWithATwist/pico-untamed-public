@@ -3,7 +3,7 @@ enum music
 	none,
 	floor1intro,
 	floor1loop,
-	room6,
+	fleetboss,
 	size
 }
 

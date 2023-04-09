@@ -4,31 +4,31 @@ if (audio_group_is_loaded(audiogroup_music))
 	
 	if (stopCooldown == 0)
 	{
-		audio_sound_gain(musIntro, 1, 0);
-		audio_sound_gain(musLoop, 1, 0);
-		audio_sound_gain(musRoom6, 1, 0);
+		audio_sound_gain(musF1Intro, 1, 0);
+		audio_sound_gain(musF1Loop, 1, 0);
+		audio_sound_gain(musFleetBoss, 1, 0);
 		musState = music.none;
 	}
 	
 	if (lastMusState != musState)
 	{
 		//i have to stop sounds like this because the gamemaker html export sucks so i cant use audio_group_stop_all - rahim
-		audio_stop_sound(musIntro);
-		audio_stop_sound(musLoop);
-		audio_stop_sound(musRoom6);
+		audio_stop_sound(musF1Intro);
+		audio_stop_sound(musF1Loop);
+		audio_stop_sound(musFleetBoss);
 		
 		switch (musState)
 		{
 			case music.floor1intro:
-				audio_play_sound(musIntro, 0, false, 1);
+				audio_play_sound(musF1Intro, 0, false, 1);
 			break;
 			
 			case music.floor1loop:
-				audio_play_sound(musLoop, 0, true, 1);
+				audio_play_sound(musF1Loop, 0, true, 1);
 			break;
 			
-			case music.room6:
-				audio_play_sound(musRoom6, 0, true, 1);
+			case music.fleetboss:
+				audio_play_sound(musFleetBoss, 0, true, 1);
 			break;
 			
 			//default:
