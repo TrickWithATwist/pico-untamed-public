@@ -94,6 +94,7 @@
     {"name":"scell2","order":4,"path":"sprites/scell2/scell2.yy",},
     {"name":"picorun","order":1,"path":"sprites/picorun/picorun.yy",},
     {"name":"f1r6p3","order":2,"path":"rooms/f1r6p3/f1r6p3.yy",},
+    {"name":"musF2","order":3,"path":"sounds/musF2/musF2.yy",},
     {"name":"onum4","order":3,"path":"objects/onum4/onum4.yy",},
     {"name":"picobossmove","order":7,"path":"sprites/picobossmove/picobossmove.yy",},
     {"name":"ORoomManager","order":1,"path":"objects/ORoomManager/ORoomManager.yy",},

@@ -120,6 +120,7 @@
     {"id":{"name":"scell2","path":"sprites/scell2/scell2.yy",},},
     {"id":{"name":"picorun","path":"sprites/picorun/picorun.yy",},},
     {"id":{"name":"f1r6p3","path":"rooms/f1r6p3/f1r6p3.yy",},},
+    {"id":{"name":"musF2","path":"sounds/musF2/musF2.yy",},},
     {"id":{"name":"bfidle","path":"sprites/bfidle/bfidle.yy",},},
     {"id":{"name":"onum4","path":"objects/onum4/onum4.yy",},},
     {"id":{"name":"picobossmove","path":"sprites/picobossmove/picobossmove.yy",},},

@@ -7,6 +7,7 @@ if (audio_group_is_loaded(audiogroup_music))
 		audio_sound_gain(musF1Intro, 1, 0);
 		audio_sound_gain(musF1Loop, 1, 0);
 		audio_sound_gain(musFleetBoss, 1, 0);
+		audio_sound_gain(musF2, 1, 0);
 		musState = music.none;
 	}
 	
@@ -16,6 +17,7 @@ if (audio_group_is_loaded(audiogroup_music))
 		audio_stop_sound(musF1Intro);
 		audio_stop_sound(musF1Loop);
 		audio_stop_sound(musFleetBoss);
+		audio_stop_sound(musF2);
 		
 		switch (musState)
 		{
@@ -31,6 +33,10 @@ if (audio_group_is_loaded(audiogroup_music))
 				audio_play_sound(musFleetBoss, 0, true, 1);
 			break;
 			
+			case music.floor2:
+				audio_play_sound(musF2, 0, true, 1);
+			break;
+			
 			//default:
 				
 		}
@@ -41,7 +47,7 @@ if (audio_group_is_loaded(audiogroup_music))
 	//handle floor1 intro to loop switch
 	if (musState == music.floor1intro)
 	{
-		if (!audio_is_playing(musIntro)) musState = music.floor1loop;
+		if (!audio_is_playing(musF1Intro)) musState = music.floor1loop;
 	}
 }
 else audio_group_load(audiogroup_music);
