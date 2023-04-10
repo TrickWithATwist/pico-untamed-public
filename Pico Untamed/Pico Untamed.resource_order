@@ -46,6 +46,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"floor2objects","order":12,"path":"folders/Objects/floor2objects.yy",},
+    {"name":"room5objects","order":1,"path":"folders/Objects/floor2objects/room5objects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},
@@ -198,6 +199,7 @@
     {"name":"of1r4bg","order":10,"path":"objects/of1r4bg/of1r4bg.yy",},
     {"name":"inventory","order":1,"path":"sprites/inventory/inventory.yy",},
     {"name":"musF1Loop","order":1,"path":"sounds/musF1Loop/musF1Loop.yy",},
+    {"name":"f2r5","order":4,"path":"rooms/f2r5/f2r5.yy",},
     {"name":"sflashcircle","order":12,"path":"sprites/sflashcircle/sflashcircle.yy",},
     {"name":"textfont2","order":1,"path":"fonts/textfont2/textfont2.yy",},
     {"name":"picoshoot","order":4,"path":"sprites/picoshoot/picoshoot.yy",},

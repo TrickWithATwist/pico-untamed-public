@@ -58,6 +58,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"floor2objects","folderPath":"folders/Objects/floor2objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room5objects","folderPath":"folders/Objects/floor2objects/room5objects.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"index.html","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -246,6 +247,7 @@
     {"id":{"name":"inventory","path":"sprites/inventory/inventory.yy",},},
     {"id":{"name":"musF1Loop","path":"sounds/musF1Loop/musF1Loop.yy",},},
     {"id":{"name":"of2rock1","path":"objects/of2rock1/of2rock1.yy",},},
+    {"id":{"name":"f2r5","path":"rooms/f2r5/f2r5.yy",},},
     {"id":{"name":"sflashcircle","path":"sprites/sflashcircle/sflashcircle.yy",},},
     {"id":{"name":"textfont2","path":"fonts/textfont2/textfont2.yy",},},
     {"id":{"name":"picoshoot","path":"sprites/picoshoot/picoshoot.yy",},},
@@ -303,6 +305,7 @@
     {"roomId":{"name":"f2r2","path":"rooms/f2r2/f2r2.yy",},},
     {"roomId":{"name":"f2r3","path":"rooms/f2r3/f2r3.yy",},},
     {"roomId":{"name":"f2r4","path":"rooms/f2r4/f2r4.yy",},},
+    {"roomId":{"name":"f2r5","path":"rooms/f2r5/f2r5.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
