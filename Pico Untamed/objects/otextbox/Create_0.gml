@@ -75,6 +75,8 @@ dialogueArray =
 	"Pico: Another scum removed from this planet.", //32
 	
 	"Pico: Ew what the hell?! Is that what I think it is?", //33
+	
+	"Pico: First it was the arm gun and now this. Just what are these guys making?", //34
 ];
 
 //stupid thing for room 4 and 5
