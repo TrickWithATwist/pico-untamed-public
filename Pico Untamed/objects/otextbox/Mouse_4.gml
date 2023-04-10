@@ -257,6 +257,21 @@ if (room = f1r6p3) and (dialogue = 31)
 	Ofadeoutspecial.roomfade = 1;
 	
 }
+if (room = f2r5) and (dialogue = 33)
+{
+	text_showing = 0;
+	instance_destroy();
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi" , true);
+	obuttonright.visible = true;
+	obuttonleft.visible = true;
+	obuttonup.visible = true;
+	//making objects clickable again
+	of2blueprints.allow = 1;
+	ovent.allow = 1;
+	ocock.allow = 1;
+	ocock.clicked = 0;
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {

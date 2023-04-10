@@ -72,7 +72,9 @@ dialogueArray =
 	
 	"Pico: ...", //31
 	
-	"Pico: Another scum removed from this planet." //32
+	"Pico: Another scum removed from this planet.", //32
+	
+	"Pico: Ew what the hell?! Is that what I think it is?", //33
 ];
 
 //stupid thing for room 4 and 5
