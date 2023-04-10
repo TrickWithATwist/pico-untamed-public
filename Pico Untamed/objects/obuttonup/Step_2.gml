@@ -50,14 +50,19 @@ if (clicked = 1) and (oPico.transition = 1)
 		{
 			case 1:
 				room_goto(f1r6real);
-				ORoomManager.mydirection = 0;
+				ORoomManager.mydirection = 1;
 				ORoomManager.myroom = 6;
 				ORoomManager.myfloor = 1;
 			break;
 			case 4:
 				room_goto(f2r5);
-				ORoomManager.mydirection = 0;
-				ORoomManager.myroom = 6;
+				ORoomManager.mydirection = 1;
+				ORoomManager.myroom = 5;
+			break;
+			case 5:
+				room_goto(f2r4);
+				ORoomManager.mydirection = 1;
+				ORoomManager.myroom = 4;
 			break;
 		}
 		transitiondone = 1;
