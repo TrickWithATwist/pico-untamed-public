@@ -42,3 +42,6 @@ room11rock = 0;
 
 //did pico get shot
 picohurt = 0;
+
+//do something for one frame
+oneframe = 0;

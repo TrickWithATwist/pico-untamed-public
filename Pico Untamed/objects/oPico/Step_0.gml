@@ -275,10 +275,10 @@ if picomove = 6
 		alreadyshot = 0;
 		shooting = 0;
 		
-		orock.playerchoose = 0;
-		orock2.playerchoose = 0;
-		if (room = f1r11) oHidebutton2.visible = false;
-		if (room = f1r11) oHidebutton.visible = false;
+		of2rock1.playerchoose = 0;
+		of2rock2.playerchoose = 0;
+		if (room = f1r11) of2Hidebutton2.visible = false;
+		if (room = f1r11) of2Hidebutton.visible = false;
 		if ((rockdestination - 50) > x  = false) and ((rockdestination + 50) < x = true)
 	{
 		sprite_index = picorun;
@@ -314,7 +314,11 @@ if picomove = 6
 			oShadow.visible = false;
 			oHidebutton.visible = false;
 			picohiding = 1;
-			guardcounter = 4;
+			if oneframe = 0
+			{
+				oguardshield.gscount = 1;
+				oneframe = 1;
+			}
 			picomove = 0;
 			
 		}
