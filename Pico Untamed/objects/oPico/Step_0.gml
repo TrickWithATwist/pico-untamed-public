@@ -312,7 +312,8 @@ if picomove = 6
 			//temp there will be animation
 			visible = false;
 			oShadow.visible = false;
-			oHidebutton.visible = false;
+			of2Hidebutton.visible = false;
+			of2Hidebutton2.visible = false;
 			picohiding = 1;
 			if oneframe = 0
 			{
