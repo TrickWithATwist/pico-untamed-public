@@ -4,5 +4,5 @@ if ORoomManager.grenadepickup = 0
 }
 else
 {
-	image_alpha += -(1/30);
+	image_alpha = 0;
 }
