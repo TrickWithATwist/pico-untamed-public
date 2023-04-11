@@ -10,6 +10,7 @@ if gscount = 0
 		layer_set_visible("inventory", false);
 		layer_set_visible("uzi", false);
 		otextbox.dialogue = 35;
+		of2 = 1;
 	}
 }
 if (gscount = 1) or (oPico.picohiding = 1)
