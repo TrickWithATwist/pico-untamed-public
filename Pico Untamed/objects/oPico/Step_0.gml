@@ -306,7 +306,7 @@ if picomove = 6
 		cooldowncurrent += 4/60;
 		
 		//when one second passed 
-		if (cooldowncurrent = cooldown)
+		if (cooldowncurrent >= cooldown)
 		{
 			//hide
 			//temp there will be animation
