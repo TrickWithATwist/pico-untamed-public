@@ -45,6 +45,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"BF","folderPath":"folders/Sprites/BF.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"buttons","folderPath":"folders/Sprites/buttons.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"effects","folderPath":"folders/Sprites/effects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"f1","folderPath":"folders/Sprites/f1.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"f1objectsprites","folderPath":"folders/Sprites/f1/f1objectsprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"fleetboss","folderPath":"folders/Sprites/f1/f1objectsprites/fleetboss.yy",},
@@ -59,7 +60,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tankman","folderPath":"folders/Sprites/Tankman.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"effects","folderPath":"folders/Sprites/effects.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"index.html","CopyToMask":3035426170322551022,"filePath":"datafiles",},

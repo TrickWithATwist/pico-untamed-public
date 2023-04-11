@@ -1,6 +1,6 @@
 
 //only work if pico is standing still
-if oPico.picomove = 0
+if (oPico.picomove = 0) 
 {
 	//make pico shoot
 	//oPico.visible = true;

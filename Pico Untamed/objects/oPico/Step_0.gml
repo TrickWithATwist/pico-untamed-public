@@ -268,3 +268,56 @@ if picomove = 5
 	}
 	
 }
+//movement behavior for hiding in floor 2 room 3
+if picomove = 6
+{
+		//if pico shot a gun he goes back to normal
+		alreadyshot = 0;
+		shooting = 0;
+		
+		orock.playerchoose = 0;
+		orock2.playerchoose = 0;
+		if (room = f1r11) oHidebutton2.visible = false;
+		if (room = f1r11) oHidebutton.visible = false;
+		if ((rockdestination - 50) > x  = false) and ((rockdestination + 50) < x = true)
+	{
+		sprite_index = picorun;
+		x += hsp * sign(image_xscale);
+		//makes horizontal speed faster until max is reached
+		if hsp < maxhsp
+		{
+			hsp += 5/6;
+		}
+	
+		//running speed changes based on hsp value
+		if hsp < 10
+		{
+			image_speed = .5;
+		}
+		else
+		{
+			image_speed = 1.7;
+		}
+	}
+	else
+	{
+		sprite_index = picoback;
+		image_speed = 0;
+		cooldowncurrent += 4/60;
+		
+		//when one second passed 
+		if (cooldowncurrent = cooldown)
+		{
+			//hide
+			//temp there will be animation
+			visible = false;
+			oShadow.visible = false;
+			oHidebutton.visible = false;
+			picohiding = 1;
+			guardcounter = 4;
+			picomove = 0;
+			
+		}
+	}
+	
+}

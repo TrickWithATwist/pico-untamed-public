@@ -287,6 +287,13 @@ if (room = f2r5) and (dialogue = 34)
 	ocock.allow = 1;
 	of2blueprints.clicked = 0;
 }
+if (room = f2r3) and (dialogue = 35)
+{
+	text_showing = 0;
+	instance_destroy();
+	of2rock1.playerchoose = 1;
+	
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {

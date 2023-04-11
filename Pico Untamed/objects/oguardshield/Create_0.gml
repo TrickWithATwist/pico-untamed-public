@@ -19,3 +19,6 @@ gscount = 0;
 //initial/max speed and acceleration for guard
 hsp = 1;
 maxhsp = 10;
+
+//oneframe
+oneframe = 0;
