@@ -277,8 +277,8 @@ if picomove = 6
 		
 		of2rock1.playerchoose = 0;
 		of2rock2.playerchoose = 0;
-		if (room = f1r11) of2Hidebutton2.visible = false;
-		if (room = f1r11) of2Hidebutton.visible = false;
+		if (room = f2r3) of2Hidebutton2.visible = false;
+		if (room = f2r3) of2Hidebutton.visible = false;
 		if ((rockdestination - 50) > x  = false) and ((rockdestination + 50) < x = true)
 	{
 		sprite_index = picorun;
