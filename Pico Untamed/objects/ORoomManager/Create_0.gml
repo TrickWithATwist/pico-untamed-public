@@ -18,7 +18,7 @@ fleetdefeated = 0;
 
 //variables specific to floor 2
 grenadepickup = 0;
-
+guardshield = 0;
 
 
 
