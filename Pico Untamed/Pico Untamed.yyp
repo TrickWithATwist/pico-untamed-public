@@ -239,6 +239,7 @@
     {"id":{"name":"Ofadeoutspecial","path":"objects/Ofadeoutspecial/Ofadeoutspecial.yy",},},
     {"id":{"name":"sf1r4","path":"sprites/sf1r4/sf1r4.yy",},},
     {"id":{"name":"picodeath","path":"sprites/picodeath/picodeath.yy",},},
+    {"id":{"name":"oguardshieldshadow","path":"objects/oguardshieldshadow/oguardshieldshadow.yy",},},
     {"id":{"name":"Ofadein","path":"objects/Ofadein/Ofadein.yy",},},
     {"id":{"name":"oPico","path":"objects/oPico/oPico.yy",},},
     {"id":{"name":"sf1r4locked","path":"sprites/sf1r4locked/sf1r4locked.yy",},},

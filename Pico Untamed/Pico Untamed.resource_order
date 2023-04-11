@@ -196,6 +196,7 @@
     {"name":"Ofadeoutspecial","order":2,"path":"objects/Ofadeoutspecial/Ofadeoutspecial.yy",},
     {"name":"sf1r4","order":7,"path":"sprites/sf1r4/sf1r4.yy",},
     {"name":"picodeath","order":9,"path":"sprites/picodeath/picodeath.yy",},
+    {"name":"oguardshieldshadow","order":5,"path":"objects/oguardshieldshadow/oguardshieldshadow.yy",},
     {"name":"sf1r4locked","order":8,"path":"sprites/sf1r4locked/sf1r4locked.yy",},
     {"name":"obox1","order":5,"path":"objects/obox1/obox1.yy",},
     {"name":"olight","order":3,"path":"objects/olight/olight.yy",},
