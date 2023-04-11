@@ -293,6 +293,8 @@ if (room = f2r3) and (dialogue = 35)
 	instance_destroy();
 	of2rock1.playerchoose = 1;
 	of2rock2.playerchoose = 1;
+	of2Hidebutton.visible = true;
+	of2Hidebutton2.visible = true;
 }
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
