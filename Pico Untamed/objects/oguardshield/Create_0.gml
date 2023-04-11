@@ -22,3 +22,6 @@ maxhsp = 10;
 
 //oneframe
 oneframe = 0;
+of2 = 0;
+
+visible = false;

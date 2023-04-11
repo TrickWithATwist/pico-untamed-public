@@ -6,5 +6,9 @@ if ORoomManager.grenadepickup = 0
 else
 {
 	image_alpha = 0;
-	obuttonright.visible = true;
+	if oneframe = 0
+	{
+		obuttonright.visible = true;
+		oneframe = 1;
+	}
 }
