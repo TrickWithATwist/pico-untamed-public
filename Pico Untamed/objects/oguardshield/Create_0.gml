@@ -24,5 +24,6 @@ maxhsp = 10;
 oneframe = 0;
 of2 = 0;
 of3 = 0;
+of4 = 0;
 
 visible = false;

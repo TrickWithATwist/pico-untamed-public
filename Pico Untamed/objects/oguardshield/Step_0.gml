@@ -45,3 +45,17 @@ if ((gscount = 1) or (oPico.picohiding = 1)) and (guardalive = 1)
 	}
 		
 }
+if guardalive = 0
+{
+	image_index = 0;
+	sprite_index = guardshielddie;
+	oPico.picohiding = 0;
+	if of4 = 0
+	{
+		obuttonright.visible = true;
+		obuttonleft.visible = true;
+		layer_set_visible("inventory", true);
+		layer_set_visible("uzi", true);
+		of4 = 1;
+	}
+}
