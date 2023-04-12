@@ -81,6 +81,8 @@ dialogueArray =
 	"Pico: Sounds like another guard is coming. Gotta hide.", //35
 	
 	"Guard: Intruder!", //36
+	
+	"Pico: I can walk through the vents to avoid running to the guard.", //37
 ];
 
 //stupid thing for room 4 and 5
