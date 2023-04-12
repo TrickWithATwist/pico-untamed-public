@@ -45,11 +45,16 @@ if ((gscount = 1) or (oPico.picohiding = 1)) and (guardalive = 1)
 	}
 		
 }
-if guardalive = 0
+
+if (deadstart == true)
 {
-	image_index = 0;
 	sprite_index = guardshielddie;
+	image_index = 0;
+	image_speed = 1;
+
 	oPico.picohiding = 0;
+	oPico.visible = true
+	oShadow.visible = true
 	if of4 = 0
 	{
 		obuttonright.visible = true;
@@ -58,4 +63,5 @@ if guardalive = 0
 		layer_set_visible("uzi", true);
 		of4 = 1;
 	}
+	deadstart = false;
 }

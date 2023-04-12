@@ -5,14 +5,5 @@ sprite_index = sgrenade;
 image_xscale = 1;
 image_yscale = 1;
 
-//image scale is half if grenade explodes
-
 //cooldown for stalling time
-cooldown = 2;
-cooldowncurrent = 0;
-
-//used to play a sound for one frame
-oneframe = 0;
-
-//animation done variable
-done = 0;
+cooldown = 60;
