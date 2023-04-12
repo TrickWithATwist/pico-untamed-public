@@ -28,6 +28,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"floor2objects","folderPath":"folders/Objects/floor2objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room3grenadestuff","folderPath":"folders/Objects/floor2objects/room3grenadestuff.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room5objects","folderPath":"folders/Objects/floor2objects/room5objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room6","folderPath":"folders/Objects/floor2objects/room6.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gameoverscreen","folderPath":"folders/Objects/gameoverscreen.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obuttons","folderPath":"folders/Objects/obuttons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ographics","folderPath":"folders/Objects/ographics.yy",},
@@ -61,7 +62,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tankman","folderPath":"folders/Sprites/Tankman.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room6","folderPath":"folders/Objects/floor2objects/room6.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"index.html","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -158,6 +158,7 @@
     {"id":{"name":"gameover","path":"rooms/gameover/gameover.yy",},},
     {"id":{"name":"ogrenadepickup","path":"objects/ogrenadepickup/ogrenadepickup.yy",},},
     {"id":{"name":"f1r11","path":"rooms/f1r11/f1r11.yy",},},
+    {"id":{"name":"Ofadeoutspecial2","path":"objects/Ofadeoutspecial2/Ofadeoutspecial2.yy",},},
     {"id":{"name":"onum8","path":"objects/onum8/onum8.yy",},},
     {"id":{"name":"odont","path":"objects/odont/odont.yy",},},
     {"id":{"name":"sf1r6","path":"sprites/sf1r6/sf1r6.yy",},},

@@ -16,6 +16,7 @@
     {"name":"floor2objects","order":12,"path":"folders/Objects/floor2objects.yy",},
     {"name":"room3grenadestuff","order":6,"path":"folders/Objects/floor2objects/room3grenadestuff.yy",},
     {"name":"room5objects","order":1,"path":"folders/Objects/floor2objects/room5objects.yy",},
+    {"name":"room6","order":7,"path":"folders/Objects/floor2objects/room6.yy",},
     {"name":"gameoverscreen","order":11,"path":"folders/Objects/gameoverscreen.yy",},
     {"name":"obuttons","order":2,"path":"folders/Objects/obuttons.yy",},
     {"name":"ographics","order":3,"path":"folders/Objects/ographics.yy",},
@@ -49,7 +50,6 @@
     {"name":"Tankman","order":10,"path":"folders/Sprites/Tankman.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"room6","order":7,"path":"folders/Objects/floor2objects/room6.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},
@@ -130,6 +130,7 @@
     {"name":"gameover","order":3,"path":"rooms/gameover/gameover.yy",},
     {"name":"ogrenadepickup","order":2,"path":"objects/ogrenadepickup/ogrenadepickup.yy",},
     {"name":"f1r11","order":3,"path":"rooms/f1r11/f1r11.yy",},
+    {"name":"Ofadeoutspecial2","order":3,"path":"objects/Ofadeoutspecial2/Ofadeoutspecial2.yy",},
     {"name":"onum8","order":7,"path":"objects/onum8/onum8.yy",},
     {"name":"odont","order":2,"path":"objects/odont/odont.yy",},
     {"name":"sf1r6","order":10,"path":"sprites/sf1r6/sf1r6.yy",},

@@ -24,4 +24,8 @@ if part = 1
 	{
 		x += -25;
 	}
+	else
+	{
+		Ofadeoutspecial2.roomfade = 1;
+	}
 }
