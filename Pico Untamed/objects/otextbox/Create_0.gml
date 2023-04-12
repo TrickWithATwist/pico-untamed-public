@@ -79,6 +79,8 @@ dialogueArray =
 	"Pico: First it was the arm gun and now this. Just what are these guys\n          making?", //34
 	
 	"Pico: Sounds like another guard is coming. Gotta hide.", //35
+	
+	"Guard: Intruder!", //36
 ];
 
 //stupid thing for room 4 and 5

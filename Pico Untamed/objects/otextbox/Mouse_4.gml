@@ -296,6 +296,13 @@ if (room = f2r3) and (dialogue = 35)
 	of2Hidebutton.visible = true;
 	of2Hidebutton2.visible = true;
 }
+if (room = f2r6) and (dialogue = 36)
+{
+	text_showing = 0;
+	instance_destroy();
+	of2r6pico.part = 1;
+}
+
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {
