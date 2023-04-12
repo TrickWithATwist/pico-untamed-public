@@ -14,6 +14,7 @@
     {"name":"room6pt1","order":18,"path":"folders/Objects/floor1objects/room6pt1.yy",},
     {"name":"room6pt2","order":20,"path":"folders/Objects/floor1objects/room6pt2.yy",},
     {"name":"floor2objects","order":12,"path":"folders/Objects/floor2objects.yy",},
+    {"name":"room3grenadestuff","order":6,"path":"folders/Objects/floor2objects/room3grenadestuff.yy",},
     {"name":"room5objects","order":1,"path":"folders/Objects/floor2objects/room5objects.yy",},
     {"name":"gameoverscreen","order":11,"path":"folders/Objects/gameoverscreen.yy",},
     {"name":"obuttons","order":2,"path":"folders/Objects/obuttons.yy",},
@@ -48,7 +49,6 @@
     {"name":"Tankman","order":10,"path":"folders/Sprites/Tankman.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"room3grenadestuff","order":6,"path":"folders/Objects/floor2objects/room3grenadestuff.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},
