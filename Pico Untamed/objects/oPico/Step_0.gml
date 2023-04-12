@@ -51,7 +51,7 @@ if (picomove = 0) and (shooting = 1)
 			if oguard.x > x
 			{
 				image_xscale = -1 * image_xscale;
-				if (oguard.x > rockdestination)
+				if (oguard.x > rockobject.x)
 				{
 					oguard.image_xscale = -1 * oguard.image_xscale;
 				}
@@ -59,7 +59,7 @@ if (picomove = 0) and (shooting = 1)
 			else
 			{
 				image_xscale = image_xscale;
-				if (oguard.x > rockdestination)
+				if (oguard.x > rockobject.x)
 				{
 					oguard.image_xscale = -1 * oguard.image_xscale;
 				}
@@ -163,11 +163,11 @@ if picomove = 3
 		alreadyshot = 0;
 		shooting = 0;
 		
-		orock.playerchoose = 0;
-		orock2.playerchoose = 0;
-		if (room = f1r11) oHidebutton2.visible = false;
-		if (room = f1r11) oHidebutton.visible = false;
-		if ((rockdestination - 50) > x  = false) and ((rockdestination + 50) < x = true)
+	orock.playerchoose = 0;
+	orock2.playerchoose = 0;
+	if (room = f1r11) oHidebutton2.visible = false;
+	if (room = f1r11) oHidebutton.visible = false;
+	if (!position_meeting(x, y, rockobject))
 	{
 		sprite_index = picorun;
 		x += hsp * sign(image_xscale);
@@ -189,6 +189,7 @@ if picomove = 3
 	}
 	else
 	{
+		x = rockobject.x;
 		sprite_index = picoback;
 		image_speed = 0;
 		cooldowncurrent += 4/60;
@@ -230,8 +231,7 @@ if picomove = 4
 //stupid behavior for up arrow in room 4 because of dumb bugs :(
 if picomove = 5
 {
-		//rockdesitination is just the x value of the up button in this case
-		if (x < rockdestination)
+		if (x < rockobject.x)
 	{
 		sprite_index = picorun;
 		x += hsp * sign(image_xscale);
@@ -271,15 +271,15 @@ if picomove = 5
 //movement behavior for hiding in floor 2 room 3
 if picomove = 6
 {
-		//if pico shot a gun he goes back to normal
-		alreadyshot = 0;
-		shooting = 0;
+	//if pico shot a gun he goes back to normal
+	alreadyshot = 0;
+	shooting = 0;
 		
-		of2rock1.playerchoose = 0;
-		of2rock2.playerchoose = 0;
-		if (room = f2r3) of2Hidebutton2.visible = false;
-		if (room = f2r3) of2Hidebutton.visible = false;
-		if ((rockdestination - 50) > x  = false) and ((rockdestination + 50) < x = true)
+	of2rock1.playerchoose = 0;
+	of2rock2.playerchoose = 0;
+	if (room = f2r3) of2Hidebutton2.visible = false;
+	if (room = f2r3) of2Hidebutton.visible = false;
+	if (!position_meeting(x, y, rockobject))
 	{
 		sprite_index = picorun;
 		x += hsp * sign(image_xscale);
@@ -301,6 +301,7 @@ if picomove = 6
 	}
 	else
 	{
+		x = rockobject.x;
 		sprite_index = picoback;
 		image_speed = 0;
 		cooldowncurrent += 4/60;

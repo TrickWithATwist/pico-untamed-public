@@ -25,7 +25,7 @@ if room = f1r4
 {
 	oPico.picomove = 5;
 	clicked = 1;
-	oPico.rockdestination = x;
+	oPico.rockobject = id;
 }
 
 //destroys other buttons if they are in the room
