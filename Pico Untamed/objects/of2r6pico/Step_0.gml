@@ -1,6 +1,6 @@
 if part = 0 
 {
-	sprite_index = picoidle;
+	sprite_index = picojustgun;
 	if oneframe = 0
 	{
 		instance_create_layer(0,0,"fadein",otextbox);
@@ -14,6 +14,12 @@ if part = 0
 if part = 1 
 {
 	sprite_index = picoshot;
+	if of2 = 0
+	{
+		image_index = 0;
+		image_speed = 1;
+		of2 = 1;
+	}
 	if (x > -1 )
 	{
 		x += -25;

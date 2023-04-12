@@ -7,3 +7,4 @@ part = 0;
 
 //oneframe
 oneframe = 0;
+of2 = 0;

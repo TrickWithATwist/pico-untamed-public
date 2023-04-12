@@ -220,6 +220,7 @@
     {"name":"f2r5","order":4,"path":"rooms/f2r5/f2r5.yy",},
     {"name":"sflashcircle","order":12,"path":"sprites/sflashcircle/sflashcircle.yy",},
     {"name":"ogrenadeicon","order":16,"path":"objects/ogrenadeicon/ogrenadeicon.yy",},
+    {"name":"picojustgun","order":11,"path":"sprites/picojustgun/picojustgun.yy",},
     {"name":"textfont2","order":1,"path":"fonts/textfont2/textfont2.yy",},
     {"name":"picoshoot","order":4,"path":"sprites/picoshoot/picoshoot.yy",},
     {"name":"osafespot1","order":7,"path":"objects/osafespot1/osafespot1.yy",},
