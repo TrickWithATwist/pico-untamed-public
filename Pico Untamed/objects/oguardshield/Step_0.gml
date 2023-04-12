@@ -15,7 +15,12 @@ if gscount = 0
 }
 if ((gscount = 1) or (oPico.picohiding = 1)) and (guardalive = 1)
 {
-	 visible = true;
+	if of3 = 0
+	{
+		ogrenadetarget.visible = true; 
+		of3 = 1;
+	}
+	visible = true;
 	x += hsp * sign(image_xscale);
 	//makes horizontal speed faster until max is reached
 	if hsp < maxhsp

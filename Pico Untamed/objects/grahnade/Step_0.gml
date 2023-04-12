@@ -1,15 +1,15 @@
 
 //if grenade is not at the target then it goes to target
-if (x != ogrenadetarget.x) and (y != ogrenadetarget.y)
+if place_meeting(x,y,ogrenadetarget) = false
 {
-	x += ((randx - x) * .2) 
-	y += ((randy - y) * .2)
+	x += ((ogrenadetarget.x - x) * .2) 
+	y += ((ogrenadetarget.y - y) * .2)
 }
 else
 {
 	//after it gets to the target it explodes
 	//grenade stays still for one second
-	if cooldowncurrent != cooldown
+	if cooldowncurrent <= cooldown
 	{
 		cooldowncurrent += 1/60;
 	}

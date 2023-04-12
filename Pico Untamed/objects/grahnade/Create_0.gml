@@ -8,7 +8,7 @@ image_yscale = 1;
 //image scale is half if grenade explodes
 
 //cooldown for stalling time
-cooldown = 1;
+cooldown = 2;
 cooldowncurrent = 0;
 
 //used to play a sound for one frame
