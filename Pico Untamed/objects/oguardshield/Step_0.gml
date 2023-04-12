@@ -59,6 +59,7 @@ if (deadstart == true)
 	{
 		obuttonright.visible = true;
 		obuttonleft.visible = true;
+		oPico.hsp = 10;
 		layer_set_visible("inventory", true);
 		layer_set_visible("uzi", true);
 		of4 = 1;

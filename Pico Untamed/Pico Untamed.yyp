@@ -175,6 +175,7 @@
     {"id":{"name":"oposter1","path":"objects/oposter1/oposter1.yy",},},
     {"id":{"name":"obossbox2","path":"objects/obossbox2/obossbox2.yy",},},
     {"id":{"name":"sfleetshoot","path":"sprites/sfleetshoot/sfleetshoot.yy",},},
+    {"id":{"name":"oexplosion","path":"objects/oexplosion/oexplosion.yy",},},
     {"id":{"name":"onum2","path":"objects/onum2/onum2.yy",},},
     {"id":{"name":"picoshadow","path":"sprites/picoshadow/picoshadow.yy",},},
     {"id":{"name":"ofleetp2","path":"objects/ofleetp2/ofleetp2.yy",},},
