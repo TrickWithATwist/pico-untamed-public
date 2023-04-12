@@ -13,7 +13,7 @@ if gscount = 0
 		of2 = 1;
 	}
 }
-if (gscount = 1) or (oPico.picohiding = 1)
+if ((gscount = 1) or (oPico.picohiding = 1)) and (guardalive = 1)
 {
 	 visible = true;
 	x += hsp * sign(image_xscale);

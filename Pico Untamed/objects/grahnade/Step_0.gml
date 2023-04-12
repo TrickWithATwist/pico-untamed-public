@@ -22,6 +22,21 @@ else
 			audio_play_sound(boom, 1, 0);
 			oneframe = 1;
 		}
-		
+		sprite_index = sexplosion;
+		if done = 0
+		{
+			if place_meeting(x,y,oguardshield)
+			{
+				oguardshield.guardalive = 0;
+			}
+		}
+		else
+		{
+			if oguardshield.guardalive = 1
+			{
+				ogrenadetarget.visible = true;
+			}
+			instance_destroy();
+		}
 	}
 }

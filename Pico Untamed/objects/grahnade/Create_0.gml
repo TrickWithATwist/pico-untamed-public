@@ -13,3 +13,6 @@ cooldowncurrent = 0;
 
 //used to play a sound for one frame
 oneframe = 0;
+
+//animation done variable
+done = 0;
