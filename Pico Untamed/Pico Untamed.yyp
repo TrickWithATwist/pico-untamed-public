@@ -60,6 +60,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tankman","folderPath":"folders/Sprites/Tankman.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room3grenadestuff","folderPath":"folders/Objects/floor2objects/room3grenadestuff.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"index.html","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -165,6 +166,7 @@
     {"id":{"name":"sguardprompt","path":"sprites/sguardprompt/sguardprompt.yy",},},
     {"id":{"name":"srock","path":"sprites/srock/srock.yy",},},
     {"id":{"name":"srespawn","path":"sprites/srespawn/srespawn.yy",},},
+    {"id":{"name":"ogrenadetarget","path":"objects/ogrenadetarget/ogrenadetarget.yy",},},
     {"id":{"name":"sgrenade","path":"sprites/sgrenade/sgrenade.yy",},},
     {"id":{"name":"oBF","path":"objects/oBF/oBF.yy",},},
     {"id":{"name":"ocell2","path":"objects/ocell2/ocell2.yy",},},
@@ -298,6 +300,7 @@
     {"id":{"name":"oTankman","path":"objects/oTankman/oTankman.yy",},},
     {"id":{"name":"f1r1","path":"rooms/f1r1/f1r1.yy",},},
     {"id":{"name":"NGio_CS_library","path":"scripts/NGio_CS_library/NGio_CS_library.yy",},},
+    {"id":{"name":"grahnade","path":"objects/grahnade/grahnade.yy",},},
     {"id":{"name":"onum3","path":"objects/onum3/onum3.yy",},},
     {"id":{"name":"sbuttonright","path":"sprites/sbuttonright/sbuttonright.yy",},},
     {"id":{"name":"ofleetend","path":"objects/ofleetend/ofleetend.yy",},},

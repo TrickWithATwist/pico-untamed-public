@@ -48,6 +48,7 @@
     {"name":"Tankman","order":10,"path":"folders/Sprites/Tankman.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"room3grenadestuff","order":6,"path":"folders/Objects/floor2objects/room3grenadestuff.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},
@@ -243,6 +244,7 @@
     {"name":"opasslocksmall","order":12,"path":"objects/opasslocksmall/opasslocksmall.yy",},
     {"name":"oTankman","order":1,"path":"objects/oTankman/oTankman.yy",},
     {"name":"NGio_CS_library","order":1,"path":"scripts/NGio_CS_library/NGio_CS_library.yy",},
+    {"name":"grahnade","order":1,"path":"objects/grahnade/grahnade.yy",},
     {"name":"onum3","order":2,"path":"objects/onum3/onum3.yy",},
     {"name":"sbuttonright","order":2,"path":"sprites/sbuttonright/sbuttonright.yy",},
   ],
