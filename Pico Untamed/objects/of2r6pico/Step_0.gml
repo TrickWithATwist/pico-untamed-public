@@ -20,7 +20,7 @@ if part = 1
 		image_speed = 1;
 		of2 = 1;
 	}
-	if (x > -1 )
+	if (x > -100 )
 	{
 		x += -25;
 	}

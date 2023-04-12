@@ -6,7 +6,7 @@ if roomfade = 1
 
 if image_alpha >= 1
 {
-	room_goto(f2r5);
-	ORoomManager.myroom = 5;
-	ORoomManager.mydirection = 1;
+	room_goto(f2r4);
+	ORoomManager.myroom = 4;
+	ORoomManager.mydirection = 0;
 }
