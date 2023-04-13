@@ -16,6 +16,8 @@ flyTravel = 0;
 flyStep = 0;
 flyHeight = flyDistance / 2;
 //flyHeight = clamp(flyHeight, 10, 150);
+
+rotationSpeed = 8;
 direction = flyDirection;
 
 //cooldown for stalling time

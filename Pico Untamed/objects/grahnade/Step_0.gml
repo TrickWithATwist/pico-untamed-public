@@ -14,6 +14,8 @@ if (flySpeed != 0)
 	x = arcX;
 	y = arcY - arc;
 	
+	image_angle += rotationSpeed * -sign(x - xstart);
+	
 	//grenade landed
 	if (flyTravel > flyDistance)
 	{
