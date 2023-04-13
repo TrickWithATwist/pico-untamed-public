@@ -62,6 +62,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tankman","folderPath":"folders/Sprites/Tankman.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room7","folderPath":"folders/Objects/floor2objects/room7.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"index.html","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -103,6 +104,7 @@
     {"id":{"name":"guarddie","path":"sprites/guarddie/guarddie.yy",},},
     {"id":{"name":"ofleetp1","path":"objects/ofleetp1/ofleetp1.yy",},},
     {"id":{"name":"room5thig","path":"sprites/room5thig/room5thig.yy",},},
+    {"id":{"name":"opicofall","path":"objects/opicofall/opicofall.yy",},},
     {"id":{"name":"ofleetfake2","path":"objects/ofleetfake2/ofleetfake2.yy",},},
     {"id":{"name":"obossbox1","path":"objects/obossbox1/obossbox1.yy",},},
     {"id":{"name":"oHidebutton","path":"objects/oHidebutton/oHidebutton.yy",},},
