@@ -1,4 +1,10 @@
 //arc
+arcX = x;
+arcY = y;
+
+arcXPrevious = arcX;
+arcYPrevious = arcY;
+
 endX = ogrenadetarget.x;
 endY = ogrenadetarget.y;
 

@@ -1,14 +1,27 @@
 //grenade arc
-x += lengthdir_x(flySpeed, flyDirection);
-y += lengthdir_y(flySpeed, flyDirection);
-flyStep = point_distance(x, y, xprevious, yprevious);
+arcX += lengthdir_x(flySpeed, flyDirection);
+arcY += lengthdir_y(flySpeed, flyDirection);
+flyStep = point_distance(arcX, arcY, arcXPrevious, arcYPrevious);
 flyTravel = flyTravel + flyStep;
 arc = (dsin((flyTravel / flyDistance) * 180)) * flyHeight;
 
-if (flyTravel > flyDistance) && (flySpeed != 0)
+arcXPrevious = arcX;
+arcYPrevious = arcY;
+
+if (flySpeed != 0)
 {
-	flySpeed = 0;
-	cooldownCurrent = cooldown;
+	//update position with arc
+	x = arcX;
+	y = arcY - arc;
+	
+	//grenade landed
+	if (flyTravel > flyDistance)
+	{
+		x = endX;
+		y = endY;
+		flySpeed = 0;
+		cooldownCurrent = cooldown;
+	}
 }
 
 //after it gets to the target it explodes
