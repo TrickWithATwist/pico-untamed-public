@@ -158,7 +158,6 @@
     {"name":"snum1","order":1,"path":"sprites/snum1/snum1.yy",},
     {"name":"sairvent","order":2,"path":"sprites/sairvent/sairvent.yy",},
     {"name":"ouziicon","order":3,"path":"objects/ouziicon/ouziicon.yy",},
-    {"name":"Ofadeinspecial","order":1,"path":"objects/Ofadeinspecial/Ofadeinspecial.yy",},
     {"name":"f2r4","order":3,"path":"rooms/f2r4/f2r4.yy",},
     {"name":"onum5","order":4,"path":"objects/onum5/onum5.yy",},
     {"name":"sf1r3","order":3,"path":"sprites/sf1r3/sf1r3.yy",},

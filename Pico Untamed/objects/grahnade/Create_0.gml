@@ -1,4 +1,3 @@
-
 //setting essential variables
 sprite_index = sgrenade; 
 

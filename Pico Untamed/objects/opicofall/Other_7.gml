@@ -1,5 +1,8 @@
-if sprite_index = picocrouch
+if (sprite_index == picocrouch)
 {
-	visible = false;
-	wah = 2;
+	oPico.visible = true;
+	obuttonup.visible = true;
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi", true);
+	instance_destroy();
 }

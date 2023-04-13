@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "ographics",
-    "path": "folders/Objects/ographics.yy",
+    "name": "Pico Untamed",
+    "path": "Pico Untamed.yyp",
   },
   "parentObjectId": null,
   "persistent": false,

@@ -1,32 +1,14 @@
-
-
-if go = 1
+if (state == 0)
 {
-if (y <= 704) and wah = 0
-{
-	y += 40;
-}
-else
-{
-	wah = 1;
-}
-
-if wah = 1
-{
-	y = 704;
-	sprite_index = picocrouch;
-	if oneframe = 1
+	if (y <= 704)
 	{
-		image_index = 0;
-		oneframe = 2;
+		y += 40;
 	}
-} 
-}
-
-if wah = 2
-{
-	oPico.visible = true;
-	layer_set_visible("inventory", true);
-	layer_set_visible("uzi", true);
-	wah = 3;
+	else
+	{
+		y = 704;
+		sprite_index = picocrouch;
+		image_index = 0;
+		state = 1;
+	}
 }
