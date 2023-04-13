@@ -302,7 +302,7 @@ if (room = f2r6) and (dialogue = 36)
 	instance_destroy();
 	of2r6pico.part = 1;
 }
-if (room = f2r5) and (dialogue = 35)
+if (room = f2r5) and (dialogue = 37)
 {
 	text_showing = 0;
 	instance_destroy();
