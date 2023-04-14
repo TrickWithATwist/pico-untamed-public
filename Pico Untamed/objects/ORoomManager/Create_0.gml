@@ -19,7 +19,7 @@ fleetdefeated = 0;
 //variables specific to floor 2
 grenadepickup = 0;
 guardshield = 0;
-
+atomicadefeated = 0;
 
 
 //variable to determine if gaurd tutorial has been done or not

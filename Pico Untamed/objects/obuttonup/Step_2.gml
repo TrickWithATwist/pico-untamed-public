@@ -64,6 +64,12 @@ if (clicked = 1) and (oPico.transition = 1)
 				ORoomManager.mydirection = 1;
 				ORoomManager.myroom = 4;
 			break;
+			case 7:
+				if ORoomManager.atomicadefeated = 0
+				{
+					room_goto(f2r8p1);
+				}
+			break;
 		}
 		transitiondone = 1;
 	}
