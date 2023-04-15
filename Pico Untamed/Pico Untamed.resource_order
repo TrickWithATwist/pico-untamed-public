@@ -18,6 +18,7 @@
     {"name":"room5objects","order":1,"path":"folders/Objects/floor2objects/room5objects.yy",},
     {"name":"room6","order":7,"path":"folders/Objects/floor2objects/room6.yy",},
     {"name":"room7","order":8,"path":"folders/Objects/floor2objects/room7.yy",},
+    {"name":"room8cutscene","order":9,"path":"folders/Objects/floor2objects/room8cutscene.yy",},
     {"name":"gameoverscreen","order":11,"path":"folders/Objects/gameoverscreen.yy",},
     {"name":"obuttons","order":2,"path":"folders/Objects/obuttons.yy",},
     {"name":"ographics","order":3,"path":"folders/Objects/ographics.yy",},
@@ -53,7 +54,7 @@
     {"name":"Tankman","order":10,"path":"folders/Sprites/Tankman.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"room8cutscene","order":9,"path":"folders/Objects/floor2objects/room8cutscene.yy",},
+    {"name":"room8","order":10,"path":"folders/Objects/floor2objects/room8.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},
