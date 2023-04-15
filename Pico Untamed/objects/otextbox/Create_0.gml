@@ -83,6 +83,14 @@ dialogueArray =
 	"Guard: Intruder!", //36
 	
 	"Pico: I can walk through the vents to avoid running to the guard.", //37
+	
+	"Atomica: Who are you? You here to fight?", //38
+	
+	"Atomica: Nope! Looks like we're doing things the hard way!", //39
+	
+	"Atomica: Good, then GTFO.", //40
+	
+	"Pico: Afraid I can't do that.", //41
 ];
 
 //stupid thing for room 4 and 5

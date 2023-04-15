@@ -308,6 +308,50 @@ if (room = f2r5) and (dialogue = 37)
 	instance_destroy();
 	Ofadeoutspecial3.roomfade = 1;
 }
+if (room = f2r8p1) and (dialogue = 38)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	instance_create_layer(0,0,"fadein",ocharacterbox);
+	ocharacterbox.ctext = 8;
+	
+}
+if (room = f2r8p1) and (dialogue = 39)
+{
+	text_showing = 0;
+	instance_destroy();
+	//layer_set_visible("inventory", true);
+	//layer_set_visible("uzi" , true);
+	//obuttonright.visible = true;
+	//obuttonleft.visible = true;
+	//if instance_exists(obuttonup)
+	//{
+	//	obuttonup.visible = true;
+	//}
+	//oidcardscanner.objectclick = 0;
+	//oidcardscanner.scannerable = 1;
+	//ofleetp1.cutscenept = 1;
+	opicocutscene3.picocutscenept = 1;
+}
+if (room = f2r8p1) and (dialogue = 41)
+{
+	text_showing = 0;
+	instance_destroy();
+	//layer_set_visible("inventory", true);
+	//layer_set_visible("uzi" , true);
+	//obuttonright.visible = true;
+	//obuttonleft.visible = true;
+	//if instance_exists(obuttonup)
+	//{
+	//	obuttonup.visible = true;
+	//}
+	//oidcardscanner.objectclick = 0;
+	//oidcardscanner.scannerable = 1;
+	//ofleetp1.cutscenept = 1;
+	opicocutscene3.picocutscenept = 1;
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {

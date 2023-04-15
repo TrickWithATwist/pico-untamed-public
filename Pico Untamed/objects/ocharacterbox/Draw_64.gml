@@ -42,7 +42,10 @@ else
 			draw_text(145,725,"You have one more chance to tell me what I need to know.");
 			draw_text(145,900,"(Kill)");
 		break;
-		
+		case 8:
+			draw_text(145,725,"Depends. You willing to let me through?");
+			draw_text(145,900,"No not really.");
+		break;
 		
 		
 	}
