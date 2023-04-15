@@ -69,5 +69,7 @@ flyingCooldownCurrent = 0;
 smokeCooldown = 3;
 smokeCooldownCurrent = 0;
 
+flipCount = 0;
+
 laugh = 0;
 laughPlay = false;

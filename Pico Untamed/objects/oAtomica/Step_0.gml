@@ -94,7 +94,10 @@ switch (state)
 		
 		if (leftOneFrame)
 		{
-			if (chance(0.18, 1)) laughPlay = true;
+			flipCount++;
+			
+			if (flipCount == 2) laughPlay = true;
+			flipCount = flipCount mod 2;
 			
 			//Destroy smoke
 			smokeCooldownCurrent = 0;
@@ -119,7 +122,10 @@ switch (state)
 		
 		if (rightOneFrame)
 		{
-			if (chance(0.18, 1)) laughPlay = true;
+			flipCount++;
+			
+			if (flipCount == 2) laughPlay = true;
+			flipCount = flipCount mod 2;
 			
 			//Destroy smoke
 			smokeCooldownCurrent = 0;
