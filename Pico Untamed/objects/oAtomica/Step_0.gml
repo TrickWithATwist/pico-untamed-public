@@ -1,7 +1,7 @@
 switch (state)
 {
 	case atomicaState.top:
-		y += (320 - y) * 0.1;
+		y += (destY - y) * 0.1;
 		
 		//Smoke
 		smokeCooldownCurrent = max( 0, smokeCooldownCurrent-1 );
@@ -11,9 +11,10 @@ switch (state)
 			smokeCooldownCurrent = smokeCooldown;
 		}
 		
-		if (round(y) == 320)
+		if (round(y) == destY)
 		{
-			oscillate = 0;
+			oscillateXPosition = 0;
+			oscillateYPosition = 0;
 			
 			//Destroy smoke
 			smokeCooldownCurrent = 0;
@@ -25,10 +26,15 @@ switch (state)
 	break;
 	
 	case atomicaState.hovering:
-		oscillate += delta_time;
+		oscillateXPosition += delta_time;
+		oscillateXPosition = oscillateXPosition mod oscillateXPositionHovering;
 		
-		x = room_width/2 + sin_oscillate(-5,5,8,oscillate);
-		y = 320 + sin_oscillate(-5,5,4,oscillate);
+		oscillateYPosition += delta_time;
+		oscillateYPosition = oscillateYPosition mod oscillateYPositionHovering;
+		
+		
+		x = destX + sin_oscillate(oscillateXMinHovering, oscillateXMaxHovering, oscillateXDurationHovering, oscillateXPosition);
+		y = destY + sin_oscillate(oscillateYMinHovering, oscillateYMaxHovering, oscillateYDurationHovering, oscillateYPosition);
 		
 		//Smoke
 		smokeCooldownCurrent = max( 0, smokeCooldownCurrent-1 );
@@ -41,7 +47,8 @@ switch (state)
 		hoveringCooldownCurrent = max( 0, hoveringCooldownCurrent-1 );
 		if (hoveringCooldownCurrent == 0)
 		{
-			oscillate = 0;
+			oscillateXPosition = 0;
+			oscillateYPosition = 0;
 			
 			//Destroy smoke
 			smokeCooldownCurrent = 0;
@@ -54,10 +61,15 @@ switch (state)
 	break;
 	
 	case atomicaState.flying:
-		oscillate += delta_time;
+		oscillateXPosition += delta_time;
+		oscillateXPosition = oscillateXPosition mod oscillateXPositionFlying;
 		
-		x = sin_oscillate(-384, room_width+384, 10, oscillate);
-		y = 320 + sin_oscillate(-50, 50, 5, oscillate);
+		oscillateYPosition += delta_time;
+		oscillateYPosition = oscillateYPosition mod oscillateYPositionFlying;
+		
+		
+		x = sin_oscillate(oscillateXMinFlying, oscillateXMaxFlying, oscillateXDurationFlying, oscillateXPosition);
+		y = destY + sin_oscillate(oscillateYMinFlying, oscillateYMaxFlying, oscillateYDurationFlying, oscillateYPosition);
 		
 		//Smoke
 		smokeCooldownCurrent = max( 0, smokeCooldownCurrent-1 );
@@ -69,7 +81,7 @@ switch (state)
 		
 		
 		//Left Right Detection
-		if (round(x) == -384) //Left
+		if (round(x) == oscillateXMinFlying) //Left
 		{
 			rightOneFrameDone = false;
 			
@@ -94,7 +106,7 @@ switch (state)
 		}
 		
 		
-		if (round(x) == room_width+384) //Right
+		if (round(x) == oscillateXMaxFlying) //Right
 		{
 			leftOneFrameDone = false;
 			
@@ -134,10 +146,11 @@ switch (state)
 			laughPlay = false;
 		}
 		
-		flyingCooldownCurrent = max( 0, flyingCooldownCurrent-1 );
+		//flyingCooldownCurrent = max( 0, flyingCooldownCurrent-1 );
 		if (flyingCooldownCurrent == 0)
 		{
-			oscillate = 0;
+			oscillateXPosition = 0;
+			oscillateYPosition = 0;
 			
 			//Destroy smoke
 			smokeCooldownCurrent = 0;
