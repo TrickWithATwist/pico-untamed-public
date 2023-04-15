@@ -19,12 +19,12 @@ switch (state)
 			smokeCooldownCurrent = 0;
 			if (instance_exists(oSmoke)) instance_destroy(oSmoke);
 			
-			cooldownCurrent = cooldown;
-			state = atomicaState.middle;
+			hoveringCooldownCurrent = hoveringCooldown;
+			state = atomicaState.hovering;
 		}
 	break;
 	
-	case atomicaState.middle:
+	case atomicaState.hovering:
 		oscillate += delta_time;
 		
 		x = room_width/2 + sin_oscillate(-5,5,8,oscillate);
@@ -38,9 +38,8 @@ switch (state)
 			smokeCooldownCurrent = smokeCooldown;
 		}
 		
-		cooldownCurrent = max( 0, cooldownCurrent-1 );
-		
-		if (cooldownCurrent == 0)
+		hoveringCooldownCurrent = max( 0, hoveringCooldownCurrent-1 );
+		if (hoveringCooldownCurrent == 0)
 		{
 			oscillate = 0;
 			
@@ -49,39 +48,28 @@ switch (state)
 			if (instance_exists(oSmoke)) instance_destroy(oSmoke);
 			
 			sprite_index = atomicafly;
-			state = atomicaState.hovering;
+			flyingCooldownCurrent = flyingCooldown;
+			state = atomicaState.flying;
 		}
 	break;
 	
-	case atomicaState.hovering:
+	case atomicaState.flying:
 		oscillate += delta_time;
 		
-		x = sin_oscillate(384, room_width-384, 10, oscillate);
-		y = 320 + sin_oscillate(-10, 10, 5, oscillate);
-		
-		direction = point_direction(xprevious, 0, x, 0);
-		image_xscale = (direction == 0 ?  -1 : 1) * scale;
+		x = sin_oscillate(-384, room_width+384, 10, oscillate);
+		y = 320 + sin_oscillate(-50, 50, 5, oscillate);
 		
 		//Smoke
 		smokeCooldownCurrent = max( 0, smokeCooldownCurrent-1 );
 		if (smokeCooldownCurrent == 0)
 		{
-			instance_create_layer(x+70*sign(image_xscale), y+10, layer, oSmoke);
+			instance_create_layer(x+80*sign(image_xscale), y+10, layer, oSmoke);
 			smokeCooldownCurrent = smokeCooldown;
 		}
 		
 		
-		//xscale Change Detection
-		if (xScalePrevious != image_xscale)
-		{
-			//Destroy smoke
-			smokeCooldownCurrent = 0;
-			if (instance_exists(oSmoke)) instance_destroy(oSmoke);
-			xScalePrevious = image_xscale;
-		}
-		
 		//Left Right Detection
-		if (round(x) == 384) //Left
+		if (round(x) == -384) //Left
 		{
 			rightOneFrameDone = false;
 			
@@ -95,11 +83,18 @@ switch (state)
 		if (leftOneFrame)
 		{
 			if (chance(0.18, 1)) laughPlay = true;
+			
+			//Destroy smoke
+			smokeCooldownCurrent = 0;
+			if (instance_exists(oSmoke)) instance_destroy(oSmoke);
+			
+			image_xscale = scale;
+			
 			leftOneFrame = false;
 		}
 		
 		
-		if (round(x) == room_width-384) //Right
+		if (round(x) == room_width+384) //Right
 		{
 			leftOneFrameDone = false;
 			
@@ -113,6 +108,12 @@ switch (state)
 		if (rightOneFrame)
 		{
 			if (chance(0.18, 1)) laughPlay = true;
+			
+			//Destroy smoke
+			smokeCooldownCurrent = 0;
+			if (instance_exists(oSmoke)) instance_destroy(oSmoke);
+			
+			image_xscale = scale * -1;
 			rightOneFrame = false;
 		}
 		
@@ -131,6 +132,29 @@ switch (state)
 			laugh++;
 			laugh = laugh mod 2;
 			laughPlay = false;
+		}
+		
+		flyingCooldownCurrent = max( 0, flyingCooldownCurrent-1 );
+		if (flyingCooldownCurrent == 0)
+		{
+			oscillate = 0;
+			
+			//Destroy smoke
+			smokeCooldownCurrent = 0;
+			if (instance_exists(oSmoke)) instance_destroy(oSmoke);
+			
+			sprite_index = atomicajump;
+			image_xscale = scale;
+			hoveringCooldownCurrent = hoveringCooldown;
+			
+			
+			leftOneFrame = false;
+			leftOneFrameDone = false;
+			
+			rightOneFrame = false;
+			rightOneFrameDone = false;
+			
+			state = atomicaState.hovering;
 		}
 	break;
 			

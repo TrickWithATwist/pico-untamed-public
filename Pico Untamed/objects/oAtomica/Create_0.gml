@@ -9,8 +9,8 @@ image_yscale = scale;
 enum atomicaState
 {
 	top,
-	middle,
 	hovering,
+	flying,
 	size
 }
 
@@ -18,16 +18,17 @@ state = 0;
 
 oscillate = 0;
 
-xScalePrevious = image_xscale;
-
 leftOneFrame = false;
 leftOneFrameDone = false;
 
 rightOneFrame = false;
 rightOneFrameDone = false;
 
-cooldown = 60*5;
-cooldownCurrent = 0;
+hoveringCooldown = 60*5;
+hoveringCooldownCurrent = 0;
+
+flyingCooldown = 60*15;
+flyingCooldownCurrent = 0;
 
 smokeCooldown = 3;
 smokeCooldownCurrent = 0;
