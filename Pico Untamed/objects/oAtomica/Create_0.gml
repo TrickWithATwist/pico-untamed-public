@@ -18,5 +18,14 @@ state = 0;
 
 oscillate = 0;
 
+leftOneFrame = false;
+leftOneFrameDone = false;
+
+rightOneFrame = false;
+rightOneFrameDone = false;
+
 cooldown = 60*5;
 cooldownCurrent = 0;
+
+smokeCooldown = 3;
+smokeCooldownCurrent = 0;

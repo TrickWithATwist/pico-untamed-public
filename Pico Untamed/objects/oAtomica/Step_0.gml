@@ -17,11 +17,23 @@ switch (state)
 		x = room_width/2 + sin_oscillate(-5,5,8,oscillate);
 		y = 320 + sin_oscillate(-5,5,4,oscillate);
 		
+		//Smoke
+		smokeCooldownCurrent = max( 0, smokeCooldownCurrent-1 );
+		if (smokeCooldownCurrent == 0)
+		{
+			instance_create_layer(x-70, y+10, layer, oSmoke);
+			smokeCooldownCurrent = smokeCooldown;
+		}
+		
 		cooldownCurrent = max( 0, cooldownCurrent-1 );
 		
 		if (cooldownCurrent == 0)
 		{
 			oscillate = 0;
+			
+			smokeCooldownCurrent = 0;
+			if (instance_exists(oSmoke)) instance_destroy(oSmoke);
+			
 			sprite_index = atomicafly;
 			state = atomicaState.hovering;
 		}
@@ -35,6 +47,51 @@ switch (state)
 		
 		direction = point_direction(xprevious, 0, x, 0);
 		image_xscale = (direction == 0 ?  -1 : 1) * scale;
+		
+		//Smoke
+		smokeCooldownCurrent = max( 0, smokeCooldownCurrent-1 );
+		if (smokeCooldownCurrent == 0)
+		{
+			instance_create_layer(x+70*sign(image_xscale), y+10, layer, oSmoke);
+			smokeCooldownCurrent = smokeCooldown;
+		}
+		
+		
+		//Left Right Detection
+		if (round(x) == 384) //Left
+		{
+			rightOneFrameDone = false;
+			
+			if (!leftOneFrameDone)
+			{
+				leftOneFrame = true;
+				leftOneFrameDone = true;
+			}
+		}
+		
+		if (leftOneFrame)
+		{
+			if (instance_exists(oSmoke)) instance_destroy(oSmoke);
+			leftOneFrame = false;
+		}
+		
+		
+		if (round(x) == room_width-384) //Right
+		{
+			leftOneFrameDone = false;
+			
+			if (!rightOneFrameDone)
+			{
+				rightOneFrame = true;
+				rightOneFrameDone = true;
+			}
+		}
+		
+		if (rightOneFrame)
+		{
+			instance_destroy(oSmoke);
+			rightOneFrame = false;
+		}
 	break;
 			
 	//default:
