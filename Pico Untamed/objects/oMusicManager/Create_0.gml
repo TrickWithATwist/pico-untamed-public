@@ -5,6 +5,7 @@ enum music
 	floor1loop,
 	fleetboss,
 	floor2,
+	atomicaboss,
 	size
 }
 

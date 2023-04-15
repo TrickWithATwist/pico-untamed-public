@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "f2r8boss",
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/f2r8boss/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

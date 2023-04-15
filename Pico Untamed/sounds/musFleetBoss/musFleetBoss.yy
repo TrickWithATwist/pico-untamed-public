@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 66.0114,
   "parent": {
-    "name": "Music",
-    "path": "folders/Sounds/Music.yy",
+    "name": "Boss",
+    "path": "folders/Sounds/Music/Boss.yy",
   },
   "preload": false,
   "sampleRate": 44100,
