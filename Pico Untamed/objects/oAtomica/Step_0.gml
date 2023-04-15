@@ -146,7 +146,7 @@ switch (state)
 			laughPlay = false;
 		}
 		
-		//flyingCooldownCurrent = max( 0, flyingCooldownCurrent-1 );
+		flyingCooldownCurrent = max( 0, flyingCooldownCurrent-1 );
 		if (flyingCooldownCurrent == 0)
 		{
 			oscillateXPosition = 0;
