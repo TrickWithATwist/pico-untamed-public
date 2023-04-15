@@ -346,7 +346,6 @@
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"init","path":"rooms/init/init.yy",},},
-    {"roomId":{"name":"f2r8boss","path":"rooms/f2r8boss/f2r8boss.yy",},},
     {"roomId":{"name":"f1r1","path":"rooms/f1r1/f1r1.yy",},},
     {"roomId":{"name":"f1r2","path":"rooms/f1r2/f1r2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -368,6 +367,7 @@
     {"roomId":{"name":"f2r6","path":"rooms/f2r6/f2r6.yy",},},
     {"roomId":{"name":"f2r7","path":"rooms/f2r7/f2r7.yy",},},
     {"roomId":{"name":"f2r8p1","path":"rooms/f2r8p1/f2r8p1.yy",},},
+    {"roomId":{"name":"f2r8boss","path":"rooms/f2r8boss/f2r8boss.yy",},},
     {"roomId":{"name":"f2r8p2","path":"rooms/f2r8p2/f2r8p2.yy",},},
     {"roomId":{"name":"f2r8real","path":"rooms/f2r8real/f2r8real.yy",},},
   ],

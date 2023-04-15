@@ -57,6 +57,13 @@ switch (state)
 		}
 		
 		
+		//xscale Change Detection
+		if (xScalePrevious != image_xscale)
+		{
+			if (instance_exists(oSmoke)) instance_destroy(oSmoke);
+			xScalePrevious = image_xscale;
+		}
+		
 		//Left Right Detection
 		if (round(x) == 384) //Left
 		{
@@ -71,7 +78,6 @@ switch (state)
 		
 		if (leftOneFrame)
 		{
-			if (instance_exists(oSmoke)) instance_destroy(oSmoke);
 			leftOneFrame = false;
 		}
 		
@@ -89,7 +95,6 @@ switch (state)
 		
 		if (rightOneFrame)
 		{
-			instance_destroy(oSmoke);
 			rightOneFrame = false;
 		}
 	break;

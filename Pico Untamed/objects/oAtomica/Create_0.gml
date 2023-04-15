@@ -18,6 +18,8 @@ state = 0;
 
 oscillate = 0;
 
+xScalePrevious = image_xscale;
+
 leftOneFrame = false;
 leftOneFrameDone = false;
 
