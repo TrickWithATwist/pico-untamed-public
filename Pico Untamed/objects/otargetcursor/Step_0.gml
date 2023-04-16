@@ -2,8 +2,6 @@ x = mouse_x;
 y = mouse_y;
 //follows mouse
 
-
-
 if place_meeting(x,y,ofleetboss)
 {
 	if oPicoboss.protected = 0
@@ -14,6 +12,15 @@ if place_meeting(x,y,ofleetboss)
 	{
 		sprite_index = starget;
 	}
+}
+else
+{
+	sprite_index = starget;
+}
+
+if place_meeting(x,y,oAtomica)
+{
+	sprite_index = stargetlockon;
 }
 else
 {

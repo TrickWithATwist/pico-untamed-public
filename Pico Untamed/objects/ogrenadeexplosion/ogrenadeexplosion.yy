@@ -1,16 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oPicoboss",
+  "name": "ogrenadeexplosion",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "boss",
-    "path": "folders/Objects/boss.yy",
+    "name": "room3grenadestuff",
+    "path": "folders/Objects/floor2objects/room3grenadestuff.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "picobossidle",
-    "path": "sprites/picobossidle/picobossidle.yy",
+    "name": "sexplosion",
+    "path": "sprites/sexplosion/sexplosion.yy",
   },
   "spriteMaskId": null,
   "visible": true,

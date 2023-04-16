@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "ographics",
-    "path": "folders/Objects/ographics.yy",
+    "name": "boss",
+    "path": "folders/Objects/boss.yy",
   },
   "parentObjectId": null,
   "persistent": false,

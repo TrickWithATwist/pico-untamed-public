@@ -35,6 +35,6 @@ if (cooldownCurrent != 0)
 else
 {
 	//create explosion object and destroy self
-	instance_create_layer(x, y, layer, oexplosion);
+	instance_create_layer(x, y, layer, ogrenadeexplosion);
 	instance_destroy();
 }

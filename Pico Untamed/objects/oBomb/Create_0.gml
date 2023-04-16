@@ -1,3 +1,8 @@
+scale = 0.5;
+
+image_xscale = scale;
+image_yscale = scale;
+
 vsp = 0;
 grv = 0.25;
 

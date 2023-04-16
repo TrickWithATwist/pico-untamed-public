@@ -1,12 +1,8 @@
 //play explosion sound
 audio_play_sound(boom, 1, 0);
 
-//kill guard
-if place_meeting(x,y,oguardshield)
-{
-	oguardshield.guardalive = 0;
-	oguardshield.deadstart = true;
-}
+//damage pico
+if place_meeting(x,y,oPicoboss) oHPbar.HP = max(0, oHPbar.HP-2);
 
 image_xscale = .5;
 image_yscale = .5;

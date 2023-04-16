@@ -1,17 +1,19 @@
 vsp += grv;
-y += vsp;
+y = min(967, y+vsp);
 
-cooldownCurrent = max( 0, cooldownCurrent-1 );
+if (y == 967) cooldownCurrent = max( 0, cooldownCurrent-1 );
 
 if (cooldownCurrent == round(cooldown/2)) exploding = true;
 
 if (exploding)
 {
-	offsetX = random_range(-2, 2);
-	offsetY = random_range(-1, 1);
+	offsetX = random_range(-4, 4);
+	offsetY = random_range(-2, 2);
 }
 
 if (cooldownCurrent == 0)
 {
+	//create explosion object and destroy self
+	instance_create_layer(x, y, layer, oExplosion);
 	instance_destroy();
 }
