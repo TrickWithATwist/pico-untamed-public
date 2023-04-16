@@ -73,3 +73,6 @@ flipCount = 0;
 
 laugh = 0;
 laughPlay = false;
+
+bombCooldown = 60;
+bombCooldownCurrent = bombCooldown;

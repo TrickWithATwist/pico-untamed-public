@@ -175,6 +175,13 @@ switch (state)
 			
 			state = atomicaState.hovering;
 		}
+		
+		bombCooldownCurrent = max( 0, bombCooldownCurrent-1 );
+		if (bombCooldownCurrent == 0) && (x > 0) && (x < room_width)
+		{
+			instance_create_layer(x, y, layer, oBomb);
+			bombCooldownCurrent = bombCooldown;
+		}
 	break;
 			
 	//default:
