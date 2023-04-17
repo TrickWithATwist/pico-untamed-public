@@ -26,15 +26,42 @@ switch (state)
 	break;
 	
 	case atomicaState.hovering:
-		oscillateXPosition += delta_time;
-		oscillateXPosition = oscillateXPosition mod oscillateXPositionHovering;
-		
-		oscillateYPosition += delta_time;
-		oscillateYPosition = oscillateYPosition mod oscillateYPositionHovering;
-		
-		
-		x = destX + sin_oscillate(oscillateXMinHovering, oscillateXMaxHovering, oscillateXDurationHovering, oscillateXPosition);
-		y = destY + sin_oscillate(oscillateYMinHovering, oscillateYMaxHovering, oscillateYDurationHovering, oscillateYPosition);
+		if (lerping)
+		{
+			x += (destX - x) * 0.1;
+			y += (destY - y) * 0.1;
+			
+			if (round(x) == destX && round(y) == destY) lerping = false;
+		}
+		else
+		{
+			oscillateXPosition += delta_time;
+			oscillateXPosition = oscillateXPosition mod oscillateXPositionHovering;
+			
+			oscillateYPosition += delta_time;
+			oscillateYPosition = oscillateYPosition mod oscillateYPositionHovering;
+			
+			
+			x = destX + sin_oscillate(oscillateXMinHovering, oscillateXMaxHovering, oscillateXDurationHovering, oscillateXPosition);
+			y = destY + sin_oscillate(oscillateYMinHovering, oscillateYMaxHovering, oscillateYDurationHovering, oscillateYPosition);
+			
+			hoveringCooldownCurrent = max( 0, hoveringCooldownCurrent-1 );
+			if (hoveringCooldownCurrent == 0)
+			{
+				oscillateXPosition = 0;
+				oscillateYPosition = 0;
+				
+				//Destroy smoke
+				smokeCooldownCurrent = 0;
+				if (instance_exists(oSmoke)) instance_destroy(oSmoke);
+				
+				lerping = false;
+				
+				sprite_index = atomicafly;
+				flyingCooldownCurrent = flyingCooldown;
+				state = atomicaState.flying;
+			}
+		}
 		
 		//Smoke
 		smokeCooldownCurrent = max( 0, smokeCooldownCurrent-1 );
@@ -42,21 +69,6 @@ switch (state)
 		{
 			instance_create_layer(x-70, y+10, layer, oSmoke);
 			smokeCooldownCurrent = smokeCooldown;
-		}
-		
-		hoveringCooldownCurrent = max( 0, hoveringCooldownCurrent-1 );
-		if (hoveringCooldownCurrent == 0)
-		{
-			oscillateXPosition = 0;
-			oscillateYPosition = 0;
-			
-			//Destroy smoke
-			smokeCooldownCurrent = 0;
-			if (instance_exists(oSmoke)) instance_destroy(oSmoke);
-			
-			sprite_index = atomicafly;
-			flyingCooldownCurrent = flyingCooldown;
-			state = atomicaState.flying;
 		}
 	break;
 	
@@ -172,6 +184,8 @@ switch (state)
 			
 			rightOneFrame = false;
 			rightOneFrameDone = false;
+			
+			lerping = true;
 			
 			state = atomicaState.hovering;
 		}

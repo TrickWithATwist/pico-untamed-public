@@ -26,12 +26,12 @@ destY = 320;
 oscillateXMinHovering = -5;
 oscillateXMaxHovering = 5;
 
-oscillateXDurationHovering = 8;
+oscillateXDurationHovering = 10;
 
 oscillateYMinHovering = -5;
 oscillateYMaxHovering = 5;
 
-oscillateYDurationHovering = 4;
+oscillateYDurationHovering = 5;
 
 
 oscillateXMinFlying = -384;
@@ -78,3 +78,5 @@ laughPlay = false;
 
 bombCooldown = 60;
 bombCooldownCurrent = bombCooldown;
+
+lerping = false;
