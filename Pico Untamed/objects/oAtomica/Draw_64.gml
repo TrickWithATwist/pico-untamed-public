@@ -13,3 +13,6 @@ if (displayon)
 	//drawtext
 	draw_text(round(room_width/2),160, "Atomica\n" + string(hp));
 }
+
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);

@@ -13,3 +13,6 @@ if (displayon == 1)
 	//drawtext
 	draw_text(round(room_width/2),160, "Fleet\n" + string(fleethp));
 }
+
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
