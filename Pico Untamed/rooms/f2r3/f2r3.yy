@@ -22,7 +22,6 @@
     {"name":"inst_5A791EB1","path":"rooms/f2r3/f2r3.yy",},
     {"name":"inst_69B3B703","path":"rooms/f2r3/f2r3.yy",},
     {"name":"inst_6ECACE3B","path":"rooms/f2r3/f2r3.yy",},
-    {"name":"inst_55FCA45","path":"rooms/f2r3/f2r3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -42,7 +41,6 @@
       ],"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"target","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6ECACE3B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ogrenadetarget","path":"objects/ogrenadetarget/ogrenadetarget.yy",},"properties":[],"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":195.0,"y":868.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_55FCA45","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"grahnade","path":"objects/grahnade/grahnade.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":942.0,"y":494.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"guard","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_27BE016D","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oguardshield","path":"objects/oguardshield/oguardshield.yy",},"properties":[],"rotation":0.0,"scaleX":0.65,"scaleY":0.65,"x":-64.0,"y":672.0,},
