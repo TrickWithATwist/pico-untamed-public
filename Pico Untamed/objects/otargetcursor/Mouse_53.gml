@@ -12,5 +12,3 @@ if place_meeting(x,y,oAtomica)
 {
 	oAtomica.hp = max( 0, oAtomica.hp-2 );
 }
-
-
