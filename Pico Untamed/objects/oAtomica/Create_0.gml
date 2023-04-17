@@ -45,11 +45,11 @@ oscillateYMaxFlying = 50;
 oscillateYDurationFlying = 5;
 
 
-oscillateXPositionHovering = 8000000;
-oscillateYPositionHovering = 4000000;
+oscillateXPositionHovering = 1000000*oscillateXDurationHovering;
+oscillateYPositionHovering = 1000000*oscillateYDurationHovering;
 
-oscillateXPositionFlying = 10000000;
-oscillateYPositionFlying = 10000000;
+oscillateXPositionFlying = 1000000*oscillateXDurationFlying;
+oscillateYPositionFlying = 1000000*oscillateYDurationFlying;
 
 oscillateXPosition = 0;
 oscillateYPosition = 0;
