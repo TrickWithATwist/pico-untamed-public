@@ -66,7 +66,7 @@ dialogueArray =
 	
 	"Fleet: Your life is just as WORTHLESS as the victims you FAILED to save...", //28
 	
-	"Pico: I ASKED YOU TO SHUT UP.", //29
+	"Pico: I TOLD YOU TO SHUT UP.", //29
 	
 	"Fleet: Too late.", //30
 	
