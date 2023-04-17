@@ -6,7 +6,7 @@ scale = 0.6;
 image_xscale = scale;
 image_yscale = scale;
 
-hp = 250;
+hp = 350;
 
 enum atomicaState
 {
@@ -80,3 +80,5 @@ bombCooldown = 60;
 bombCooldownCurrent = bombCooldown;
 
 lerping = false;
+
+displayon = true;
