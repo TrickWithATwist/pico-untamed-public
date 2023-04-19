@@ -115,6 +115,7 @@
     {"name":"sbigredbutton","order":11,"path":"sprites/sbigredbutton/sbigredbutton.yy",},
     {"name":"cos_oscillate","order":2,"path":"scripts/cos_oscillate/cos_oscillate.yy",},
     {"name":"onum9","order":8,"path":"objects/onum9/onum9.yy",},
+    {"name":"oflashatomica1","order":3,"path":"objects/oflashatomica1/oflashatomica1.yy",},
     {"name":"orock","order":4,"path":"objects/orock/orock.yy",},
     {"name":"snum4","order":4,"path":"sprites/snum4/snum4.yy",},
     {"name":"scell2","order":4,"path":"sprites/scell2/scell2.yy",},

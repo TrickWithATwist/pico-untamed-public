@@ -53,5 +53,6 @@ if picocutscenept = 2
 if picocutscenept = 3
 {
 	sprite_index = picoback;
+	oflashatomica1.gotime = 1;
 	//oAtomicap2.showup = 1;
 }

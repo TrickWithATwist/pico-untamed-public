@@ -17,11 +17,25 @@ if gohigh = 1
 {
 	y -= vsp;
 	vsp += 5/60;
+	//making smoke come
+	if scurrent >= sc
+	{
+		instance_create_layer(x,y,"shadow", oSmoke);
+		scurrent = 0;
+	}
+	else
+	{
+		scurrent += 1/10;
+	}
+	
+	
+	
 }
 if y < 0
 {
 	if raaah != 1
 	{
+		gohigh = 2;
 		opicocutscene3.picocutscenept = 2;
 		raaah = 1;
 	}

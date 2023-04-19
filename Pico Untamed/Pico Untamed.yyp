@@ -144,6 +144,7 @@
     {"id":{"name":"sbigredbutton","path":"sprites/sbigredbutton/sbigredbutton.yy",},},
     {"id":{"name":"cos_oscillate","path":"scripts/cos_oscillate/cos_oscillate.yy",},},
     {"id":{"name":"onum9","path":"objects/onum9/onum9.yy",},},
+    {"id":{"name":"oflashatomica1","path":"objects/oflashatomica1/oflashatomica1.yy",},},
     {"id":{"name":"orock","path":"objects/orock/orock.yy",},},
     {"id":{"name":"snum4","path":"sprites/snum4/snum4.yy",},},
     {"id":{"name":"scell2","path":"sprites/scell2/scell2.yy",},},

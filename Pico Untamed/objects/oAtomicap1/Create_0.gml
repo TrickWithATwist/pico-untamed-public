@@ -14,3 +14,7 @@ vsp = 50;
 blargh = 0;
 
 raaah = 0;
+
+//cooldown for smoke
+sc = 1;
+scurrent = 0;
