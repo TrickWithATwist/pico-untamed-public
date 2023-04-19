@@ -18,6 +18,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"boss","folderPath":"folders/Objects/boss.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"characters","folderPath":"folders/Objects/characters.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"floor1objects","folderPath":"folders/Objects/floor1objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room4","folderPath":"folders/Objects/floor1objects/room4.yy",},
@@ -69,7 +70,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tankman","folderPath":"folders/Sprites/Tankman.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"boss","folderPath":"folders/Objects/boss.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"index.html","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -191,6 +191,7 @@
     {"id":{"name":"ocell2","path":"objects/ocell2/ocell2.yy",},},
     {"id":{"name":"oHPbar","path":"objects/oHPbar/oHPbar.yy",},},
     {"id":{"name":"oidcardicon","path":"objects/oidcardicon/oidcardicon.yy",},},
+    {"id":{"name":"sDisclaimer","path":"sprites/sDisclaimer/sDisclaimer.yy",},},
     {"id":{"name":"oposter1","path":"objects/oposter1/oposter1.yy",},},
     {"id":{"name":"obossbox2","path":"objects/obossbox2/obossbox2.yy",},},
     {"id":{"name":"sfleetshoot","path":"sprites/sfleetshoot/sfleetshoot.yy",},},
