@@ -1,2 +1,4 @@
-//local variable to make oinit change rooms
-initdone = 0;
+duration = 1.5;
+
+fadeType = 0;
+fadeAlpha = 1;
