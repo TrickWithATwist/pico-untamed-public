@@ -1,10 +1,11 @@
 draw_set_color(c_white);
 draw_set_alpha(1);
 
-for (var i = 0; i < image_number; i++)
+for (var i = 0; i < sNumber; i++)
 {
-	draw_sprite(sDisclaimer, i, (room_width/2) - (sprite_width * round(image_number/2)) + i * sprite_width, sprite_height*2 + sin_oscillate( -10, 10, duration, get_timer() - i * 1000000*duration/4));
+	draw_sprite(sDisclaimer, i, (room_width/2) - (sWidth * round(sNumber/2)) + i * sWidth, sHeight*2 + sin_oscillate( -10, 10, duration, get_timer() - i * 1000000*duration/4));
 }
+
 
 draw_set_font(textfont);
 
