@@ -70,6 +70,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tankman","folderPath":"folders/Sprites/Tankman.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"disclaimerstuff","folderPath":"folders/Objects/disclaimerstuff.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"index.html","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -107,6 +108,7 @@
     {"id":{"name":"oShadow","path":"objects/oShadow/oShadow.yy",},},
     {"id":{"name":"of2blueprints","path":"objects/of2blueprints/of2blueprints.yy",},},
     {"id":{"name":"slock","path":"sprites/slock/slock.yy",},},
+    {"id":{"name":"Ofadeoutdisclaimer","path":"objects/Ofadeoutdisclaimer/Ofadeoutdisclaimer.yy",},},
     {"id":{"name":"sdont","path":"sprites/sdont/sdont.yy",},},
     {"id":{"name":"sf2r4","path":"sprites/sf2r4/sf2r4.yy",},},
     {"id":{"name":"guarddie","path":"sprites/guarddie/guarddie.yy",},},
@@ -148,6 +150,7 @@
     {"id":{"name":"picorun","path":"sprites/picorun/picorun.yy",},},
     {"id":{"name":"f1r6p3","path":"rooms/f1r6p3/f1r6p3.yy",},},
     {"id":{"name":"musF2","path":"sounds/musF2/musF2.yy",},},
+    {"id":{"name":"oDisclaimermessage","path":"objects/oDisclaimermessage/oDisclaimermessage.yy",},},
     {"id":{"name":"bfidle","path":"sprites/bfidle/bfidle.yy",},},
     {"id":{"name":"guardgunout","path":"sprites/guardgunout/guardgunout.yy",},},
     {"id":{"name":"onum4","path":"objects/onum4/onum4.yy",},},

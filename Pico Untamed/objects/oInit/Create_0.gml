@@ -1,2 +1,2 @@
-clicked = false;
-cooldown = 60*5;
+//local variable to make oinit change rooms
+initdone = 0;
