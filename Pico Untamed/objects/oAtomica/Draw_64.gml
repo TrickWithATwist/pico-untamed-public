@@ -10,8 +10,13 @@ if (displayon)
 	//set color
 	draw_set_color(c_white);
 	
+	//set alpha
+	draw_set_alpha(displayalpha);
+	
 	//drawtext
 	draw_text(round(room_width/2),160, "Atomica\n" + string(hp));
+	
+	draw_set_alpha(1);
 }
 
 draw_set_halign(fa_left);

@@ -201,3 +201,5 @@ switch (state)
 	//default:
 				
 }
+
+displayalpha = min( 1, displayalpha+0.02);

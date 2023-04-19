@@ -82,3 +82,4 @@ bombCooldownCurrent = bombCooldown;
 lerping = false;
 
 displayon = true;
+displayalpha = 0;
