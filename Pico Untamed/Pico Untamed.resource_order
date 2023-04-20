@@ -149,6 +149,7 @@
     {"name":"Ofadeoutspecial2","order":3,"path":"objects/Ofadeoutspecial2/Ofadeoutspecial2.yy",},
     {"name":"onum8","order":7,"path":"objects/onum8/onum8.yy",},
     {"name":"odont","order":2,"path":"objects/odont/odont.yy",},
+    {"name":"picoshame","order":14,"path":"sprites/picoshame/picoshame.yy",},
     {"name":"sf1r6","order":10,"path":"sprites/sf1r6/sf1r6.yy",},
     {"name":"oguardprompt","order":8,"path":"objects/oguardprompt/oguardprompt.yy",},
     {"name":"sf2r5","order":4,"path":"sprites/sf2r5/sf2r5.yy",},

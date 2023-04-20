@@ -36,7 +36,7 @@ if animationdone = 1
 	{
 		if of3 = 0
 		{
-			opicocutscene2.sprite_index = picoidle;
+			opicocutscene2.sprite_index = picoshame;
 			opicocutscene2.image_speed = 1;
 			instance_create_layer(0,0,"fadein",otextbox);
 			otextbox.text_showing = 1;
