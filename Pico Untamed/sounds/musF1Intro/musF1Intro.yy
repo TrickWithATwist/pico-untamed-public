@@ -7,10 +7,10 @@
     "path": "audiogroups/audiogroup_music",
   },
   "bitDepth": 1,
-  "bitRate": 320,
-  "compression": 0,
+  "bitRate": 192,
+  "compression": 1,
   "conversionMode": 0,
-  "duration": 35.00405,
+  "duration": 35.030205,
   "parent": {
     "name": "Music",
     "path": "folders/Sounds/Music.yy",

@@ -7,8 +7,8 @@
     "path": "audiogroups/audiogroup_music",
   },
   "bitDepth": 1,
-  "bitRate": 320,
-  "compression": 0,
+  "bitRate": 192,
+  "compression": 1,
   "conversionMode": 0,
   "duration": 134.0488,
   "parent": {

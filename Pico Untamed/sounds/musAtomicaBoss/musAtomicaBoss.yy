@@ -7,10 +7,10 @@
     "path": "audiogroups/audiogroup_default",
   },
   "bitDepth": 1,
-  "bitRate": 320,
-  "compression": 0,
+  "bitRate": 192,
+  "compression": 1,
   "conversionMode": 0,
-  "duration": 134.39998,
+  "duration": 134.42612,
   "parent": {
     "name": "Boss",
     "path": "folders/Sounds/Music/Boss.yy",
