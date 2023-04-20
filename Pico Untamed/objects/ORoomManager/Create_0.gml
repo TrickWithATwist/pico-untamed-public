@@ -30,6 +30,7 @@ guardtutorial = 0;
 BFsaved = 0;
 Tankmansaved = 0;
 nenesaved = 0;
+darnellsaved = 0;
 
 //variable that makes dialogue show up when you enter f1r12
 f1r12dialogue = 0;

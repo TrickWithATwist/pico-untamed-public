@@ -1,5 +1,5 @@
-if (sprite_index = Tankmanscared) and (tankscared = 1) 
+if (sprite_index = nenescared) and (tankscared = 1) 
 {
 	image_speed = 0
-	image_index = 7;
+	image_index = 3;
 }

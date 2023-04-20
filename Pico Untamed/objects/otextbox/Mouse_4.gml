@@ -377,6 +377,24 @@ if (room = f2r4) and (dialogue = 44)
 	//ocock.allow = 1;
 	//of2blueprints.clicked = 0;
 }
+if (room = f2r2) and (dialogue = 46)
+{
+	text_showing = 0;
+	instance_destroy();
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi" , true);
+	if ORoomManager.grenadepickup = 1
+	{
+		obuttonright.visible = true;
+	}
+	obuttonleft.visible = true;
+	obuttonup.visible = true;
+	//making objects clickable again
+	//of2blueprints.allow = 1;
+	//ovent.allow = 1;
+	//ocock.allow = 1;
+	//of2blueprints.clicked = 0;
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {

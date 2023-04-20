@@ -97,6 +97,10 @@ dialogueArray =
 	"Nene: Just be careful, okay?", //43
 	
 	"Pico: Right.", //44
+	
+	"Darnell: Took you long enough.", //45
+	
+	"Darnell: A guard dropped a grenade near my cell. You should use it.", //46
 ];
 
 //stupid thing for room 4 and 5
