@@ -46,6 +46,10 @@ else
 			draw_text(145,725,"Depends. You willing to let me through?");
 			draw_text(145,900,"No not really.");
 		break;
+		case 9:
+			draw_text(145,725,"Yeah, I'm fine.");
+			draw_text(145,900,"Don't worry about me!");
+		break;
 		
 		
 	}

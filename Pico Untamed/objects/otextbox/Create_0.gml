@@ -91,6 +91,12 @@ dialogueArray =
 	"Atomica: Good, then GTFO.", //40
 	
 	"Pico: Afraid I can't do that.", //41
+	
+	"Nene: Pico.... Are you okay?", //42
+	
+	"Nene: Just be careful, okay?", //43
+	
+	"Pico: Right.", //44
 ];
 
 //stupid thing for room 4 and 5

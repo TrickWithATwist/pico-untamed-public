@@ -352,6 +352,31 @@ if (room = f2r8p1) and (dialogue = 41)
 	//ofleetp1.cutscenept = 1;
 	opicocutscene3.picocutscenept = 1;
 }
+if (room = f2r4) and (dialogue = 42)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	instance_create_layer(0,0,"fadein",ocharacterbox);
+	ocharacterbox.ctext = 9;
+	
+}
+if (room = f2r4) and (dialogue = 44)
+{
+	text_showing = 0;
+	instance_destroy();
+	layer_set_visible("inventory", true);
+	layer_set_visible("uzi" , true);
+	obuttonright.visible = true;
+	obuttonleft.visible = true;
+	obuttonup.visible = true;
+	//making objects clickable again
+	//of2blueprints.allow = 1;
+	//ovent.allow = 1;
+	//ocock.allow = 1;
+	//of2blueprints.clicked = 0;
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {
