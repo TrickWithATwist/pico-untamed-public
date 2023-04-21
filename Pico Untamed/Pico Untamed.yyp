@@ -33,6 +33,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room7","folderPath":"folders/Objects/floor2objects/room7.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room8","folderPath":"folders/Objects/floor2objects/room8.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room8cutscene","folderPath":"folders/Objects/floor2objects/room8cutscene.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room8c2","folderPath":"folders/Objects/floor2objects/room8cutscene/room8c2.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gameoverscreen","folderPath":"folders/Objects/gameoverscreen.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"obuttons","folderPath":"folders/Objects/obuttons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ographics","folderPath":"folders/Objects/ographics.yy",},
@@ -72,7 +73,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tankman","folderPath":"folders/Sprites/Tankman.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room8c2","folderPath":"folders/Objects/floor2objects/room8cutscene/room8c2.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"index.html","CopyToMask":3035426170322551022,"filePath":"datafiles",},
