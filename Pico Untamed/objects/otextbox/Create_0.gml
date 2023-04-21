@@ -101,6 +101,30 @@ dialogueArray =
 	"Darnell: Took you long enough.", //45
 	
 	"Darnell: A guard dropped a grenade near my cell. You should use it.", //46
+	
+	"Atomica: Please! Don't kill me, have mercy.", //47
+	
+	"Atomica: I'm just an intern! I have no idea what's going on!", //48
+	
+	"Atomica: All I want to do is just build a future for myself, nothing more!", //49
+	
+	"Atomica: I didn't want to fight, I was just scared.", //50
+	
+	"Atomica: You're Pico right? The kid who survived that shooting that happened 3 months ago?", //51
+	
+	"Atomica: You know what it's like then to be scared, just wanting all the violence to end...", //52
+	
+	"Pico: ...", //53
+	
+	"Pico: But right now is no time to be scared.", //54
+	
+	"Pico: I have friends who are counting on me to save them. I can't let myself get held back.", //55
+	
+	"Pico: Can you help me unlock their cells?", //56
+	
+	"Atomica: The button behind you should unlock them.", //57
+	
+	"Pico: Thanks.", //58
 ];
 
 //stupid thing for room 4 and 5

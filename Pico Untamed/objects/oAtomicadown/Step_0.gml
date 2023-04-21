@@ -4,7 +4,7 @@ if oneframe = 0
 	otextbox.text_showing = 1;
 	//layer_set_visible("inventory", false);
 	layer_set_visible("uzi", false);
-	otextbox.dialogue = 46;
+	otextbox.dialogue = 47;
 	oneframe = 1;
 }
 if ded = 2
@@ -27,8 +27,8 @@ if animationdone = 1
 	{
 		if of3 = 0
 		{
-			opicocutscene2.sprite_index = picoshame;
-			opicocutscene2.image_speed = 1;
+			opicocutscene4.sprite_index = picoshame;
+			opicocutscene4.image_speed = 1;
 			instance_create_layer(0,0,"fadein",otextbox);
 			otextbox.text_showing = 1;
 			//layer_set_visible("inventory", false);

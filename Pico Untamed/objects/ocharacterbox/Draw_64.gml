@@ -50,6 +50,14 @@ else
 			draw_text(145,725,"Yeah, I'm fine.");
 			draw_text(145,900,"Don't worry about me!");
 		break;
+		case 10:
+			draw_text(145,725,"Why?");
+			draw_text(145,900,"(Kill)");
+		break;
+		case 11:
+			draw_text(145,725,"Yeah, I understand.");
+			draw_text(145,900,"(Kill)");
+		break;
 		
 		
 	}

@@ -395,6 +395,36 @@ if (room = f2r2) and (dialogue = 46)
 	//ocock.allow = 1;
 	//of2blueprints.clicked = 0;
 }
+if (room = f2r8p2) and (dialogue = 47)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	instance_create_layer(0,0,"fadein",ocharacterbox);
+	ocharacterbox.ctext = 10;
+	
+}
+if (room = f2r8p2) and (dialogue = 52)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//instance_create_layer(0,0,"fadein",ocharacterbox);
+	//ocharacterbox.ctext = 10;
+	//have flashback show up
+	
+}
+if (room = f2r8p2) and (dialogue = 53)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	instance_create_layer(0,0,"fadein",ocharacterbox);
+	ocharacterbox.ctext = 11;
+	
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {
