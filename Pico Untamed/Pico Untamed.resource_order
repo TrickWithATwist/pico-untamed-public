@@ -288,6 +288,7 @@
     {"name":"sgrenadeicon","order":17,"path":"sprites/sgrenadeicon/sgrenadeicon.yy",},
     {"name":"sfleetjumpbase","order":2,"path":"sprites/sfleetjumpbase/sfleetjumpbase.yy",},
     {"name":"oguardturnaround2","order":4,"path":"objects/oguardturnaround2/oguardturnaround2.yy",},
+    {"name":"atomicadead","order":6,"path":"sprites/atomicadead/atomicadead.yy",},
     {"name":"othespot","order":2,"path":"objects/othespot/othespot.yy",},
     {"name":"ofleetfake4","order":5,"path":"objects/ofleetfake4/ofleetfake4.yy",},
     {"name":"sbossprompt","order":14,"path":"sprites/sbossprompt/sbossprompt.yy",},

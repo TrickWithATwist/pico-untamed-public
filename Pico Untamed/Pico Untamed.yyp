@@ -354,6 +354,7 @@
     {"id":{"name":"sgrenadeicon","path":"sprites/sgrenadeicon/sgrenadeicon.yy",},},
     {"id":{"name":"sfleetjumpbase","path":"sprites/sfleetjumpbase/sfleetjumpbase.yy",},},
     {"id":{"name":"oguardturnaround2","path":"objects/oguardturnaround2/oguardturnaround2.yy",},},
+    {"id":{"name":"atomicadead","path":"sprites/atomicadead/atomicadead.yy",},},
     {"id":{"name":"othespot","path":"objects/othespot/othespot.yy",},},
     {"id":{"name":"ofleetfake4","path":"objects/ofleetfake4/ofleetfake4.yy",},},
     {"id":{"name":"neneidle","path":"sprites/neneidle/neneidle.yy",},},

@@ -1,3 +1,12 @@
+
+//code when HP goes to 0 
+if hp = 0
+{
+	oflashatomica2.gotime = 1;
+}
+
+
+//boss code
 switch (state)
 {
 	case atomicaState.top:
