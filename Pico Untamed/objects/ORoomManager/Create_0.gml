@@ -15,7 +15,7 @@ armoryunlock = 0;
 room4unlock = 0;
 room5buttonpress = 0;
 //ONLY FOR DEV REMEMBER TO TURN BACK TO 0
-fleetdefeated = 0;
+fleetdefeated = 1;
 
 //variables specific to floor 2
 grenadepickup = 0;

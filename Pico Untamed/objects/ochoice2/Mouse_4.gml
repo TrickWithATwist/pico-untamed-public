@@ -37,7 +37,7 @@ switch (ocharacterbox.ctext)
 	case 10:
 		otextbox.dialogue = 59;
 	break;
-	case 10:
+	case 11:
 		otextbox.dialogue = 59;
 	break;
 }
