@@ -125,6 +125,8 @@ dialogueArray =
 	"Atomica: The button behind you should unlock them.", //57
 	
 	"Pico: Thanks.", //58
+	
+	"Pico: Goodbye.", //59
 ];
 
 //stupid thing for room 4 and 5

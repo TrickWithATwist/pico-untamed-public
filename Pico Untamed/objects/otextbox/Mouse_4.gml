@@ -425,6 +425,27 @@ if (room = f2r8p2) and (dialogue = 53)
 	ocharacterbox.ctext = 11;
 	
 }
+if (room = f2r8p2) and (dialogue = 58)
+{
+	Ofadeoutspecialidk.roomfade = 1;
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	
+}
+if (room = f2r8p2) and (dialogue = 59)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	//instance_create_layer(0,0,"fadein",ocharacterbox);
+	//ocharacterbox.ctext = 7;
+	//kill atomica
+	oAtomicadown.ded = 2;
+	
+}
 //go to neext dialogue when mouse clicked
 if stupidvar = 0
 {
