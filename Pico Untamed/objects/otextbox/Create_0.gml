@@ -112,11 +112,11 @@ dialogueArray =
 	
 	"Atomica: You're Pico right? The kid who survived that shooting that happened 3 months ago?", //51
 	
-	"Atomica: You know what it's like then to be scared, just wanting all the violence to end...", //52
+	"Atomica: You know what it's like, then, to be scared, just wanting all the violence to end.", //52
 	
 	"Pico: ...", //53
 	
-	"Pico: But right now is no time to be scared.", //54
+	"Pico: But now isn't the time to be scared.", //54
 	
 	"Pico: I have friends who are counting on me to save them. I can't let myself get held back.", //55
 	
