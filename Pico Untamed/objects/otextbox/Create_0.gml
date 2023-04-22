@@ -110,15 +110,15 @@ dialogueArray =
 	
 	"Atomica: I didn't want to fight, I was just scared.", //50
 	
-	"Atomica: You're Pico right? The kid who survived that shooting that happened 3 months ago?", //51
+	"Atomica: You're Pico right? The kid who survived that\n                 shooting that happened 3 months ago?", //51
 	
-	"Atomica: You know what it's like, then, to be scared, just wanting all the violence to end.", //52
+	"Atomica: You know what it's like, then, to be scared, just\n                 wanting all the violence to end.", //52
 	
 	"Pico: ...", //53
 	
 	"Pico: But now isn't the time to be scared.", //54
 	
-	"Pico: I have friends who are counting on me to save them. I can't let myself get held back.", //55
+	"Pico: I have friends who are counting on me to save them. I can't\n         let myself get held back.", //55
 	
 	"Pico: Can you help me unlock their cells?", //56
 	
@@ -127,6 +127,8 @@ dialogueArray =
 	"Pico: Thanks.", //58
 	
 	"Pico: Goodbye.", //59
+	
+	"Pico: ...", //60;
 ];
 
 //stupid thing for room 4 and 5

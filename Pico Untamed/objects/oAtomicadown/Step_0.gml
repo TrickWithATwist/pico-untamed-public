@@ -18,7 +18,7 @@ if ded = 2
 }
 if animationdone = 1
 {
-	image_index = 5;
+	image_index = 6;
 	if cooldowncurrent != cooldown
 	{
 		cooldowncurrent += 1/60
@@ -33,7 +33,7 @@ if animationdone = 1
 			otextbox.text_showing = 1;
 			//layer_set_visible("inventory", false);
 			layer_set_visible("uzi", false);
-			otextbox.dialogue = 31;
+			otextbox.dialogue = 60;
 			of3 = 1;
 		}
 	}

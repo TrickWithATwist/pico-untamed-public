@@ -40,6 +40,7 @@ switch (ocharacterbox.ctext)
 	case 11:
 		otextbox.dialogue = 54;
 		opicocutscene4.sprite_index = picoidle;
+		opicocutscene4.image_speed = 1;
 	break;
 }
 instance_destroy(ocharacterbox);

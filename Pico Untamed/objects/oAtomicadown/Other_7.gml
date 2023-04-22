@@ -1,4 +1,4 @@
-if (sprite_index = sfleetdead) and (animationdone = 0)
+if (sprite_index = atomicadead) and (animationdone = 0)
 {
 	animationdone = 1;
 }

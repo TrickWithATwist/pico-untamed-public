@@ -413,6 +413,7 @@ if (room = f2r8p2) and (dialogue = 52)
 	//instance_create_layer(0,0,"fadein",ocharacterbox);
 	//ocharacterbox.ctext = 10;
 	//have flashback show up
+	oflashback.go = 1;
 	
 }
 if (room = f2r8p2) and (dialogue = 53)
@@ -444,6 +445,18 @@ if (room = f2r8p2) and (dialogue = 59)
 	//ocharacterbox.ctext = 7;
 	//kill atomica
 	oAtomicadown.ded = 2;
+	
+}
+if (room = f2r8p2) and (dialogue = 60)
+{
+	text_showing = 0;
+	instance_destroy();
+	//visible = false;
+	//set up the choice
+	//instance_create_layer(0,0,"fadein",ocharacterbox);
+	//ocharacterbox.ctext = 7;
+	//kill atomica
+	Ofadeoutspecialidk.roomfade = 1;
 	
 }
 //go to neext dialogue when mouse clicked

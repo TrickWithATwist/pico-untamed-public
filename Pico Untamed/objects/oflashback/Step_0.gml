@@ -1,6 +1,6 @@
 if go = 1
 {
-	if (image_alpha <= 1) and (count = 0)
+	if (image_alpha < 1) and (count = 0)
 	{
 		image_alpha += 1/30;
 		
