@@ -17,3 +17,9 @@ cooldowncurrent = max(0, cooldowncurrent - 1);
 x += (randx - x) * .2;
 y += (randy - y) * .2;
 
+
+//when hp is 0
+if hp = 0
+{
+	oflashcass.gotime = 1;
+}

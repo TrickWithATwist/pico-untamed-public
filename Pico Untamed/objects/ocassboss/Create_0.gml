@@ -20,7 +20,7 @@ movementcounter = 0;
 
 side = irandom_range(1,2);
 
-hp = 200;
+hp = 250;
 
 displayon = 1;
 
