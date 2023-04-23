@@ -57,6 +57,9 @@ if (clicked = 1) and (oPico.transition = 1)
 				//ORoomManager.mydirection = 1;
 				ORoomManager.myroom = 6;
 			break;
+			case 9:
+				room_goto(rconquestintro);
+			break;
 				
 		}
 	}
