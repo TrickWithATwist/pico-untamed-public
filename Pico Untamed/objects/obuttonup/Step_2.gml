@@ -72,7 +72,7 @@ if (clicked = 1) and (oPico.transition = 1)
 				else
 				{
 					room_goto(f2r8real);
-					ORoomManager.mydirection = 1;
+					ORoomManager.mydirection = 0;
 					ORoomManager.myroom = 8;
 				}
 			break;
