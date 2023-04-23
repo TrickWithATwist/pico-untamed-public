@@ -106,6 +106,7 @@
     {"id":{"name":"nenescared","path":"sprites/nenescared/nenescared.yy",},},
     {"id":{"name":"guardshoot","path":"sprites/guardshoot/guardshoot.yy",},},
     {"id":{"name":"sfleetbossbase","path":"sprites/sfleetbossbase/sfleetbossbase.yy",},},
+    {"id":{"name":"srubble","path":"sprites/srubble/srubble.yy",},},
     {"id":{"name":"sBlueprints","path":"sprites/sBlueprints/sBlueprints.yy",},},
     {"id":{"name":"sf2r3","path":"sprites/sf2r3/sf2r3.yy",},},
     {"id":{"name":"sHP","path":"sprites/sHP/sHP.yy",},},

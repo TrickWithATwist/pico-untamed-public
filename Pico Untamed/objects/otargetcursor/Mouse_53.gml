@@ -13,4 +13,9 @@ if oPicoboss.protected = 0
 	{
 		oAtomica.hp = max( 0, oAtomica.hp-2 );
 	}
+	
+	if place_meeting(x,y,ocassboss)
+	{
+		ocassboss.hp = max( 0, ocassboss.hp-2 );
+	}
 }
