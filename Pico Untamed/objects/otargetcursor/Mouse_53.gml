@@ -18,4 +18,8 @@ if oPicoboss.protected = 0
 	{
 		ocassboss.hp = max( 0, ocassboss.hp-2 );
 	}
+	if place_meeting(x,y,orubble)
+	{
+		orubble.tact = 2;
+	}
 }

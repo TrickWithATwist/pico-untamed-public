@@ -4,6 +4,12 @@ if cooldowncurrent <= 0
 	cooldowncurrent = cooldown;
 	randx = irandom_range(100, 1820);
 	randy = irandom_range(100,384);
+	count += 1
+	
+	if count > 1
+	{
+		instance_create_layer(irandom_range(288,1600), -256, "rubble", orubble);
+	}
 }
 
 cooldowncurrent = max(0, cooldowncurrent - 1);
