@@ -216,6 +216,7 @@
     {"name":"sBomb","order":3,"path":"sprites/sBomb/sBomb.yy",},
     {"name":"sfleetdead","order":7,"path":"sprites/sfleetdead/sfleetdead.yy",},
     {"name":"osafespot2","order":10,"path":"objects/osafespot2/osafespot2.yy",},
+    {"name":"ocassfake4","order":4,"path":"objects/ocassfake4/ocassfake4.yy",},
     {"name":"neneinteract","order":4,"path":"objects/neneinteract/neneinteract.yy",},
     {"name":"oguard","order":6,"path":"objects/oguard/oguard.yy",},
     {"name":"bfscared","order":1,"path":"sprites/bfscared/bfscared.yy",},

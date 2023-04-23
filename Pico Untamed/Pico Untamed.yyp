@@ -259,6 +259,7 @@
     {"id":{"name":"sBomb","path":"sprites/sBomb/sBomb.yy",},},
     {"id":{"name":"sfleetdead","path":"sprites/sfleetdead/sfleetdead.yy",},},
     {"id":{"name":"osafespot2","path":"objects/osafespot2/osafespot2.yy",},},
+    {"id":{"name":"ocassfake4","path":"objects/ocassfake4/ocassfake4.yy",},},
     {"id":{"name":"neneinteract","path":"objects/neneinteract/neneinteract.yy",},},
     {"id":{"name":"oguard","path":"objects/oguard/oguard.yy",},},
     {"id":{"name":"obuttonleft","path":"objects/obuttonleft/obuttonleft.yy",},},
@@ -306,7 +307,7 @@
     {"id":{"name":"opicodead","path":"objects/opicodead/opicodead.yy",},},
     {"id":{"name":"sfinalbossroom","path":"sprites/sfinalbossroom/sfinalbossroom.yy",},},
     {"id":{"name":"obox2","path":"objects/obox2/obox2.yy",},},
-    {"id":{"name":"f1r6p229","path":"rooms/f1r6p229/f1r6p229.yy",},},
+    {"id":{"name":"rphase2","path":"rooms/rphase2/rphase2.yy",},},
     {"id":{"name":"sf1r12","path":"sprites/sf1r12/sf1r12.yy",},},
     {"id":{"name":"sf1r3locked","path":"sprites/sf1r3locked/sf1r3locked.yy",},},
     {"id":{"name":"meow","path":"sounds/meow/meow.yy",},},
@@ -406,6 +407,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"rphase2","path":"rooms/rphase2/rphase2.yy",},},
     {"roomId":{"name":"init","path":"rooms/init/init.yy",},},
     {"roomId":{"name":"f1r1","path":"rooms/f1r1/f1r1.yy",},},
     {"roomId":{"name":"f1r2","path":"rooms/f1r2/f1r2.yy",},},
@@ -434,7 +436,6 @@
     {"roomId":{"name":"f2r8real","path":"rooms/f2r8real/f2r8real.yy",},},
     {"roomId":{"name":"lastroom","path":"rooms/lastroom/lastroom.yy",},},
     {"roomId":{"name":"rconquestintro","path":"rooms/rconquestintro/rconquestintro.yy",},},
-    {"roomId":{"name":"f1r6p229","path":"rooms/f1r6p229/f1r6p229.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
