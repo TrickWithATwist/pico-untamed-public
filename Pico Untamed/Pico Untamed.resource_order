@@ -127,6 +127,7 @@
     {"name":"oflashatomica1","order":3,"path":"objects/oflashatomica1/oflashatomica1.yy",},
     {"name":"orock","order":4,"path":"objects/orock/orock.yy",},
     {"name":"snum4","order":4,"path":"sprites/snum4/snum4.yy",},
+    {"name":"oconquesteye","order":1,"path":"objects/oconquesteye/oconquesteye.yy",},
     {"name":"scell2","order":4,"path":"sprites/scell2/scell2.yy",},
     {"name":"picorun","order":1,"path":"sprites/picorun/picorun.yy",},
     {"name":"f1r6p3","order":2,"path":"rooms/f1r6p3/f1r6p3.yy",},

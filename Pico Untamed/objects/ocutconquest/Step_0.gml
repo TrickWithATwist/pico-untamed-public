@@ -5,8 +5,20 @@ switch(cut)
 	break;
 	case 2:
 		sprite_index = sci2;
-	break
-	
+	break;
+	case 3:
+		if ORoomManager.good = 1
+		{
+			sprite_index = sci3good;
+		}
+		else
+		{
+			sprite_index = sci3bad;
+		}
+	break;
+	case 4:
+		sprite_index = sci4;
+	break;
 	
 	
 	

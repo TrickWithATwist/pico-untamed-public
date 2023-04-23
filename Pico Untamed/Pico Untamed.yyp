@@ -156,6 +156,7 @@
     {"id":{"name":"oflashatomica1","path":"objects/oflashatomica1/oflashatomica1.yy",},},
     {"id":{"name":"orock","path":"objects/orock/orock.yy",},},
     {"id":{"name":"snum4","path":"sprites/snum4/snum4.yy",},},
+    {"id":{"name":"oconquesteye","path":"objects/oconquesteye/oconquesteye.yy",},},
     {"id":{"name":"oAtomicadown","path":"objects/oAtomicadown/oAtomicadown.yy",},},
     {"id":{"name":"scell2","path":"sprites/scell2/scell2.yy",},},
     {"id":{"name":"picorun","path":"sprites/picorun/picorun.yy",},},
