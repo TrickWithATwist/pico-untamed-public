@@ -1,13 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oconquesteye",
-  "eventList": [],
+  "name": "ocassboss",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "conquestintro",
-    "path": "folders/Objects/cutsceneobjects/conquestintro.yy",
+    "name": "finalboss",
+    "path": "folders/Objects/finalboss.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "scieye",
-    "path": "sprites/scieye/scieye.yy",
+    "name": "cassidle",
+    "path": "sprites/cassidle/cassidle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
