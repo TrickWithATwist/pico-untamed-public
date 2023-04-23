@@ -1,5 +1,8 @@
 //establishing essential variables for rooms
 
+//variable determining if pico gets good ending or not
+good = 1;
+
 //my floor determines floor pico is on
 myfloor = 1;
 

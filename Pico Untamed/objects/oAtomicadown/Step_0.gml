@@ -13,6 +13,7 @@ if ded = 2
 	if of2 = 0
 	{
 		//audio_play_sound(fleetshotgun, 1, 0);
+		ORoomManager.good = 0;
 		of2 = 1;
 	}
 }
