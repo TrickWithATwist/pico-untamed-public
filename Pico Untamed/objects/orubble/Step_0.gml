@@ -8,7 +8,7 @@ if place_meeting(x,y,oPicoboss)
 }
 if tact = 3
 {
-	instance_create_layer(x, y, layer, orockexplosion);
+	instance_create_layer(x, y + 30, layer, orockexplosion);
 	instance_destroy();
 }
 if tact = 2
