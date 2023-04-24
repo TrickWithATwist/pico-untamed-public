@@ -10,7 +10,7 @@
   "bitRate": 320,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.115374,
+  "duration": 1.496961,
   "parent": {
     "name": "Title",
     "path": "folders/Sounds/Title.yy",

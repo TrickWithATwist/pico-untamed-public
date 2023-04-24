@@ -15,3 +15,5 @@ clicked = false;
 
 //accel = 0.5;
 //decel = 1;
+
+image_blend = c_gray;

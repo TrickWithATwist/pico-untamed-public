@@ -1,6 +1,6 @@
 if ( hover )
 {
-	xOffsetCurrent += (xOffset - xOffsetCurrent) * accel;
+	xOffsetCurrent += (140 - xOffsetCurrent) * accel;
 	yOffsetCurrent += (yOffset - yOffsetCurrent) * accel;
 }
 else
