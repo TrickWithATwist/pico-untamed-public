@@ -9,6 +9,8 @@ if (audio_group_is_loaded(audiogroup_music))
 		audio_sound_gain(musFleetBoss, 1, 0);
 		audio_sound_gain(musF2, 1, 0);
 		audio_sound_gain(musAtomicaBoss, 1, 0);
+		audio_sound_gain(musF2R8, 1, 0);
+		audio_sound_gain(musFinalBoss, 1, 0);
 		musState = music.none;
 	}
 	
@@ -20,6 +22,8 @@ if (audio_group_is_loaded(audiogroup_music))
 		audio_stop_sound(musFleetBoss);
 		audio_stop_sound(musF2);
 		audio_stop_sound(musAtomicaBoss);
+		audio_stop_sound(musF2R8);
+		audio_stop_sound(musFinalBoss);
 		
 		switch (musState)
 		{
@@ -41,6 +45,14 @@ if (audio_group_is_loaded(audiogroup_music))
 			
 			case music.atomicaboss:
 				audio_play_sound(musAtomicaBoss, 0, true, 0.8);
+			break;
+			
+			case music.floor2room8:
+				audio_play_sound(musF2R8, 0, true, 1);
+			break;
+			
+			case music.finalboss:
+				audio_play_sound(musFinalBoss, 0, true, 0.8);
 			break;
 			
 			//default:

@@ -1,9 +1,6 @@
 {
   "resourceType": "GMExtensionConfigSet",
   "configurables": null,
-  "extensionId": {
-    "name": "HTML_FullScreen",
-    "path": "extensions/HTML_FullScreen/HTML_FullScreen.yy"
-  },
+  "extensionId": null,
   "resourceVersion": "1.0"
 }

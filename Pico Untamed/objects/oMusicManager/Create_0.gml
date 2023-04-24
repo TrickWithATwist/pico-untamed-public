@@ -6,6 +6,8 @@ enum music
 	fleetboss,
 	floor2,
 	atomicaboss,
+	floor2room8,
+	finalboss,
 	size
 }
 
