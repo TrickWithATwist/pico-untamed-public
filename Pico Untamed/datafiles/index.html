@@ -86,7 +86,26 @@
 				/*margin: 100px auto;*/
 				box-shadow: 0px 0px 25px 3px rgba(235, 117, 34, 0.8);
 			}
-
+			
+			
+			/* triangle */
+			.play-btn::after {
+				content: "";
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				-webkit-transform: translateX(-40%) translateY(-50%);
+				transform: translateX(-40%) translateY(-50%);
+				transform-origin: center center;
+				width: 0;
+				height: 0;
+				border-top: 15px solid transparent;
+				border-bottom: 15px solid transparent;
+				border-left: 25px solid #fff;
+				z-index: 100;
+				-webkit-transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+				transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+			}
 			
         </style>
 
