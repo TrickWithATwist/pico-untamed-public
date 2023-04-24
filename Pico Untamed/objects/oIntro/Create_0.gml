@@ -1,4 +1,4 @@
-cooldown = 60*1.5;
+cooldown = 60*2;
 
 fadeInSpeed = 0.05;
 fadeOutSpeed = 0.05;
