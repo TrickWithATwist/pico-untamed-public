@@ -74,6 +74,7 @@
     {"name":"Title","order":24,"path":"folders/Sprites/Title.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"cassintro","order":3,"path":"folders/Objects/cutsceneobjects/cassintro.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},
