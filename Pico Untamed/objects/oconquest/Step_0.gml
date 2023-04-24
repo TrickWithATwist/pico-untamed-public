@@ -26,3 +26,9 @@ if sprite_index = conquesthanddown
 		cd2c = 0;
 	}
 }
+
+
+if hp = 0
+{
+	oflashconquest.gotime = 1;
+}
