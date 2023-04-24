@@ -4,6 +4,8 @@ if (audio_group_is_loaded(audiogroup_music))
 	
 	if (stopCooldown == 0)
 	{
+		audio_sound_gain(musTitleIntro, 1, 0);
+		audio_sound_gain(musTitleLoop, 1, 0);
 		audio_sound_gain(musF1Intro, 1, 0);
 		audio_sound_gain(musF1Loop, 1, 0);
 		audio_sound_gain(musFleetBoss, 1, 0);
@@ -17,6 +19,8 @@ if (audio_group_is_loaded(audiogroup_music))
 	if (lastMusState != musState)
 	{
 		//i have to stop sounds like this because the gamemaker html export sucks so i cant use audio_group_stop_all - rahim
+		audio_stop_sound(musTitleIntro);
+		audio_stop_sound(musTitleLoop);
 		audio_stop_sound(musF1Intro);
 		audio_stop_sound(musF1Loop);
 		audio_stop_sound(musFleetBoss);
@@ -27,6 +31,14 @@ if (audio_group_is_loaded(audiogroup_music))
 		
 		switch (musState)
 		{
+			case music.titleintro:
+				audio_play_sound(musTitleIntro, 0, false, 1);
+			break;
+			
+			case music.titleloop:
+				audio_play_sound(musTitleLoop, 0, true, 1);
+			break;
+			
 			case music.floor1intro:
 				audio_play_sound(musF1Intro, 0, false, 1);
 			break;
@@ -60,6 +72,12 @@ if (audio_group_is_loaded(audiogroup_music))
 		}
 		
 		lastMusState = musState;
+	}
+	
+	//handle title intro to loop switch
+	if (musState == music.titleintro)
+	{
+		if (!audio_is_playing(musTitleIntro)) musState = music.titleloop;
 	}
 	
 	//handle floor1 intro to loop switch

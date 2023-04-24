@@ -1,6 +1,8 @@
 enum music
 {
 	none,
+	titleintro,
+	titleloop,
 	floor1intro,
 	floor1loop,
 	fleetboss,
