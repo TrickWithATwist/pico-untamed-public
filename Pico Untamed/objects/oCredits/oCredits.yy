@@ -1,19 +1,22 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "ostart",
+  "name": "oCredits",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"button","path":"objects/oButton/oButton.yy",},"value":"2",},
+  ],
   "parent": {
-    "name": "titlescreenstuff",
-    "path": "folders/Objects/titlescreenstuff.yy",
+    "name": "Title",
+    "path": "folders/Objects/Title.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oButton",
+    "path": "objects/oButton/oButton.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -29,10 +32,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "sButtonStart",
-    "path": "sprites/sButtonStart/sButtonStart.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
