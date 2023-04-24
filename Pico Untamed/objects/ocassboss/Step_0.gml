@@ -8,7 +8,7 @@ if cooldowncurrent <= 0
 	
 	if count > 1
 	{
-		instance_create_layer(irandom_range(288,1600), -256, "rubble", orubble);
+		instance_create_layer(irandom_range(oPicoboss.x,1600), -256, "rubble", orubble);
 	}
 }
 

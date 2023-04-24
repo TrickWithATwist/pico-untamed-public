@@ -1,3 +1,4 @@
+oHPbar.visible = false;
 if cut = 3
 {
 	sprite_index = sci2;

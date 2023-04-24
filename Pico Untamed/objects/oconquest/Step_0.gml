@@ -1,3 +1,5 @@
+layer_set_visible("uzi", false);
+
 x += hsp;
 
 if cdcurrent != cd
@@ -8,7 +10,7 @@ if cdcurrent != cd
 else
 {
 	sprite_index = conquesthanddown;
-	instance_create_layer(irandom_range(288,1600), -256, "rubble", orubble);
+	instance_create_layer(oPicoboss.x, -256, "rubble", orubble);
 	cdcurrent = 0;
 }
 
