@@ -1,10 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oOptions",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,},
-  ],
+  "name": "oFullscreen",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"button","path":"objects/oButton/oButton.yy",},"value":"1",},
@@ -33,7 +31,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "sButtonFullscreen",
+    "path": "sprites/sButtonFullscreen/sButtonFullscreen.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

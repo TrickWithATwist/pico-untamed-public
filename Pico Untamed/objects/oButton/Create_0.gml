@@ -1,7 +1,7 @@
 xDraw = x;
 yDraw = y;
 
-//yOffset = -5;
+xOffsetCurrent = 0;
 yOffsetCurrent = 0;
 
 shake = 0;
@@ -15,10 +15,3 @@ clicked = false;
 
 //accel = 0.5;
 //decel = 1;
-
-lineX = 0;
-//lineSpeed = 5;
-lineWidth = sprite_get_width(sButtonLine);
-lineHeight = sprite_get_height(sButtonLine);
-
-surface = surface_create(room_width, room_height);

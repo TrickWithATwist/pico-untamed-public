@@ -1,16 +1,13 @@
 if ( hover )
 {
+	xOffsetCurrent += (xOffset - xOffsetCurrent) * accel;
 	yOffsetCurrent += (yOffset - yOffsetCurrent) * accel;
 }
 else
 {
+	xOffsetCurrent += -xOffsetCurrent * decel;
 	yOffsetCurrent += -yOffsetCurrent * decel;
 }
-
-lineX += lineSpeed;
-
-lineX = lineX mod lineWidth;
-
 
 //Shake
 xDraw = x;

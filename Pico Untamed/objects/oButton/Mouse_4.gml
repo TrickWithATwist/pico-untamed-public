@@ -11,5 +11,3 @@ if (!oButton.clicked)
 
 oButton.buttonCurrent = button;
 oButton.clicked = true;
-oTitle.cooldownCurrent = 0;
-oTitle.fadeoutAmountCurrent = oTitle.fadeoutAmountClicked;
