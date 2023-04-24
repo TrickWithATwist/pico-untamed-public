@@ -7,7 +7,7 @@ yOffsetCurrent = 0;
 shake = 0;
 
 shakeLength = 15;
-shakeMagnitude = 12;
+shakeMagnitude = 24;
 
 buttonCurrent = 0;
 hover = false;
