@@ -107,30 +107,6 @@
 				transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 			}
 			
-			/* pulse wave */
-			.play-btn:before{
-				content: "";
-				position: absolute;
-				width: 150%;
-				height: 150%;
-				-webkit-animation-delay: 0s;
-				animation-delay: 0s;
-				-webkit-animation: pulsate1 2s;
-				animation: pulsate1 2s;
-				-webkit-animation-direction: forwards;
-				animation-direction: forwards;
-				-webkit-animation-iteration-count: infinite;
-				animation-iteration-count: infinite;
-				-webkit-animation-timing-function: steps;
-				animation-timing-function: steps;
-				opacity: 1;
-				border-radius: 50%;
-				border: 5px solid rgba(255, 255, 255, .75);
-				top: -30%;
-				left: -30%;
-				background: rgba(198, 16, 0, 0);
-			}
-			
         </style>
 
         <!-- Custom PostStyle code is injected here -->
@@ -167,11 +143,11 @@
         ${GM_HTML5_InjectRunnerPath}
 
 		<script>
-		var el = document.getElementById("btn")
-		el.onclick = function() {
-		GameMaker_Init();
-		el.remove();
-		}
+			var el = document.getElementById("btn")
+			el.onclick = function() {
+				GameMaker_Init();
+				el.remove();
+			}
 		</script>
 
         <!-- Builtin injector for injecting google analytics code -->
