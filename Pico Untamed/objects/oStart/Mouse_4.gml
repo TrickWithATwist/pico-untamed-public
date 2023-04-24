@@ -1,4 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-fadeType = 1;
+oTitle.fadeType = 1;
