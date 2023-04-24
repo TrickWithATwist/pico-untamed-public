@@ -11,6 +11,7 @@
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"button","path":"objects/oButton/oButton.yy",},"value":"1",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"hoverPitch","path":"objects/oButton/oButton.yy",},"value":"207.65/174.61",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"optionString","path":"objects/oButton/oButton.yy",},"value":"Enable or disable fullscreen.",},
   ],
   "parent": {
     "name": "Title",

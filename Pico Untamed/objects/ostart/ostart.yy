@@ -5,7 +5,7 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"optionString","path":"objects/oButton/oButton.yy",},"value":"Test",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"optionString","path":"objects/oButton/oButton.yy",},"value":"Play the game.",},
   ],
   "parent": {
     "name": "Title",

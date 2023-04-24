@@ -8,6 +8,7 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"button","path":"objects/oButton/oButton.yy",},"value":"2",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oButton","path":"objects/oButton/oButton.yy",},"propertyId":{"name":"optionString","path":"objects/oButton/oButton.yy",},"value":"Check out the awesome folks who made this game!",},
   ],
   "parent": {
     "name": "Title",
