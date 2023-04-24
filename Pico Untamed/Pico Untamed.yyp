@@ -79,6 +79,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"fleet","folderPath":"folders/Sprites/fleet.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"gameover","folderPath":"folders/Sprites/gameover.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"guard","folderPath":"folders/Sprites/guard.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"introcut","folderPath":"folders/Sprites/introcut.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Nene","folderPath":"folders/Sprites/Nene.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Pico","folderPath":"folders/Sprites/Pico.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"screen stuff","folderPath":"folders/Sprites/screen stuff.yy",},
@@ -86,7 +87,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Title","folderPath":"folders/Sprites/Title.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"introcut","folderPath":"folders/Sprites/introcut.yy",},
   ],
   "IncludedFiles": [
     {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"index.html","CopyToMask":3035426170322551022,"filePath":"datafiles",},
@@ -419,6 +419,7 @@
     {"id":{"name":"guardboom","path":"sounds/guardboom/guardboom.yy",},},
     {"id":{"name":"scut6","path":"sprites/scut6/scut6.yy",},},
     {"id":{"name":"owindow","path":"objects/owindow/owindow.yy",},},
+    {"id":{"name":"ofo2","path":"objects/ofo2/ofo2.yy",},},
     {"id":{"name":"darnellinteract","path":"objects/darnellinteract/darnellinteract.yy",},},
     {"id":{"name":"schoice2","path":"sprites/schoice2/schoice2.yy",},},
     {"id":{"name":"oshootingguard","path":"objects/oshootingguard/oshootingguard.yy",},},

@@ -66,6 +66,7 @@
     {"name":"fleet","order":11,"path":"folders/Sprites/fleet.yy",},
     {"name":"gameover","order":12,"path":"folders/Sprites/gameover.yy",},
     {"name":"guard","order":9,"path":"folders/Sprites/guard.yy",},
+    {"name":"introcut","order":25,"path":"folders/Sprites/introcut.yy",},
     {"name":"Nene","order":18,"path":"folders/Sprites/Nene.yy",},
     {"name":"Pico","order":3,"path":"folders/Sprites/Pico.yy",},
     {"name":"screen stuff","order":7,"path":"folders/Sprites/screen stuff.yy",},
@@ -73,7 +74,6 @@
     {"name":"Title","order":24,"path":"folders/Sprites/Title.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"introcut","order":25,"path":"folders/Sprites/introcut.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},
@@ -348,6 +348,7 @@
     {"name":"guardboom","order":6,"path":"sounds/guardboom/guardboom.yy",},
     {"name":"scut6","order":5,"path":"sprites/scut6/scut6.yy",},
     {"name":"owindow","order":11,"path":"objects/owindow/owindow.yy",},
+    {"name":"ofo2","order":2,"path":"objects/ofo2/ofo2.yy",},
     {"name":"darnellinteract","order":6,"path":"objects/darnellinteract/darnellinteract.yy",},
     {"name":"schoice2","order":11,"path":"sprites/schoice2/schoice2.yy",},
     {"name":"oshootingguard","order":2,"path":"objects/oshootingguard/oshootingguard.yy",},
