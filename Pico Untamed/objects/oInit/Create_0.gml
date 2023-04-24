@@ -1,3 +1,10 @@
+ng_connect("putnewgroundsappidhere","putnewgroundsencryptionkeyhere");
+
+ng_initialize_medals_and_scoreboard();
+
+ng_request_login();
+
+
 sWidth = sprite_get_width(sDisclaimer);
 sHeight = sprite_get_height(sDisclaimer);
 
