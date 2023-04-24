@@ -2,6 +2,7 @@
   "FolderOrderSettings": [
     {"name":"Animation Curves","order":12,"path":"folders/Animation Curves.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
+    {"name":"HTML_FS","order":2,"path":"folders/Extensions/HTML_FS.yy",},
     {"name":"Newgrounds GMS2 API","order":1,"path":"folders/Extensions/Newgrounds GMS2 API.yy",},
     {"name":"Fonts","order":7,"path":"folders/Fonts.yy",},
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
@@ -72,7 +73,6 @@
     {"name":"title","order":24,"path":"folders/Sprites/title.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"HTML_FS","order":2,"path":"folders/Extensions/HTML_FS.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},
