@@ -8,7 +8,7 @@ switch(text)
 	draw_text(150,750,"It's been 3 months since the incident at school...");
 	break;
 	case 2:
-	draw_text(150,750,"So many lives lost, yet people around me seem to have moved on like nothing ever happened..");
+	draw_text(150,750,"So many lives lost, yet people around me seem to \nhave moved on like nothing ever happened..");
 	break;
 	case 3:
 	draw_text(150,750,"Even my friends...");
@@ -20,7 +20,7 @@ switch(text)
 	draw_text(150,750,"But.. I don't know how I should feel about it.");
 	break;
 	case 6:
-	draw_text(150,750,"I wish I could be like everyone else, that this feeling in my head would go away.");
+	draw_text(150,750,"I wish I could be like everyone else, that this feeling\nin my head would go away.");
 	break;
 	case 7:
 	draw_text(150,750,"Everything is going to be better though right?... Right?");
@@ -41,24 +41,27 @@ switch(text)
 	draw_text(150,750,"Yeah, I'm alright.");
 	break;
 	case 14:
-	draw_text(150,750,"Me and Darnell are having a picnic with some friends later. You should come!");
+	draw_text(150,750,"Me and Darnell are having a picnic with some friends later.\nYou should come!");
 	break;
 	case 15:
-	draw_text(150,750,"Pleeeaase? Just for once I want to see your face again.");
+	draw_text(150,750,"I think I'll pass.");
 	break;
 	case 16:
-	draw_text(150,750,"You've just been sitting around in your house doing nothing.");
+	draw_text(150,750,"Pleeeaase? Just for once I want to see your face again.");
 	break;
 	case 17:
+	draw_text(150,750,"You've just been sitting around in your house doing nothing.");
+	break;
+	case 18:
 	draw_text(150,750,"Fine.");
 	break;
-	case 19:
-	draw_text(150,750,"'A hero deserves a gift for their good deeds. Come and get yours. I'll be waiting for you.'");
-	break;
-	case 20:
-	draw_text(150,750,"'If you call the police I will kill all your friends.'");
+	case 21:
+	draw_text(150,750,"'A hero deserves a gift for their good deeds.\nCome and get yours. I'll be waiting for you.'");
 	break;
 	case 22:
+	draw_text(150,750,"'If you call the police I will kill all your friends.'");
+	break;
+	case 24:
 	draw_text(150,750,"I can't let anyone down! Not again.");
 	break;
 	

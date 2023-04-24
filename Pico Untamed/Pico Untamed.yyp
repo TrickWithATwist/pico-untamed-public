@@ -210,6 +210,7 @@
     {"id":{"name":"f2r2","path":"rooms/f2r2/f2r2.yy",},},
     {"id":{"name":"obossprompt","path":"objects/obossprompt/obossprompt.yy",},},
     {"id":{"name":"sbox3","path":"sprites/sbox3/sbox3.yy",},},
+    {"id":{"name":"ofo","path":"objects/ofo/ofo.yy",},},
     {"id":{"name":"musTitleIntro","path":"sounds/musTitleIntro/musTitleIntro.yy",},},
     {"id":{"name":"sidcardicon","path":"sprites/sidcardicon/sidcardicon.yy",},},
     {"id":{"name":"orock2","path":"objects/orock2/orock2.yy",},},

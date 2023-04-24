@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "scut7",
-  "bbox_bottom": 557,
+  "bbox_bottom": 1079,
   "bbox_left": 0,
-  "bbox_right": 992,
+  "bbox_right": 1919,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"ad4ae2c6-baea-4fba-9c52-113e5e1cdbc8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"317ffddb-e560-4ae3-986b-6067e01d25ed",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 558,
+  "height": 1080,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"60bd3039-90dd-47af-9a91-fae1a1919f58","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"353576cb-a237-4d56-835a-cc4a8a87772a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"ad4ae2c6-baea-4fba-9c52-113e5e1cdbc8","path":"sprites/scut7/scut7.yy",},},},"Disabled":false,"id":"53cb1425-172a-46d6-8ec2-9416607d03a2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"317ffddb-e560-4ae3-986b-6067e01d25ed","path":"sprites/scut7/scut7.yy",},},},"Disabled":false,"id":"69045d38-d9fc-43eb-aea4-be1abfa11dae","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 993,
+  "width": 1920,
 }
