@@ -73,6 +73,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"Title","order":20,"path":"folders/Objects/Title.yy",},
+    {"name":"Title","order":8,"path":"folders/Sounds/Title.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"sHide","order":5,"path":"sprites/sHide/sHide.yy",},
@@ -151,6 +152,7 @@
     {"name":"oDarnell","order":5,"path":"objects/oDarnell/oDarnell.yy",},
     {"name":"onum4","order":3,"path":"objects/onum4/onum4.yy",},
     {"name":"f2r8p2","order":2,"path":"rooms/f2r8p2/f2r8p2.yy",},
+    {"name":"sndButtonPress","order":1,"path":"sounds/sndButtonPress/sndButtonPress.yy",},
     {"name":"picobossmove","order":7,"path":"sprites/picobossmove/picobossmove.yy",},
     {"name":"ORoomManager","order":1,"path":"objects/ORoomManager/ORoomManager.yy",},
     {"name":"swindow","order":6,"path":"sprites/swindow/swindow.yy",},
@@ -238,7 +240,6 @@
     {"name":"bfscared","order":1,"path":"sprites/bfscared/bfscared.yy",},
     {"name":"bfinteract","order":16,"path":"objects/bfinteract/bfinteract.yy",},
     {"name":"onum7","order":6,"path":"objects/onum7/onum7.yy",},
-    {"name":"oCamera","order":19,"path":"objects/oCamera/oCamera.yy",},
     {"name":"sfleetdown","order":6,"path":"sprites/sfleetdown/sfleetdown.yy",},
     {"name":"atomicafly","order":2,"path":"sprites/atomicafly/atomicafly.yy",},
     {"name":"sfleetjump","order":1,"path":"sprites/sfleetjump/sfleetjump.yy",},
