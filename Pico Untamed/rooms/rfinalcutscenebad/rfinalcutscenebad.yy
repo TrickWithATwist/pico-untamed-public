@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rfinalcutscenebad",
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/rfinalcutscenebad/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

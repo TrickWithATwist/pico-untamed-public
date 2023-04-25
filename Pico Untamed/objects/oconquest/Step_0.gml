@@ -1,6 +1,14 @@
 layer_set_visible("uzi", false);
 
-x += hsp;
+oscillateXPosition += delta_time;
+oscillateXPosition = oscillateXPosition mod oscillateXPositionFlying;
+
+oscillateYPosition += delta_time;
+oscillateYPosition = oscillateYPosition mod oscillateYPositionFlying;
+
+x = cos_oscillate(oscillateXMinFlying, oscillateXMaxFlying, oscillateXDurationFlying, oscillateXPosition);
+y = destY + sin_oscillate(oscillateYMinFlying, oscillateYMaxFlying, oscillateYDurationFlying, oscillateYPosition);
+
 
 if cdcurrent != cd
 {

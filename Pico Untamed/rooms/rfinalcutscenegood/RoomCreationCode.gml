@@ -1,0 +1,1 @@
+oMusicManager.musState = music.cutsceneending;
