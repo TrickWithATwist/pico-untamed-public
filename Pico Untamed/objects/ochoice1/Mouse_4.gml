@@ -27,6 +27,7 @@ switch (ocharacterbox.ctext)
 	break;
 	case 7:
 		otextbox.dialogue = 30;
+		opicocutscene2.sprite_index = picoidle;
 	break;
 	case 8:
 		otextbox.dialogue = 39;
