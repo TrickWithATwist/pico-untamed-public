@@ -1,3 +1,5 @@
+layer_set_visible("uzi", false);
+
 //everytime the fleet cool down gets to two he moves to a random location on screen
 if cooldowncurrent <= 0
 {
