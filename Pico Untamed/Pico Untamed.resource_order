@@ -118,6 +118,7 @@
     {"name":"sIntro","order":19,"path":"sprites/sIntro/sIntro.yy",},
     {"name":"sf2r4","order":3,"path":"sprites/sf2r4/sf2r4.yy",},
     {"name":"guarddie","order":1,"path":"sprites/guarddie/guarddie.yy",},
+    {"name":"bffreed","order":2,"path":"sprites/bffreed/bffreed.yy",},
     {"name":"oStart","order":2,"path":"objects/oStart/oStart.yy",},
     {"name":"room5thig","order":10,"path":"sprites/room5thig/room5thig.yy",},
     {"name":"sArtCredit","order":12,"path":"sprites/sArtCredit/sArtCredit.yy",},

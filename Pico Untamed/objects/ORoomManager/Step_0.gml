@@ -14,3 +14,9 @@ if (room = f1r12) and (f1r12dialogue = 0)
 	otextbox.dialogue = 8;
 	f1r12dialogue = 1;
 }
+
+//big brain move
+if (bffirsttime = 1) and (room != f1r2)
+{
+	bffirsttime = 2;
+}

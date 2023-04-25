@@ -32,6 +32,7 @@ guardtutorial = 0;
 
 //variables that determine whether people are saved or not
 BFsaved = 0;
+bffirsttime = 0;
 Tankmansaved = 0;
 nenesaved = 0;
 darnellsaved = 0;

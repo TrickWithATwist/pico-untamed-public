@@ -8,3 +8,4 @@ else
 {
 	sprite_index = sf1r3locked;
 }
+

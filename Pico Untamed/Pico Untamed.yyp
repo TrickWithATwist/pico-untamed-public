@@ -141,6 +141,7 @@
     {"id":{"name":"sIntro","path":"sprites/sIntro/sIntro.yy",},},
     {"id":{"name":"sf2r4","path":"sprites/sf2r4/sf2r4.yy",},},
     {"id":{"name":"guarddie","path":"sprites/guarddie/guarddie.yy",},},
+    {"id":{"name":"bffreed","path":"sprites/bffreed/bffreed.yy",},},
     {"id":{"name":"oStart","path":"objects/oStart/oStart.yy",},},
     {"id":{"name":"ofleetp1","path":"objects/ofleetp1/ofleetp1.yy",},},
     {"id":{"name":"room5thig","path":"sprites/room5thig/room5thig.yy",},},
