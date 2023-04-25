@@ -17,6 +17,7 @@ if cdcurrent != cd
 }
 else
 {
+	image_speed = 1;
 	sprite_index = conquesthanddown;
 	instance_create_layer(oPicoboss.x, -256, "rubble", orubble);
 	cdcurrent = 0;
@@ -30,6 +31,7 @@ if sprite_index = conquesthanddown
 	}
 	else
 	{
+		image_speed = 1;
 		sprite_index = conquestidle;
 		cd2c = 0;
 	}
