@@ -28,3 +28,6 @@ draw_set_alpha(1);
 
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
+
+//Loading Sprite
+if (fadeType == 1) draw_sprite(sLoading, 0, room_width, room_height);
