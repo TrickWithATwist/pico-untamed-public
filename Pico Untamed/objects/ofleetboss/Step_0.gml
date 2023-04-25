@@ -80,4 +80,11 @@ else
 {
 	oflashp2.gotime = 1;
 	ORoomManager.fleetdefeated = 1;
+	
+	//Defeat fleet medal
+	if (!medalDone)
+	{
+		ng_unlockmedal(73391);
+		medalDone = true;
+	}
 }

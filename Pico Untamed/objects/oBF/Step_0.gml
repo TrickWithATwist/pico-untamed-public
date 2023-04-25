@@ -3,5 +3,11 @@ if (oPico.shooting = 1) and (BFscared = 0)
 {
 	sprite_index = bfscared;
 	BFscared = 1;
-	ng_unlockmedal(73390);
+	
+	//Scare friends medal
+	if (!medalDone)
+	{
+		ng_unlockmedal(73390);
+		medalDone = true;
+	}
 }

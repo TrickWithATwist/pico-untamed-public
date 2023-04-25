@@ -36,3 +36,6 @@ fleethp = 100;
 
 //variables for hp display
 displayon = 0;
+
+//Medal trigger
+medalDone = false;
