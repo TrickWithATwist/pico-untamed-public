@@ -6,6 +6,7 @@ if (audio_group_is_loaded(audiogroup_music))
 	{
 		audio_sound_gain(musTitleIntro, 1, 0);
 		audio_sound_gain(musTitleLoop, 1, 0);
+		audio_sound_gain(musCutscene, 1, 0);
 		audio_sound_gain(musF1Intro, 1, 0);
 		audio_sound_gain(musF1Loop, 1, 0);
 		audio_sound_gain(musFleetBoss, 1, 0);
@@ -13,6 +14,7 @@ if (audio_group_is_loaded(audiogroup_music))
 		audio_sound_gain(musAtomicaBoss, 1, 0);
 		audio_sound_gain(musF2R8, 1, 0);
 		audio_sound_gain(musFinalBoss, 1, 0);
+		audio_sound_gain(musCutsceneEnding, 1, 0);
 		musState = music.none;
 	}
 	
@@ -21,6 +23,7 @@ if (audio_group_is_loaded(audiogroup_music))
 		//i have to stop sounds like this because the gamemaker html export sucks so i cant use audio_group_stop_all - rahim
 		audio_stop_sound(musTitleIntro);
 		audio_stop_sound(musTitleLoop);
+		audio_stop_sound(musCutscene);
 		audio_stop_sound(musF1Intro);
 		audio_stop_sound(musF1Loop);
 		audio_stop_sound(musFleetBoss);
@@ -28,6 +31,7 @@ if (audio_group_is_loaded(audiogroup_music))
 		audio_stop_sound(musAtomicaBoss);
 		audio_stop_sound(musF2R8);
 		audio_stop_sound(musFinalBoss);
+		audio_stop_sound(musCutsceneEnding);
 		
 		switch (musState)
 		{
@@ -37,6 +41,10 @@ if (audio_group_is_loaded(audiogroup_music))
 			
 			case music.titleloop:
 				audio_play_sound(musTitleLoop, 0, true, 1);
+			break;
+			
+			case music.cutscene:
+				audio_play_sound(musCutscene, 0, true, 1);
 			break;
 			
 			case music.floor1intro:
@@ -67,8 +75,9 @@ if (audio_group_is_loaded(audiogroup_music))
 				audio_play_sound(musFinalBoss, 0, true, 0.8);
 			break;
 			
-			//default:
-				
+			case music.cutsceneending:
+				audio_play_sound(musCutsceneEnding, 0, true, 1);
+			break;
 		}
 		
 		lastMusState = musState;

@@ -2,7 +2,7 @@
   "resourceType": "GMRoom",
   "resourceVersion": "1.0",
   "name": "rcutintro",
-  "creationCodeFile": "",
+  "creationCodeFile": "${project_dir}/rooms/rcutintro/RoomCreationCode.gml",
   "inheritCode": false,
   "inheritCreationOrder": false,
   "inheritLayers": false,

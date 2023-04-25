@@ -3,6 +3,7 @@ enum music
 	none,
 	titleintro,
 	titleloop,
+	cutscene,
 	floor1intro,
 	floor1loop,
 	fleetboss,
@@ -10,6 +11,7 @@ enum music
 	atomicaboss,
 	floor2room8,
 	finalboss,
+	cutsceneending,
 	size
 }
 
