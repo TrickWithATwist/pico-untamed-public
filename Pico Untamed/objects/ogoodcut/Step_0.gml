@@ -24,4 +24,9 @@ if text = 13
 {
 	sprite_index = fade;
 	ofo4.roomfade = 1;
+	if (!MD)
+	{
+		ng_unlockmedal(73396);
+		MD = true;
+	}
 }

@@ -25,3 +25,6 @@ hp = 250;
 displayon = 1;
 
 count = 0;
+
+//medalcode
+MD = false;

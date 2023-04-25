@@ -26,4 +26,9 @@ y += ((randy - y) * .2) + sin_oscillate(-5,5,5);
 if hp = 0
 {
 	oflashcass.gotime = 1;
+	if (!MD)
+	{
+		ng_unlockmedal(73394);
+		MD = true;
+	}
 }

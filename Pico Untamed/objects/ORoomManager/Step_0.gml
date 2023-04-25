@@ -20,3 +20,13 @@ if (bffirsttime = 1) and (room != f1r2)
 {
 	bffirsttime = 2;
 }
+
+//medalcode 
+if good != 1
+{
+	if (!MD)
+	{
+		ng_unlockmedal(73393);
+		MD = true;
+	}
+}

@@ -46,3 +46,6 @@ uziunlock = 1;
 //TEMP FOR DEV
 
 idcardunlock = 0;
+
+//medal code for no mercy medal
+MD = false;

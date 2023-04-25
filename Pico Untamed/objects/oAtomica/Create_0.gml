@@ -1,3 +1,15 @@
+//medal code
+//trigger
+MD = false;
+
+
+
+
+
+
+
+
+//rahim's code
 x = room_width/2;
 y = -320;
 

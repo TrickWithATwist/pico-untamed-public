@@ -5,6 +5,11 @@ layer_set_visible("uzi", false);
 if hp = 0
 {
 	oflashatomica2.gotime = 1;
+	if (!MD)
+	{
+		ng_unlockmedal(73392);
+		MD = true;
+	}
 }
 
 
