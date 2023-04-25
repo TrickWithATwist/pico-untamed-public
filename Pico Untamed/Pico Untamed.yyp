@@ -160,6 +160,7 @@
     {"id":{"name":"orespawnbutton","path":"objects/orespawnbutton/orespawnbutton.yy",},},
     {"id":{"name":"oguardshield","path":"objects/oguardshield/oguardshield.yy",},},
     {"id":{"name":"ocassfake1","path":"objects/ocassfake1/ocassfake1.yy",},},
+    {"id":{"name":"conquestthing","path":"sprites/conquestthing/conquestthing.yy",},},
     {"id":{"name":"picobossidle","path":"sprites/picobossidle/picobossidle.yy",},},
     {"id":{"name":"sposter","path":"sprites/sposter/sposter.yy",},},
     {"id":{"name":"ofleetfake1","path":"objects/ofleetfake1/ofleetfake1.yy",},},
