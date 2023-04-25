@@ -12,5 +12,6 @@ if fadeshow = 1
 			ORoomManager.mydirection = 1;
 			ORoomManager.myfloor = 1;
 			room_goto(f1r1);
+			oMusicManager.musState = music.floor1intro;
 	}
 }
