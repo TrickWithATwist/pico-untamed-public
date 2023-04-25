@@ -430,6 +430,8 @@ if (room = f2r8p2) and (dialogue = 58)
 {
 	Ofadeoutspecialidk.roomfade = 1;
 	text_showing = 0;
+	ORoomManager.nenesaved = 1;
+	ORoomManager.darnellsaved = 1;
 	instance_destroy();
 	//visible = false;
 	//set up the choice
