@@ -4,6 +4,7 @@ layer_set_visible("uzi", false);
 //code when HP goes to 0 
 if hp = 0
 {
+	ORoomManager.atomicadead = 1;
 	oflashatomica2.gotime = 1;
 	if (!MD)
 	{
