@@ -16,6 +16,10 @@ if text = 10
 {
 	sprite_index = endcut3good;
 }
+if text = 12
+{
+	sprite_index = fade;
+}
 if text = 13
 {
 	sprite_index = fade;
