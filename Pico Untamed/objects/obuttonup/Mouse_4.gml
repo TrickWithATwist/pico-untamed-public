@@ -16,12 +16,12 @@ else
 }
 
 //pico behavior when up arrow clicked
-if room != f1r4
+if (room != f1r4) and (room != f2r7) and (room != f1r3)
 {
 	oPico.picomove = 2;
 	clicked = 1;
 }
-if room = f1r4
+if (room = f1r4) or (room = f2r7) or (room = f1r3)
 {
 	oPico.picomove = 5;
 	clicked = 1;
