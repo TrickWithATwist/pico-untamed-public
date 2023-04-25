@@ -18,13 +18,13 @@ armoryunlock = 0;
 room4unlock = 0;
 room5buttonpress = 0;
 //ONLY FOR DEV REMEMBER TO TURN BACK TO 0
-fleetdefeated = 1;
+fleetdefeated = 0;
 
 //variables specific to floor 2
 grenadepickup = 0;
 guardshield = 0;
 //ONLY FOR DEV REMEMBER TO TURN BACK TO 0
-atomicadefeated = 1;
+atomicadefeated = 0;
 
 
 //variable to determine if gaurd tutorial has been done or not

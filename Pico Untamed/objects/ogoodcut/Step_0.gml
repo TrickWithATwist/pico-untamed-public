@@ -16,7 +16,7 @@ if text = 10
 {
 	sprite_index = endcut3good;
 }
-if text = 12
+if text = 13
 {
 	sprite_index = fade;
 	ofo4.roomfade = 1;

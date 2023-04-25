@@ -8,7 +8,7 @@ if text = 7
 	sprite_index = fade;
 	if oneframe = 0
 	{
-		audio_play_sound(sndButtonPress, 0, 1);
+		audio_play_sound(sndButtonPress, 1, 0);
 		oneframe = 1;
 	}
 }
