@@ -6,11 +6,7 @@ if tact = 1
 	vsp += grv;
 	y += vsp;
 	
-	if (y > room_height + sprite_height)
-	{
-		show_debug_message("ded")
-		instance_destroy();
-	}
+	if (y > room_height + sprite_height) instance_destroy();
 }
 if place_meeting(x,y,oPicoboss)
 {
