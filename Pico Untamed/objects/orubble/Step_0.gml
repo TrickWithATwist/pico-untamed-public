@@ -1,6 +1,16 @@
+angle += angleSpeed;
+angle = angle mod 360;
+
 if tact = 1
 {
-	y += 10;
+	vsp += grv;
+	y += vsp;
+	
+	if (y > room_height + sprite_height)
+	{
+		show_debug_message("ded")
+		instance_destroy();
+	}
 }
 if place_meeting(x,y,oPicoboss)
 {
@@ -8,7 +18,7 @@ if place_meeting(x,y,oPicoboss)
 }
 if tact = 3
 {
-	instance_create_layer(x, y + 30, layer, orockexplosion);
+	instance_create_layer(x, y + 30, layer, oExplosion);
 	instance_destroy();
 }
 if tact = 2

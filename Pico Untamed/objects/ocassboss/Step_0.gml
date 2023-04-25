@@ -14,10 +14,12 @@ if cooldowncurrent <= 0
 	}
 }
 
+if (cooldowncurrent == round(cooldown/2)) && (count > 1) instance_create_layer(irandom_range(oPicoboss.x,1600), -256, "rubble", orubble);
+
 cooldowncurrent = max(0, cooldowncurrent - 1);
 
-x += (randx - x) * .2;
-y += (randy - y) * .2;
+x += ((randx - x) * .2) + sin_oscillate(-5,5,10);
+y += ((randy - y) * .2) + sin_oscillate(-5,5,5);
 
 
 //when hp is 0

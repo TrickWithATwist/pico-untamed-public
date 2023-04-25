@@ -11,6 +11,7 @@
     {"name":"inst_30D32423","path":"rooms/rTitle/rTitle.yy",},
     {"name":"inst_74F345EE","path":"rooms/rTitle/rTitle.yy",},
     {"name":"inst_EC61B02","path":"rooms/rTitle/rTitle.yy",},
+    {"name":"inst_648BC5F4","path":"rooms/rTitle/rTitle.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -19,6 +20,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_30D32423","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oFullscreen","path":"objects/oFullscreen/oFullscreen.yy",},"properties":[],"rotation":0.0,"scaleX":0.8,"scaleY":0.8,"x":96.0,"y":452.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_74F345EE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"properties":[],"rotation":0.0,"scaleX":0.8,"scaleY":0.8,"x":96.0,"y":562.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_EC61B02","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oTitle","path":"objects/oTitle/oTitle.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_648BC5F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ORoomManager","path":"objects/ORoomManager/ORoomManager.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_63A04026","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"spriteId":{"name":"sLogo","path":"sprites/sLogo/sLogo.yy",},"x":0.0,"y":0.0,},
