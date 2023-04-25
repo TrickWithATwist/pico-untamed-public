@@ -1,5 +1,3 @@
-if visible = true
-{
-	x = mouse_x;
-	y = 900;
-}
+x = mouse_x;
+y = 900;
+	
