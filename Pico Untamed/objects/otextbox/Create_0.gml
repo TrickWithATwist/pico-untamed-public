@@ -122,7 +122,7 @@ dialogueArray =
 	
 	"Pico: Can you help me unlock their cells?", //56
 	
-	"Atomica: The button behind you should unlock them.", //57
+	"Atomica: I'll go and free them.", //57
 	
 	"Pico: Thanks.", //58
 	
