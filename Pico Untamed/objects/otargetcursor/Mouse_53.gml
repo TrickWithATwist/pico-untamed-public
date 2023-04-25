@@ -18,9 +18,9 @@ if oPicoboss.protected = 0
 	{
 		ocassboss.hp = max( 0, ocassboss.hp-2 );
 	}
-	if place_meeting(x,y,orubble)
+	with instance_place(x,y,orubble)
 	{
-		orubble.tact = 2;
+		tact = 2;
 	}
 	if place_meeting(x,y,oconquest)
 	{

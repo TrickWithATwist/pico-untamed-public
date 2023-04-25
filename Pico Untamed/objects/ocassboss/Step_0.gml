@@ -25,6 +25,7 @@ y += ((randy - y) * .2) + sin_oscillate(-5,5,5);
 //when hp is 0
 if hp = 0
 {
+	if (instance_exists(orubble)) instance_destroy(orubble);
 	oflashcass.gotime = 1;
 	if (!MD)
 	{

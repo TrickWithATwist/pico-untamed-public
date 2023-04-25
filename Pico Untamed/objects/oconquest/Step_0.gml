@@ -40,5 +40,6 @@ if sprite_index = conquesthanddown
 
 if hp = 0
 {
+	if (instance_exists(orubble)) instance_destroy(orubble);
 	oflashconquest.gotime = 1;
 }
