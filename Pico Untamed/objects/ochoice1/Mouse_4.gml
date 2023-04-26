@@ -28,6 +28,8 @@ switch (ocharacterbox.ctext)
 	case 7:
 		otextbox.dialogue = 30;
 		opicocutscene2.sprite_index = picoidle;
+		opicocutscene2.image_index = 0;
+		ofleetend.sprite_index = sfleetkhs;
 	break;
 	case 8:
 		otextbox.dialogue = 39;
