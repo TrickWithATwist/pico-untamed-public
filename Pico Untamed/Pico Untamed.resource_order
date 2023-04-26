@@ -278,6 +278,7 @@
     {"name":"sfleetdown","order":6,"path":"sprites/sfleetdown/sfleetdown.yy",},
     {"name":"atomicafly","order":2,"path":"sprites/atomicafly/atomicafly.yy",},
     {"name":"rCredits","order":8,"path":"rooms/rCredits/rCredits.yy",},
+    {"name":"cassroom","order":11,"path":"sprites/cassroom/cassroom.yy",},
     {"name":"sfleetjump","order":1,"path":"sprites/sfleetjump/sfleetjump.yy",},
     {"name":"ocutintro","order":1,"path":"objects/ocutintro/ocutintro.yy",},
     {"name":"sflashback","order":5,"path":"sprites/sflashback/sflashback.yy",},

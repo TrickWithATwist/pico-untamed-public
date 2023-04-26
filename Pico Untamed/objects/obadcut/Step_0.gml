@@ -1,4 +1,8 @@
 instance_destroy(oHPbar);
+if text = 5
+{
+	sprite_index = endcut2bad;
+}
 if text = 6
 {
 	sprite_index = endcut3bad;
