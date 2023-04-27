@@ -1,3 +1,4 @@
+ORoomManager.finalstart = 1;
 oHPbar.visible = false;
 if cut = 3
 {
