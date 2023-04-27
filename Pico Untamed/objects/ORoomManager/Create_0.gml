@@ -49,3 +49,6 @@ idcardunlock = 0;
 
 //medal code for no mercy medal
 MD = false;
+
+//value for final boss for checkpoint
+finalstart = 0;

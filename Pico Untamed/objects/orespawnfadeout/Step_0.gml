@@ -8,10 +8,22 @@ if fadeshow = 1
 	{
 		
 			//instance_create_layer(0,0, layer ,oHPbar);
-			ORoomManager.myroom = 1;
-			ORoomManager.mydirection = 1;
-			ORoomManager.myfloor = 1;
-			room_goto(f1r1);
-			oMusicManager.musState = music.floor1intro;
+			if ORoomManager.finalstart = 0
+			{
+				ORoomManager.myroom = 1;
+				ORoomManager.mydirection = 1;
+				ORoomManager.myfloor = 1;
+				room_goto(f1r1);
+				oMusicManager.musState = music.floor1intro;
+			}
+			if ORoomManager.finalstart = 1
+			{
+				if oneframe = 0
+				{
+					instance_create_layer(0,0, "HP" ,oHPbar);
+					oneframe = 1
+				}
+				room_goto(rphase1);
+			}
 	}
 }
