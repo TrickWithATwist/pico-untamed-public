@@ -21,4 +21,3 @@ if gotime = 1
 		room_goto(f2r8p2);
 	}
 }
-ORoomManager.atomicadefeated = 1;
