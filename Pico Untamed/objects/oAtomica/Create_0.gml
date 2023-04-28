@@ -18,7 +18,7 @@ scale = 0.6;
 image_xscale = scale;
 image_yscale = scale;
 
-hp = 270;
+hp = 250;
 
 enum atomicaState
 {
