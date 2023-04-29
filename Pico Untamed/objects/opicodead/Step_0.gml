@@ -16,3 +16,7 @@ if olight.lightshow = 1
 	y -= 25/60;
 	
 }
+if layer_exists("uzi")
+{
+	layer_set_visible("uzi", false);
+}
