@@ -25,5 +25,14 @@ if fadeshow = 1
 				}
 				room_goto(rphase1);
 			}
+			if ORoomManager.finalstart = 2
+			{
+				if oneframe = 0
+				{
+					instance_create_layer(0,0, "HP" ,oHPbar);
+					oneframe = 1
+				}
+				room_goto(rphase2);
+			}
 	}
 }

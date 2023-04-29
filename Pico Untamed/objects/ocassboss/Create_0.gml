@@ -1,3 +1,6 @@
+//setting checkpoint
+ORoomManager.finalstart = 2;
+
 //setting initial x and y values
 x = 992;
 y = 384;
